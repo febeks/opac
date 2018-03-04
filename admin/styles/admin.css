@@ -1,0 +1,29 @@
+.container{
+    margin-top: 20px;
+}
+
+.tab-content {
+    border-left: 1px solid #ddd;
+    border-right: 1px solid #ddd;
+    border-bottom: 1px solid #ddd;
+    padding: 10px;
+}
+
+.tab-content .noborder {
+    border: none;
+    padding: 10px;
+}
+
+.nav-tabs {
+    margin-bottom: 0;
+}
+
+.form-group .control-label{
+    text-align: left;
+}
+
+.icon{
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+}

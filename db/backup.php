@@ -50,12 +50,11 @@ $table5 =  "CREATE TABLE game (
             name VARCHAR(50) NOT NULL,
             game_id INT(5) NOT NULL,
             url_key VARCHAR(100) NOT NULL,
-            big_icon_path VARCHAR(100) NOT NULL,
-            big_icon_name VARCHAR(50) NOT NULL,
-            small_icon_path VARCHAR(100) NOT NULL,
-            small_icon_name VARCHAR(50) NOT NULL,
-            mini_icon_path VARCHAR(100) NOT NULL,
-            mini_icon_name VARCHAR(50) NOT NULL
+            big_icon VARCHAR(100) NOT NULL,
+            small_icon VARCHAR(100) NOT NULL,
+            mini_icon VARCHAR(100) NOT NULL,
+            category_id INT(3) UNSIGNED,
+            FOREIGN KEY (category_id) REFERENCES games_category(id)
             )";
 
 $table6 =  "CREATE TABLE book (

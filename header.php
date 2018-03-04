@@ -1,4 +1,8 @@
-
+<!DOCTYPE html>
+<html lang="en">
+<head>
+</head>
+<body>
     <div class="row">
         <div class="col-xs-12">
             <div class="menu hidden-xs">
@@ -11,7 +15,7 @@
 
             <div class="mob-menu hidden-sm hidden-md hidden-lg">
                 <div class="col-xs-3">
-                    <a href="index.html"><img src="images/dom.png" alt="" class="img-responsive"/></a>
+                    <a href="index.php"><img src="images/dom.png" alt="" class="img-responsive"/></a>
                 </div>
                 <div class="col-xs-3">
                     <a href="#hry" data-toggle="tab"><img id="joystick-mob" src="images/joystick.png" alt="" class="img-responsive shaky"/></a>
@@ -25,3 +29,5 @@
             </div>
         </div>
     </div>
+</body>
+</html>

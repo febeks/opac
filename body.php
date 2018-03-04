@@ -1,5 +1,4 @@
-<!DOCTYPE html>
-<html lang="en">
+
 <head>
     <title>Kniznica pre deti</title>
     <meta charset="utf-8">
@@ -14,7 +13,7 @@
 </head>
 <body>
 <!-- HEADER -->
-<div w3-include-html="header.html" class="container"></div>
+<div w3-include-html="header.php" class="container"></div>
 <div class="tab-content">
     <!-- HOMEPAGE -->
     <div id="homepage" class="tab-pane active container">
@@ -25,27 +24,7 @@
                     <div class="col-md-12 hidden-xs">
                         <div class="carousel slide multi-item-carousel" id="theCarousel1">
                             <div class="carousel-inner">
-                                <div class="item active">
-                                    <div class="col-xs-2"><a href="#1"><img src="http://placehold.it/300/f44336/000000" class="img-responsive"></a></div>
-                                </div>
-                                <div class="item">
-                                    <div class="col-xs-2"><a href="#1"><img src="http://placehold.it/300/e91e63/000000" class="img-responsive"></a></div>
-                                </div>
-                                <div class="item">
-                                    <div class="col-xs-2"><a href="#1"><img src="http://placehold.it/300/9c27b0/000000" class="img-responsive"></a></div>
-                                </div>
-                                <div class="item">
-                                    <div class="col-xs-2"><a href="#1"><img src="http://placehold.it/300/673ab7/000000" class="img-responsive"></a></div>
-                                </div>
-                                <div class="item">
-                                    <div class="col-xs-2"><a href="#1"><img src="http://placehold.it/300/4caf50/000000" class="img-responsive"></a></div>
-                                </div>
-                                <div class="item">
-                                    <div class="col-xs-2"><a href="#1"><img src="http://placehold.it/300/8bc34a/000000" class="img-responsive"></a></div>
-                                </div>
-                                <div class="item">
-                                    <div class="col-xs-2"><a href="#1"><img src="http://placehold.it/300/8bc34a/000000" class="img-responsive"></a></div>
-                                </div>
+
 
                                 <!--  Example item end -->
                             </div>
@@ -466,4 +445,4 @@
 <script src="js/tabs.js"></script>
 <script src="js/carousel.js"></script>
 </body>
-</html>
+
