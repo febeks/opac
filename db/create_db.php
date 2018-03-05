@@ -45,17 +45,15 @@ $table4 =  "CREATE TABLE video (
             )";
 
 $table5 =  "CREATE TABLE game (
-            id INT(3) UNSIGNED AUTO_INCREMENT PRIMARY KEY,
-            short_name VARCHAR(30) NOT NULL,
             name VARCHAR(50) NOT NULL,
             game_id INT(5) NOT NULL,
-            url_key VARCHAR(100) NOT NULL,
             big_icon_path VARCHAR(100) NOT NULL,
-            big_icon_name VARCHAR(50) NOT NULL,
             small_icon_path VARCHAR(100) NOT NULL,
-            small_icon_name VARCHAR(50) NOT NULL,
-            mini_icon_path VARCHAR(100) NOT NULL,
-            mini_icon_name VARCHAR(50) NOT NULL
+            main_category_id INT(3),
+            height INT(3),
+            width INT(3),
+            embed VARCHAR(200),
+            PRIMARY KEY (game_id)
             )";
 
 $table6 =  "CREATE TABLE book (
