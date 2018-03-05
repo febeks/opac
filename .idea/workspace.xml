@@ -2,27 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bed92ccc-07d5-42de-983b-42e211c34a3d" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/admin/add_category.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/admin/add_game.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/admin/delete_game.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/admin/delete_game_cat.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/admin/header.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/admin/hry.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/admin/stats.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/admin/styles/admin.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/body.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/games/index.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/json.php" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/admin/admin.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/index.html" afterPath="" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/header.html" afterPath="$PROJECT_DIR$/header.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/admin/index.php" afterPath="$PROJECT_DIR$/admin/index.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/admin/test.php" afterPath="$PROJECT_DIR$/admin/test.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/db/connect.php" afterPath="$PROJECT_DIR$/db/connect.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/db/create_db.php" afterPath="$PROJECT_DIR$/db/create_db.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/footer.html" afterPath="$PROJECT_DIR$/footer.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.php" afterPath="$PROJECT_DIR$/index.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/json.php" afterPath="$PROJECT_DIR$/json.php" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -82,10 +62,10 @@
           <file leaf-file-name="json.php" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/json.php">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="204">
-                  <caret line="12" column="92" lean-forward="false" selection-start-line="12" selection-start-column="92" selection-end-line="12" selection-end-column="92" />
+                <state relative-caret-position="595">
+                  <caret line="35" column="15" lean-forward="false" selection-start-line="35" selection-start-column="15" selection-end-line="35" selection-end-column="15" />
                   <folding>
-                    <marker date="1520207390899" expanded="true" signature="187:585" ph="INSERT INTO game... " />
+                    <marker date="1520209039670" expanded="true" signature="187:585" ph="INSERT INTO game... " />
                   </folding>
                 </state>
               </provider>
@@ -326,12 +306,12 @@
       <workItem from="1519656658030" duration="1586000" />
       <workItem from="1519750277035" duration="50649000" />
       <workItem from="1520172008750" duration="3277000" />
-      <workItem from="1520175599751" duration="11551000" />
+      <workItem from="1520175599751" duration="12426000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="92268000" />
+    <option name="totallyTimeSpent" value="93143000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1066" extended-state="6" />
@@ -804,10 +784,10 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/json.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" column="92" lean-forward="false" selection-start-line="12" selection-start-column="92" selection-end-line="12" selection-end-column="92" />
+        <state relative-caret-position="595">
+          <caret line="35" column="15" lean-forward="false" selection-start-line="35" selection-start-column="15" selection-end-line="35" selection-end-column="15" />
           <folding>
-            <marker date="1520207390899" expanded="true" signature="187:585" ph="INSERT INTO game... " />
+            <marker date="1520209039670" expanded="true" signature="187:585" ph="INSERT INTO game... " />
           </folding>
         </state>
       </provider>

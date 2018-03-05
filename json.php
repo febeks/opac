@@ -31,7 +31,7 @@ foreach ($json as $row){
                                             $mini_icon_path, $mini_icon_name
                                             );
     $stmt->execute();
-    $stmt->close();
-    $conn->close();
 }
+$stmt->close();
+$conn->close();
 ?>
