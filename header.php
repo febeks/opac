@@ -1,7 +1,7 @@
 
     <div class="row">
         <div class="col-xs-12">
-            <div class="menu hidden-xs">
+            <div class="menu hidden-xs hidden-sm">
                 <img src="images/menu.png" alt="" class="img-responsive"/>
 
                     <a href="#hry" data-toggle="tab"><img id="joystick" src="images/joystick.png" alt="" class="img-responsive shaky"/></a>
@@ -9,7 +9,7 @@
                    <a href="#videa" data-toggle="tab"><img id="youtube" src="images/youtube.png" alt="" class="img-responsive shaky"/></a>
             </div>
 
-            <div class="mob-menu hidden-sm hidden-md hidden-lg">
+            <div class="mob-menu hidden-md hidden-lg">
                 <div class="col-xs-3">
                     <a href="index.php"><img src="images/dom.png" alt="" class="img-responsive"/></a>
                 </div>
