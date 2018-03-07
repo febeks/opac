@@ -3,17 +3,13 @@
     <head>
         <title>Kniznica pre deti</title>
         <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-        <script src="https://www.w3schools.com/lib/w3.js"></script>
-        <script src="./js/tabs.js"></script>
-        <script src="./js/carousel.js"></script>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+        <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.0/jquery.min.js"></script>
+        <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+
         <link rel="stylesheet" href="css/homepage.css">
         <link rel="stylesheet" href="css/mobile.css">
-        <!-- Insert this code before your </body> tag -->
-        <script src="//static.miniclipcdn.com/js/game-embed.js"></script>
+        <link rel="stylesheet" href="css/carousel.css">
 
     </head>
     <body>
@@ -22,36 +18,89 @@
     <div class="tab-content">
         <!-- HOMEPAGE -->
         <div id="homepage" class="tab-pane active container">
+            <!--HRY HOME-->
             <div class="panel panel-primary">
                 <div class="panel-heading">Hry</div>
                 <div class="panel-body">
-                    <div class="row">
-                        <div class="col-md-12 hidden-xs">
-                            <div class="carousel slide multi-item-carousel" id="theCarousel1">
-                                <div class="carousel-inner">
-                                    <?php include './games/index.php'; ?>
 
-                                    <!--  Example item end -->
-                                </div>
-                                <a class="left carousel-control" href="#theCarousel1" data-slide="prev"><i class="glyphicon glyphicon-chevron-left"></i></a>
-                                <a class="right carousel-control" href="#theCarousel1" data-slide="next"><i class="glyphicon glyphicon-chevron-right"></i></a>
+                    <div class="col-md-12 hidden-xs">
+                        <div id="carousel" class="carousel slide" data-ride="carousel" data-type="multi" data-interval="2500">
+                            <div class="carousel-inner">
+                                <?php include './games/index.php'; ?>
                             </div>
-                        </div>
-
-                        <div class="col-md-12 visible-xs">
-                            <div class="carousel slide multi-item-carousel-mob" id="theCarousel1m">
-                                <div class="carousel-inner">
-
-
-                                    <!--  Example item end -->
+                                <!-- Controls -->
+                                <div class="left carousel-control">
+                                    <a href="#carousel" role="button" data-slide="prev">
+                                        <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+                                        <span class="sr-only">Previous</span>
+                                    </a>
                                 </div>
-                                <a class="left carousel-control" href="#theCarousel1m" data-slide="prev"><i class="glyphicon glyphicon-chevron-left"></i></a>
-                                <a class="right carousel-control" href="#theCarousel1m" data-slide="next"><i class="glyphicon glyphicon-chevron-right"></i></a>
+                                <div class="right carousel-control">
+                                    <a href="#carousel" role="button" data-slide="next">
+                                        <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+                                        <span class="sr-only">Next</span>
+                                    </a>
+                                </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-12 visible-xs">
+                        <div id="carousel" class="carousel slide" data-ride="carousel" data-type="multi" data-interval="2500">
+                            <div class="carousel-inner">
+                                <div class="item active">
+                                    <div class="carousel-col">
+                                        <div class="block red img-responsive"></div>
+                                    </div>
+                                </div>
+                                <div class="item">
+                                    <div class="carousel-col">
+                                        <div class="block green img-responsive"></div>
+                                    </div>
+                                </div>
+                                <div class="item">
+                                    <div class="carousel-col">
+                                        <div class="block blue img-responsive"></div>
+                                    </div>
+                                </div>
+                                <div class="item">
+                                    <div class="carousel-col">
+                                        <div class="block yellow img-responsive"></div>
+                                    </div>
+                                </div>
+                                <div class="item">
+                                    <div class="carousel-col">
+                                        <div class="block yellow img-responsive"></div>
+                                    </div>
+                                </div>
+                                <div class="item">
+                                    <div class="carousel-col">
+                                        <div class="block yellow img-responsive"></div>
+                                    </div>
+                                </div>
+                                <div class="item">
+                                    <div class="carousel-col">
+                                        <div class="block yellow img-responsive"></div>
+                                    </div>
+                                </div>
+                                <!-- Controls -->
+                                <div class="left carousel-control">
+                                    <a href="#carousel" role="button" data-slide="prev">
+                                        <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+                                        <span class="sr-only">Previous</span>
+                                    </a>
+                                </div>
+                                <div class="right carousel-control">
+                                    <a href="#carousel" role="button" data-slide="next">
+                                        <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+                                        <span class="sr-only">Next</span>
+                                    </a>
+                                </div>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
+            <!-- KNIHY HOME -->
             <div class="panel panel-success">
                 <div class="panel-heading">Knihy</div>
                 <div class="panel-body">
@@ -82,6 +131,7 @@
                     </div>
                 </div>
             </div>
+            <!--VIDEA HOME -->
             <div class="panel panel-danger">
                 <div class="panel-heading">Videa</div>
                 <div class="panel-body">
@@ -113,6 +163,7 @@
                 </div>
             </div>
         </div>
+
         <!-- HRY -->
         <div id="hry" class="tab-pane container">
             <div class="panel panel-primary">
@@ -218,10 +269,14 @@
             </div>
         </div>
     </div>
-
     <!-- FOOTER -->
     <footer class="container-fluid text-center">
         <p>Footer Text</p>
     </footer>
+
+    <script src="js/carousel.js"></script>
+    <script src="js/tabs.js"></script>
     </body>
 </html>
+
+

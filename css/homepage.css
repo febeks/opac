@@ -6,21 +6,6 @@
 .panel{
     margin-top: 10px;
 }
-.carousel-control.right, .carousel-control.left{
-    background-image: none;
-}
-
-.carousel-control.right{
-    position: absolute;
-    left: 92.8%;
-    color: black;
-}
-
-.carousel-control.left{
-    position: absolute;
-    left: -7.8%;
-    color: black;
-}
 
 #joystick, #sova, #youtube{
     display: block;

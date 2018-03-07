@@ -1,8 +1,4 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-</head>
-<body>
+
     <div class="row">
         <div class="col-xs-12">
             <div class="menu hidden-xs">
@@ -29,5 +25,3 @@
             </div>
         </div>
     </div>
-</body>
-</html>
