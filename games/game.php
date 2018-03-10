@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
     <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.0/jquery.min.js"></script>
-    <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
     <!-- Insert this code before your </body> tag -->
     <script src="//static.miniclipcdn.com/js/game-embed.js"></script>
 
@@ -31,13 +31,13 @@
                         <a href="../index.php"><img src="../images/dom.png" alt="" class="img-responsive"/></a>
                     </div>
                     <div class="col-xs-3">
-                        <a href="game.php" data-toggle="tab"><img id="joystick-mob" src="../images/joystick.png" alt="" class="img-responsive shaky"/></a>
+                        <a href="https://play.google.com/store/apps/category/FAMILY"><img id="joystick-mob" src="../images/joystick.png" alt="" class="img-responsive shaky"/></a>
                     </div>
                     <div class="col-xs-3">
-                        <a href="#" data-toggle="tab"><img id="sova-mob" src="../images/sova.png" alt="" class="img-responsive shaky"/></a>
+                        <a href="#"><img id="sova-mob" src="../images/sova.png" alt="" class="img-responsive shaky"/></a>
                     </div>
                     <div class="col-xs-3">
-                        <a href="#" data-toggle="tab"><img id="youtube-mob" src="../images/youtube.png" alt="" class="img-responsive shaky"/></a>
+                        <a href="#"><img id="youtube-mob" src="../images/youtube.png" alt="" class="img-responsive shaky"/></a>
                     </div>
                 </div>
             </div>
@@ -50,6 +50,7 @@
         <div id="homepage" class="tab-pane active container">
             <!--HRY-->
             <div class="panel panel-primary">
+
                 <?php include "select_all_games.php"; ?>
             </div>
 

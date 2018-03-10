@@ -48,7 +48,7 @@
                     <div class="col-md-12">
                         <div id="carousel" class="carousel slide" data-ride="carousel" data-type="multi" data-interval="2500">
                             <div class="carousel-inner">
-                                <?php include './games/index.php'; ?>
+                                <!-- INCLUDE -->
                             </div>
                             <!-- Controls -->
                             <div class="left carousel-control">
@@ -76,7 +76,7 @@
                     <div class="col-md-12">
                         <div id="carousel" class="carousel slide" data-ride="carousel" data-type="multi" data-interval="2500">
                             <div class="carousel-inner">
-                                <?php include './games/index.php'; ?>
+                                <!-- INCLUDE -->
                             </div>
                             <!-- Controls -->
                             <div class="left carousel-control">
@@ -100,11 +100,10 @@
     </div>
     <!-- FOOTER -->
     <footer class="container-fluid text-center">
-        <p>Footer Text</p>
+        <p><a href="admin/index.php"> Administrácia </a></p>
     </footer>
 
     <script src="js/carousel.js"></script>
-    <script src="js/tabs.js"></script>
     </body>
 </html>
 

@@ -18,7 +18,12 @@ while($row = mysqli_fetch_assoc($result)) {
     echo "  
             <div class='item ".(($counter == 1) ? 'active' : '')." '>
                 <div class='carousel-col'>
-                        <a href='./games/game.php?game_id=$game_id'><img src='".$big_icon."' class='img-responsive' alt=''/></a>
+                    <div class='game-hover-mini'>
+                        <a href='./games/game.php?game_id=$game_id'>
+                            <img src='".$big_icon."' class='img-responsive' id='icon' alt=''/>
+                            <span class='overlay'></span>
+                        </a>
+                    </div>
                 </div>
             </div>
           ";
