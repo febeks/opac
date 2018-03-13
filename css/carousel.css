@@ -31,9 +31,8 @@
 
 /*xs*/
 @media (max-width: 767px) {
-  .carousel-inner{ left: 1%;}
   .carousel-control.left,
-  .carousel-control.right { margin-left: -5%; margin-right: -5%; margin-top: -8%}
+  .carousel-control.right { text-align: left; margin-top: -4%}
   .carousel-inner .active.left { left: -33%; }
   .carousel-inner .active.right { left: 33%; }
   .carousel-inner .next        { left:  33%; }
@@ -45,11 +44,14 @@
     color: red;
     font-size: 25px !important;
   }
+  .carousel-inner{
+    left: 0.7%;
+  }
 }
 
 /*sm*/
-@media (min-width: 768px) and (max-width: 991px) {
-  .carousel-inner {left: 0.5%;}
+@media (min-width: 640px) and (max-width: 991px) {
+  .carousel-inner {left: -0.3%;}
   .carousel-inner .active.left { left: -25%; }
   .carousel-inner .active.right { left: 25%; }
   .carousel-inner .next        { left:  25%; }

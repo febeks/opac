@@ -30,12 +30,12 @@
                    $game_list = "SELECT * FROM game";
                    $result = mysqli_query($conn, $game_list);
                    while($row = mysqli_fetch_assoc($result)) {
-                       $id = $row['id'];
-                       $title = $row['title'];
+                       $id = $row['game_id'];
+                       $name = $row['name'];
                        ?>
                                    <tr>
                                        <td><?php echo $id; ?></td>
-                                       <td><?php echo $title; ?></td>
+                                       <td><?php echo $name; ?></td>
                                        <td>
                                            <span class='delete_game' id='del_<?php echo $id; ?>'><img src="../images/remove.png" alt="" title="Zmazat" class="icon"/></span>
                                        </td>

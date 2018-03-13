@@ -117,3 +117,18 @@ footer {
     from { opacity: 0; }
     to   { opacity: 1; }
 }
+
+.border-icon{
+    margin-bottom: 13px;
+    border-width: 4px 10px 4px 10px;
+    border-style: outset;
+    border-color: dodgerblue;
+    border-radius: 5px;
+}
+
+#miniclip-game-embed{
+    width: 94%;
+}
+#embed{
+    text-align: center;
+}

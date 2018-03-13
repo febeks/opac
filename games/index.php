@@ -11,9 +11,8 @@ while($row = mysqli_fetch_assoc($result)) {
     if ($counter == 21)
         break;
     $game_id = $row['game_id'];
-    $name = $row['name'];
     $big_icon = $row['big_icon_path'];
-    $embed = $row['embed'];
+
 
     echo "  
             <div class='item ".(($counter == 1) ? 'active' : '')." '>
