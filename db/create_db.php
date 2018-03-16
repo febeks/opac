@@ -1,9 +1,5 @@
 <?php
-//include_once connect.php;
-$servername = "localhost";
-$username = "opac";
-$password = "adminadmin";
-$dbname = "opac";
+include 'connect.php';
 
 // Create connection
 $conn = new mysqli($servername, $username, $password, $dbname);
@@ -48,11 +44,9 @@ $table5 =  "CREATE TABLE game (
             name VARCHAR(50) NOT NULL,
             game_id INT(5) NOT NULL,
             big_icon_path VARCHAR(100) NOT NULL,
-            small_icon_path VARCHAR(100) NOT NULL,
-            main_category_id INT(3),
             height INT(3),
             width INT(3),
-            embed VARCHAR(200),
+            embed VARCHAR(600),
             PRIMARY KEY (game_id)
             )";
 
@@ -65,8 +59,17 @@ $table6 =  "CREATE TABLE book (
             location VARCHAR(50)
             )";
 
-$tables = [$drop, $table1, $table2, $table3, $table4, $table5, $table6];
+$table7 = "CREATE TABLE library (
+            id INT(3) UNSIGNED AUTO_INCREMENT PRIMARY KEY,
+            lib_name VARCHAR(200) NOT NULL,
+            ip VARCHAR(100) NOT NULL,
+            format VARCHAR(50) NOT NULL,
+            db_name VARCHAR(100) NOT NULL,
+            port INT(4) NOT NULL 
+            )";
 
+//$tables = [$drop, $table1, $table2, $table3, $table4, $table5, $table6];
+$tables = [$table7];
 foreach ($tables as $k => $sql){
     $query = @$conn->query($sql);
     if(!$query)
