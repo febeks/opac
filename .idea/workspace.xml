@@ -2,16 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bed92ccc-07d5-42de-983b-42e211c34a3d" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/admin/add_library.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/admin/delete_library.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/admin/knihy.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/admin/library.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/books/index.php" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/json.php" afterPath="$PROJECT_DIR$/games/json.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/admin/add_game.php" afterPath="$PROJECT_DIR$/admin/add_game.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/admin/header.php" afterPath="$PROJECT_DIR$/admin/header.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/db/create_db.php" afterPath="$PROJECT_DIR$/db/create_db.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/games/json.php" afterPath="$PROJECT_DIR$/games/json.php" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -67,11 +58,11 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="library.php" pinned="false" current-in-tab="true">
+          <file leaf-file-name="library.php" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/admin/library.php">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="408">
-                  <caret line="24" column="32" lean-forward="false" selection-start-line="24" selection-start-column="32" selection-end-line="24" selection-end-column="32" />
+                <state relative-caret-position="612">
+                  <caret line="36" column="0" lean-forward="false" selection-start-line="36" selection-start-column="0" selection-end-line="36" selection-end-column="0" />
                   <folding>
                     <marker date="1521164210999" expanded="true" signature="54:75" ph="SELECT * FRO... library" />
                   </folding>
@@ -86,6 +77,18 @@
                   <caret line="4" column="49" lean-forward="false" selection-start-line="4" selection-start-column="49" selection-end-line="4" selection-end-column="49" />
                   <folding>
                     <marker date="1521163420082" expanded="true" signature="61:141" ph="INSERT INTO library... " />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="json.php" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/games/json.php">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="34">
+                  <caret line="2" column="12" lean-forward="false" selection-start-line="2" selection-start-column="12" selection-end-line="2" selection-end-column="12" />
+                  <folding>
+                    <marker date="1521165061973" expanded="true" signature="212:522" ph="INSERT INTO game... " />
                   </folding>
                 </state>
               </provider>
@@ -207,6 +210,7 @@
         <option value="$PROJECT_DIR$/admin/knihy.php" />
         <option value="$PROJECT_DIR$/admin/library.php" />
         <option value="$PROJECT_DIR$/db/create_db.php" />
+        <option value="$PROJECT_DIR$/games/json.php" />
       </list>
     </option>
   </component>
@@ -260,6 +264,11 @@
               <item name="opac" type="b2602c69:ProjectViewProjectNode" />
               <item name="opac" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="db" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="opac" type="b2602c69:ProjectViewProjectNode" />
+              <item name="opac" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="games" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
           </expand>
           <select />
@@ -331,12 +340,12 @@
       <workItem from="1520289063271" duration="30057000" />
       <workItem from="1520433518949" duration="35524000" />
       <workItem from="1520866162036" duration="2265000" />
-      <workItem from="1521148671665" duration="10699000" />
+      <workItem from="1521148671665" duration="11236000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="176698000" />
+    <option name="totallyTimeSpent" value="177235000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1066" extended-state="6" />
@@ -584,16 +593,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/games/json.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="544">
-          <caret line="32" column="0" lean-forward="true" selection-start-line="32" selection-start-column="0" selection-end-line="32" selection-end-column="0" />
-          <folding>
-            <marker date="1520295561321" expanded="true" signature="211:521" ph="INSERT INTO game... " />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/admin/index.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
@@ -733,16 +732,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/admin/library.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="24" column="32" lean-forward="false" selection-start-line="24" selection-start-column="32" selection-end-line="24" selection-end-column="32" />
-          <folding>
-            <marker date="1521164210999" expanded="true" signature="54:75" ph="SELECT * FRO... library" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/db/create_db.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="17">
@@ -767,6 +756,26 @@
         <state relative-caret-position="238">
           <caret line="14" column="2" lean-forward="false" selection-start-line="14" selection-start-column="2" selection-end-line="14" selection-end-column="2" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin/library.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="612">
+          <caret line="36" column="0" lean-forward="false" selection-start-line="36" selection-start-column="0" selection-end-line="36" selection-end-column="0" />
+          <folding>
+            <marker date="1521164210999" expanded="true" signature="54:75" ph="SELECT * FRO... library" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/games/json.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="12" lean-forward="false" selection-start-line="2" selection-start-column="12" selection-end-line="2" selection-end-column="12" />
+          <folding>
+            <marker date="1521165061973" expanded="true" signature="212:522" ph="INSERT INTO game... " />
+          </folding>
         </state>
       </provider>
     </entry>

@@ -1,6 +1,6 @@
 <?php
 
-include './db/connect.php';
+include '../db/connect.php';
 
 $game_list_url = 'https://webmasters.miniclip.com/api/genre/432/en.json';
 $data = file_get_contents($game_list_url);
