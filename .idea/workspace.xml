@@ -2,13 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bed92ccc-07d5-42de-983b-42e211c34a3d" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/books/search.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/search.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/loading_spinner.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/admin/library.php" afterPath="$PROJECT_DIR$/books/library.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/admin/knihy.php" afterPath="$PROJECT_DIR$/admin/knihy.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/db/connect.php" afterPath="$PROJECT_DIR$/db/connect.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.php" afterPath="$PROJECT_DIR$/index.php" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -51,15 +47,16 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="knihy.php" pinned="false" current-in-tab="false">
+          <file leaf-file-name="knihy.php" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/admin/knihy.php">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="490">
-                  <caret line="112" column="48" lean-forward="false" selection-start-line="112" selection-start-column="48" selection-end-line="112" selection-end-column="48" />
+                <state relative-caret-position="170">
+                  <caret line="10" column="65" lean-forward="false" selection-start-line="10" selection-start-column="65" selection-end-line="10" selection-end-column="65" />
                   <folding>
                     <element signature="n#div#0;n#div#1;n#div#0;n#div#0;n#!!top" expanded="false" />
-                    <marker date="1521163572130" expanded="true" signature="1127:1141" ph="SELECT * FRO... game" />
-                    <marker date="1521163572130" expanded="true" signature="1127:1148" ph="SELECT * FRO... library" />
+                    <element signature="n#div#1;n#div#1;n#div#0;n#div#0;n#!!top" expanded="false" />
+                    <marker date="1521232889542" expanded="true" signature="1216:1230" ph="SELECT * FRO... game" />
+                    <marker date="1521232889542" expanded="true" signature="1216:1237" ph="SELECT * FRO... library" />
                   </folding>
                 </state>
               </provider>
@@ -75,7 +72,7 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="library.php" pinned="false" current-in-tab="true">
+          <file leaf-file-name="library.php" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/books/library.php">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="663">
@@ -219,7 +216,6 @@
         <option value="$PROJECT_DIR$/admin/add_game.php" />
         <option value="$PROJECT_DIR$/admin/delete_library.php" />
         <option value="$PROJECT_DIR$/admin/add_library.php" />
-        <option value="$PROJECT_DIR$/admin/knihy.php" />
         <option value="$PROJECT_DIR$/games/json.php" />
         <option value="$PROJECT_DIR$/db/create_db.php" />
         <option value="$PROJECT_DIR$/db/connect.php" />
@@ -229,6 +225,7 @@
         <option value="$PROJECT_DIR$/css/search.css" />
         <option value="$PROJECT_DIR$/books/search.php" />
         <option value="$PROJECT_DIR$/books/library.php" />
+        <option value="$PROJECT_DIR$/admin/knihy.php" />
       </list>
     </option>
   </component>
@@ -375,12 +372,12 @@
       <workItem from="1520289063271" duration="30057000" />
       <workItem from="1520433518949" duration="35524000" />
       <workItem from="1520866162036" duration="2265000" />
-      <workItem from="1521148671665" duration="23193000" />
+      <workItem from="1521148671665" duration="23860000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="189192000" />
+    <option name="totallyTimeSpent" value="189859000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1066" extended-state="6" />
@@ -742,18 +739,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/admin/knihy.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="490">
-          <caret line="112" column="48" lean-forward="false" selection-start-line="112" selection-start-column="48" selection-end-line="112" selection-end-column="48" />
-          <folding>
-            <element signature="n#div#0;n#div#1;n#div#0;n#div#0;n#!!top" expanded="false" />
-            <marker date="1521163572130" expanded="true" signature="1127:1141" ph="SELECT * FRO... game" />
-            <marker date="1521163572130" expanded="true" signature="1127:1148" ph="SELECT * FRO... library" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/admin/add_library.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
@@ -818,6 +803,19 @@
           <caret line="39" column="28" lean-forward="false" selection-start-line="39" selection-start-column="28" selection-end-line="39" selection-end-column="28" />
           <folding>
             <marker date="1521231205359" expanded="true" signature="497:518" ph="SELECT * FRO... library" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin/knihy.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="65" lean-forward="false" selection-start-line="10" selection-start-column="65" selection-end-line="10" selection-end-column="65" />
+          <folding>
+            <element signature="n#div#0;n#div#1;n#div#0;n#div#0;n#!!top" expanded="false" />
+            <element signature="n#div#1;n#div#1;n#div#0;n#div#0;n#!!top" expanded="false" />
+            <marker date="1521232889542" expanded="true" signature="1216:1230" ph="SELECT * FRO... game" />
+            <marker date="1521232889542" expanded="true" signature="1216:1237" ph="SELECT * FRO... library" />
           </folding>
         </state>
       </provider>

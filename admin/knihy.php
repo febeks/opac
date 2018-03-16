@@ -8,6 +8,7 @@ include '../db/connect.php';
             <ul class="nav nav-pills nav-stacked">
                 <li class="active"><a data-toggle="pill" href="#kniznice">Index</a></li>
                 <li><a data-toggle="pill" href="#new_library">Pridat novu kniznicu</a></li>
+                <li><a  href="../books/search.php" target="_blank">Hladat knihy</a></li>
             </ul>
         </div>
 
