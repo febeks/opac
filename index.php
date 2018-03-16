@@ -100,7 +100,7 @@
     </div>
     <!-- FOOTER -->
     <footer class="container-fluid text-center">
-        <p><a href=""> Administrácia </a></p>
+        <p><a href="./admin/" target="_blank"> Administrácia </a></p>
     </footer>
 
     <script src="js/carousel.js"></script>
