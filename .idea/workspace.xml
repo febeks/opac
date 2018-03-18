@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bed92ccc-07d5-42de-983b-42e211c34a3d" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/books/library.php" afterPath="$PROJECT_DIR$/books/library.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/db/connect.php" afterPath="$PROJECT_DIR$/db/connect.php" />
     </list>
@@ -65,15 +66,15 @@
           <file leaf-file-name="library.php" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/books/library.php">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="446">
-                  <caret line="119" column="51" lean-forward="false" selection-start-line="119" selection-start-column="51" selection-end-line="119" selection-end-column="51" />
+                <state relative-caret-position="684">
+                  <caret line="133" column="22" lean-forward="false" selection-start-line="133" selection-start-column="22" selection-end-line="133" selection-end-column="22" />
                   <folding>
                     <element signature="n#get_subfield_value#0;n#!!top" expanded="false" />
                     <element signature="n#custom_trim#0;n#!!top" expanded="false" />
-                    <marker date="1521385633540" expanded="true" signature="2705:2726" ph="SELECT * FRO... library" />
-                    <marker date="1521385633540" expanded="true" signature="2705:2736" ph="SELECT * FRO... library" />
-                    <marker date="1521385633540" expanded="true" signature="2705:2737" ph="SELECT * FRO... library" />
-                    <marker date="1521385633540" expanded="true" signature="2705:2755" ph="SELECT * FRO... library" />
+                    <marker date="1521387060217" expanded="true" signature="2705:2726" ph="SELECT * FRO... library" />
+                    <marker date="1521387060217" expanded="true" signature="2705:2736" ph="SELECT * FRO... library" />
+                    <marker date="1521387060217" expanded="true" signature="2705:2737" ph="SELECT * FRO... library" />
+                    <marker date="1521387060217" expanded="true" signature="2705:2755" ph="SELECT * FRO... library" />
                   </folding>
                 </state>
               </provider>
@@ -365,12 +366,12 @@
       <workItem from="1520289063271" duration="30057000" />
       <workItem from="1520433518949" duration="35524000" />
       <workItem from="1520866162036" duration="2265000" />
-      <workItem from="1521148671665" duration="55361000" />
+      <workItem from="1521148671665" duration="56070000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="221360000" />
+    <option name="totallyTimeSpent" value="222069000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1066" extended-state="6" />
@@ -797,15 +798,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/books/library.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="446">
-          <caret line="119" column="51" lean-forward="false" selection-start-line="119" selection-start-column="51" selection-end-line="119" selection-end-column="51" />
+        <state relative-caret-position="684">
+          <caret line="133" column="22" lean-forward="false" selection-start-line="133" selection-start-column="22" selection-end-line="133" selection-end-column="22" />
           <folding>
             <element signature="n#get_subfield_value#0;n#!!top" expanded="false" />
             <element signature="n#custom_trim#0;n#!!top" expanded="false" />
-            <marker date="1521385633540" expanded="true" signature="2705:2726" ph="SELECT * FRO... library" />
-            <marker date="1521385633540" expanded="true" signature="2705:2736" ph="SELECT * FRO... library" />
-            <marker date="1521385633540" expanded="true" signature="2705:2737" ph="SELECT * FRO... library" />
-            <marker date="1521385633540" expanded="true" signature="2705:2755" ph="SELECT * FRO... library" />
+            <marker date="1521387060217" expanded="true" signature="2705:2726" ph="SELECT * FRO... library" />
+            <marker date="1521387060217" expanded="true" signature="2705:2736" ph="SELECT * FRO... library" />
+            <marker date="1521387060217" expanded="true" signature="2705:2737" ph="SELECT * FRO... library" />
+            <marker date="1521387060217" expanded="true" signature="2705:2755" ph="SELECT * FRO... library" />
           </folding>
         </state>
       </provider>

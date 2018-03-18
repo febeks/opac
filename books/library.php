@@ -115,7 +115,7 @@ if(empty($selected_libraries = $_POST['selected_libs'])){
                         continue;
                     }
 
-                    $isbn = $parsedRec['isbn'];
+                    $isbn = trim($parsedRec['isbn']);
                     $title = $parsedRec['title'];
                     $author = $parsedRec['author'];
 
@@ -131,6 +131,7 @@ if(empty($selected_libraries = $_POST['selected_libs'])){
                     echo $isbn."<br/>";
 
                     $url ='http://cache.obalkyknih.cz/api/cover?multi={"isbn":"'.$isbn.'"}&type=medium&keywords='.$search_term;
+                    //echo $url;
                     echo "<img src=$url onerror=\"this.onerror=null;this.src='../images/book_cover.png';\" alt='' class='obalka'/>";
                     //print_r($parsedRec);
                 }
