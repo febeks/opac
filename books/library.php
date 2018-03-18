@@ -88,7 +88,7 @@ if(empty($selected_libraries = $_POST['selected_libs'])){
         );
         yaz_ccl_conf($z, $fields);
         $ccl_query = "tit = " . $search_term;
-        yaz_range($z, 1, 2);
+
         if (!yaz_ccl_parse($z, $ccl_query, $ccl_result)) {
             die("The query could not be parsed.");
         } else {
@@ -102,14 +102,19 @@ if(empty($selected_libraries = $_POST['selected_libs'])){
             } else {
                 $hits = yaz_hits($z);
                 echo "<strong>$lib_name $db_name</strong><br/>" . " Result count {$hits}\n";
-                for ($p = 1; $p <= 1; $p++) {
+                for ($p = 1; $p <= 5; $p++) {
                     $rec = yaz_record($z, $p, "string");
                     if (empty($rec)) {
                         break;
                     }
-                    echo "<br/>----- {$p} -----<br/>{$rec}<br/><br/>";
+                    echo "<br/>----- {$p} -----<br/><br/>";
                     $parsedRec = parse_usmarc_string($rec);
-                    print_r($parsedRec);
+                    $isbn = $parsedRec['isbn'];
+                    echo $isbn."<br/>";
+                    $url = NULL;
+                    $url ='http://cache.obalkyknih.cz/api/cover?multi={"isbn":"'.$isbn.'"}&type=medium&keywords='.$search_term;
+                    echo "<img src=$url onerror=\"this.onerror=null;this.src='../images/book_cover.png';\" alt='' class='obalka'/>";
+                    //print_r($parsedRec);
                 }
             }
             echo "<br/><br/>";

@@ -11,3 +11,9 @@ if it's not present, don't show loader */
     z-index: 9999;
     background: url(../images/spinner.gif) center no-repeat #fff;
 }
+
+.obalka{
+    border:1px;
+    border-style: solid;
+    border-color: black;
+}
