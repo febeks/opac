@@ -26,13 +26,13 @@ function parse_usmarc_string($record){
         switch(substr($parts[0],0,3)){
             case "008" : $ret["language"] = substr($parts[0],39,3); break;
             case "010" : $ret["isbn"] = get_subfield_value($parts,"a"); break;
-            case "200" : $ret["author"] = get_subfield_value($parts,"f"); break;
-            case "200" : $ret["title"] = get_subfield_value($parts,"a"); break;
-            case "454" : $ret["subtitle"] = get_subfield_value($parts,"a"); break;
+            case "200" : $ret["author"] = get_subfield_value($parts,"f");
+            case "200" : $ret["title"] = get_subfield_value($parts,"a");
+            case "200" : $ret["subtitle"] = get_subfield_value($parts,"e"); break;
             case "210" : $ret["pub_date"] = get_subfield_value($parts,"d");
                          $ret["pub_place"] = get_subfield_value($parts,"a");
                          $ret["publisher"] = get_subfield_value($parts,"c"); break;
-            case "333" : $ret["kategory"] = get_subfield_value($parts,"a"); break;
+            case "333" : $ret["note"] = get_subfield_value($parts,"a"); break;
         }
     }
     return $ret;
@@ -84,10 +84,11 @@ if(empty($selected_libraries = $_POST['selected_libs'])){
         $fields = array("tit" => "1=4",
             "isbn" => "1=7",
             "year" => "1=31",
+            "kw" => "1=21",//keywords
             "auth" => "1=1004"
         );
         yaz_ccl_conf($z, $fields);
-        $ccl_query = "tit = " . $search_term;
+        $ccl_query = "kw = " . $search_term;
 
         if (!yaz_ccl_parse($z, $ccl_query, $ccl_result)) {
             die("The query could not be parsed.");
@@ -102,16 +103,33 @@ if(empty($selected_libraries = $_POST['selected_libs'])){
             } else {
                 $hits = yaz_hits($z);
                 echo "<strong>$lib_name $db_name</strong><br/>" . " Result count {$hits}\n";
-                for ($p = 1; $p <= 5; $p++) {
+                for ($p = 1; $p <= 20; $p++) {
                     $rec = yaz_record($z, $p, "string");
                     if (empty($rec)) {
                         break;
                     }
-                    echo "<br/>----- {$p} -----<br/><br/>";
+
                     $parsedRec = parse_usmarc_string($rec);
+
+                    if(empty($parsedRec['isbn'])){
+                        continue;
+                    }
+
                     $isbn = $parsedRec['isbn'];
+                    $title = $parsedRec['title'];
+                    $author = $parsedRec['author'];
+
+                    if(empty($subtitle)){
+                        $subtitle="";
+                    }else{
+                        $subtitle = " : ".$parsedRec['subtitle'];
+                    }
+
+                    echo "<br/>----- {$p} -----<br/><br/>";
+                    echo "<strong>".$title.$subtitle."</strong><br/>";
+                    echo $author."<br/>";
                     echo $isbn."<br/>";
-                    $url = NULL;
+
                     $url ='http://cache.obalkyknih.cz/api/cover?multi={"isbn":"'.$isbn.'"}&type=medium&keywords='.$search_term;
                     echo "<img src=$url onerror=\"this.onerror=null;this.src='../images/book_cover.png';\" alt='' class='obalka'/>";
                     //print_r($parsedRec);
