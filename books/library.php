@@ -88,7 +88,7 @@ if(empty($selected_libraries = $_POST['selected_libs'])){
             "auth" => "1=1004"
         );
         yaz_ccl_conf($z, $fields);
-        $ccl_query = "kw = " . $search_term;
+        $ccl_query =  $search_term;
 
         if (!yaz_ccl_parse($z, $ccl_query, $ccl_result)) {
             die("The query could not be parsed.");
@@ -130,9 +130,14 @@ if(empty($selected_libraries = $_POST['selected_libs'])){
                     echo $author."<br/>";
                     echo $isbn."<br/>";
 
-                    $url ='http://cache.obalkyknih.cz/api/cover?multi={"isbn":"'.$isbn.'"}&type=medium&keywords='.$search_term;
-                    //echo $url;
-                    echo "<img src=$url onerror=\"this.onerror=null;this.src='../images/book_cover.png';\" alt='' class='obalka'/>";
+                    $url ='http://cache.obalkyknih.cz/api/cover?multi={"isbn":"'.$isbn.'"}&type=medium&keywords='.str_replace(' ', '%20', $search_term);
+
+                    list($width, $height) = getimagesize($url);
+                    if($width==1 && $height==1){
+                        echo "<img src='../images/book_cover.png' alt='' class='obalka'/>";
+                    }else{
+                        echo "<img src=$url alt='' class='obalka'/>";
+                    }
                     //print_r($parsedRec);
                 }
             }
@@ -140,6 +145,7 @@ if(empty($selected_libraries = $_POST['selected_libs'])){
         }
 
     }//koniec for cyklu
+    //yaz_close($z);
 }//koniec if else
 
 ?>

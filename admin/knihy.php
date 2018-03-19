@@ -8,6 +8,7 @@ include '../db/connect.php';
             <ul class="nav nav-pills nav-stacked">
                 <li class="active"><a data-toggle="pill" href="#kniznice">Index</a></li>
                 <li><a data-toggle="pill" href="#new_library">Pridat novu kniznicu</a></li>
+                <li><a data-toggle="pill" href="#new_search_cat">Pridat novu kategoriu vyhladavania</a></li>
                 <li><a  href="../books/search.php" target="_blank">Hladat knihy</a></li>
             </ul>
         </div>
@@ -155,6 +156,82 @@ include '../db/connect.php';
                         });
                     });
                 </script>
+            </div>
+
+            <div id="new_search_cat" class="tab-pane fade">
+                <form id="add_search_cat" class="form-horizontal" enctype="multipart/form-data">
+
+                    <div class="form-group">
+                        <label class="control-label col-sm-4" for="name">Nazov predmetovej kategorie:</label>
+                        <div class="col-sm-3">
+                            <input type="text" class="form-control" id="name" name="name" placeholder="napr.: zvierata, abeceda, cisla">
+                        </div>
+                    </div>
+
+                    <div class="form-group">
+                        <label class="control-label col-sm-4" for="keywords">Klucove slova:</label>
+                        <div class="col-sm-8">
+                            <input type="text" class="form-control" id="keywords" name="keywords" placeholder="Klucove slova vystihujuce kategoriu oddelene ciarkou, napr.: auto,traktor,motorka">
+                        </div>
+                    </div>
+
+                    <div class="form-group">
+                        <label class="control-label col-sm-4" for="image_path">Obrazok kategorie:</label>
+                        <div class="col-sm-3">
+                            <input type="file" class="form-control-file" id="image_path" name="image_path" placeholder="Obrazok vystihujuci kategoriu">
+                        </div>
+                    </div>
+
+                    <div class="form-group">
+                        <div class="col-sm-offset-4 col-sm-10">
+                            <button type="submit" class="btn btn-success submitBtn" name="submit">Pridat kategoriu</button>
+                        </div>
+                    </div>
+                </form>
+
+                <script>
+                    $(document).ready(function(e){
+                        $("#add_search_cat").on('submit', function(e){
+                            e.preventDefault();
+                            $.ajax({
+                                type: 'POST',
+                                url: 'add_search_cat.php',
+                                data: new FormData(this),
+                                contentType: false,
+                                cache: false,
+                                processData:false,
+                                beforeSend: function(){
+                                    $('.submitBtn').attr("disabled","disabled");
+                                    $('#add_search_cat').css("opacity",".5");
+                                },
+                                success: function(msg){
+                                    $('.statusMsg').html('');
+                                    if(msg == 'ok'){
+                                        $('#add_search_cat')[0].reset();
+                                        $('.statusMsg').html('<span style="font-size:18px;color:#34A853">Form data submitted successfully.</span>');
+                                    }else{
+                                        $('.statusMsg').html('<span style="font-size:18px;color:#EA4335">Some problem occurred, please try again.</span>');
+                                    }
+                                    $('#add_search_cat').css("opacity","");
+                                    $(".submitBtn").removeAttr("disabled");
+                                }
+                            });
+                        });
+
+                        //file type validation
+                        $("#image_path").change(function() {
+                            var file = this.files[0];
+                            var imagefile = file.type;
+                            var match= ["image/jpeg","image/png","image/jpg"];
+                            if(!((imagefile==match[0]) || (imagefile==match[1]) || (imagefile==match[2]))){
+                                alert('Please select a valid image file (JPEG/JPG/PNG).');
+                                $("#image_path").val('');
+                                return false;
+                            }
+                        });
+                    });
+                </script>
+
             </div>
         </div>
     </div>

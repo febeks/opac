@@ -34,7 +34,7 @@ while($row = mysqli_fetch_assoc($result)) {
         <div class="col-sm-3">
             <label>
                 <input type="checkbox"  name="selected_libs[]" value="<?php echo $id; ?>">
-                <?php echo $lib_name.$id; ?>
+                <?php echo $lib_name; ?>
             </label>
         </div>
     </div>
