@@ -50,13 +50,11 @@ $table5 =  "CREATE TABLE game (
             PRIMARY KEY (game_id)
             )";
 
-$table6 =  "CREATE TABLE book (
+$table6 =  "CREATE TABLE book_cat (
             id INT(5) UNSIGNED AUTO_INCREMENT PRIMARY KEY,
-            title VARCHAR(50) NOT NULL,
-            author VARCHAR(20) NOT NULL,
-            cover_path VARCHAR(260) NOT NULL,
-            pages INT(5),
-            location VARCHAR(50)
+            name VARCHAR(50) NOT NULL,
+            keywords VARCHAR(300) NOT NULL,
+            image_path VARCHAR(300) NOT NULL
             )";
 
 $table7 = "CREATE TABLE library (
@@ -69,7 +67,7 @@ $table7 = "CREATE TABLE library (
             )";
 
 //$tables = [$drop, $table1, $table2, $table3, $table4, $table5, $table6];
-$tables = [$table7];
+$tables = [$table6];
 foreach ($tables as $k => $sql){
     $query = @$conn->query($sql);
     if(!$query)

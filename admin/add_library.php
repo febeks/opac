@@ -22,9 +22,11 @@ $port = isset($_POST['port'])
     ? $_POST['port']
     : '';
 
-$stmt->execute();
-printf("%d row inserted.\n", $stmt->affected_rows);
+$insert = $stmt->execute();
+//printf("%d row inserted.\n", $stmt->affected_rows);
 $stmt->close();
 $conn->close();
+
+echo $insert?'ok':'err';
 
 ?>

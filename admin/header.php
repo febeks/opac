@@ -10,6 +10,7 @@
     <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/1.10.16/css/jquery.dataTables.css">
     <script type="text/javascript" charset="utf8" src="https://cdn.datatables.net/1.10.16/js/jquery.dataTables.js"></script>
     <script type="text/javascript" charset="utf8" src="https://code.jquery.com/jquery-1.12.4.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 
     <link rel="stylesheet" href="styles/admin.css">
     <?php include '../db/connect.php' ?>
@@ -20,16 +21,13 @@
     <div class="row">
         <div class="col-lg-12">
             <ul class="nav nav-tabs">
-                <li ><a data-toggle="tab" href="#statistika">Statistika</a></li>
+                <li ><a href="../index.php">Hlavna stranka</a></li>
                 <li ><a data-toggle="tab" href="#hry">Hry</a></li>
                 <li class="active"><a data-toggle="tab" href="#knihy">Knihy</a></li>
                 <li><a data-toggle="tab" href="#videa">Videa</a></li>
             </ul>
 
             <div class="tab-content">
-                <div id="statistika" class="tab-pane fade ">
-                    <?php include 'stats.php' ?>
-                </div>
                 <div id="hry" class="tab-pane fade " >
                     <?php include 'hry.php' ?>
                 </div>
