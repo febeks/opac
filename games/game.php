@@ -56,5 +56,10 @@
 
         </div>
     </div>
+
+    <!-- FOOTER -->
+    <footer class="container text-center">
+        <p><a href="../admin/" target="_blank"> Administrácia </a></p>
+    </footer>
 </body>
 </html>

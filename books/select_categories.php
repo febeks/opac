@@ -39,7 +39,7 @@ if(isset($_GET['cat_id'])){
 
         echo "<div class='col-xs-12 col-sm-6 col-md-3'>
                         <a href='index.php?cat_id=$cat_id'>
-                            <img src='../admin/".$image_path."' class='img-responsive icon border-icon' alt=''/>
+                            <img src='../admin/".$image_path."' class='img-responsive' alt=''/>
                         </a>
               </div>";
     }

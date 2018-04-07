@@ -46,7 +46,6 @@
 
 
 <div class="tab-content">
-
     <div id="homepage" class="tab-pane active container">
         <!--HRY-->
         <div class="panel panel-primary">
@@ -55,5 +54,11 @@
 
     </div>
 </div>
+
+<!-- FOOTER -->
+<footer class="container text-center">
+    <p><a href="../admin/" target="_blank"> Administrácia </a></p>
+</footer>
+
 </body>
 </html>

@@ -2,10 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bed92ccc-07d5-42de-983b-42e211c34a3d" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/books/library.php" afterPath="$PROJECT_DIR$/books/library.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/books/index.php" afterPath="$PROJECT_DIR$/books/index.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/books/select_categories.php" afterPath="$PROJECT_DIR$/books/select_categories.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/db/connect.php" afterPath="$PROJECT_DIR$/db/connect.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/games/select_all_games.php" afterPath="$PROJECT_DIR$/games/select_all_games.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/games/game.php" afterPath="$PROJECT_DIR$/games/game.php" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -59,25 +59,25 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="select_categories.php" pinned="false" current-in-tab="true">
+          <file leaf-file-name="select_categories.php" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/books/select_categories.php">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="663">
-                  <caret line="39" column="35" lean-forward="false" selection-start-line="39" selection-start-column="35" selection-end-line="39" selection-end-column="35" />
+                <state relative-caret-position="697">
+                  <caret line="41" column="85" lean-forward="false" selection-start-line="41" selection-start-column="85" selection-end-line="41" selection-end-column="85" />
                   <folding>
-                    <marker date="1523143018714" expanded="true" signature="127:159" ph="SELECT * FRO... game" />
-                    <marker date="1523143018714" expanded="true" signature="412:497" ph="..." />
-                    <marker date="1523143018714" expanded="true" signature="412:597" ph="..." />
-                    <marker date="1523143018714" expanded="true" signature="497:501" ph="..." />
-                    <marker date="1523143018714" expanded="true" signature="497:590" ph="..." />
-                    <marker date="1523143018714" expanded="true" signature="497:596" ph="..." />
-                    <marker date="1523143018714" expanded="true" signature="497:597" ph="..." />
-                    <marker date="1523143018714" expanded="true" signature="694:783" ph="..." />
-                    <marker date="1523143018714" expanded="true" signature="761:783" ph="..." />
-                    <marker date="1523143018714" expanded="true" signature="785:807" ph="SELECT * FRO... book_cat" />
-                    <marker date="1523143018714" expanded="true" signature="1132:1355" ph="..." />
-                    <marker date="1523143018714" expanded="true" signature="1133:1335" ph="..." />
-                    <marker date="1523143018714" expanded="true" signature="1192:1334" ph="..." />
+                    <marker date="1523143229682" expanded="true" signature="127:159" ph="SELECT * FRO... game" />
+                    <marker date="1523143229682" expanded="true" signature="412:497" ph="..." />
+                    <marker date="1523143229682" expanded="true" signature="412:597" ph="..." />
+                    <marker date="1523143229682" expanded="true" signature="497:501" ph="..." />
+                    <marker date="1523143229682" expanded="true" signature="497:590" ph="..." />
+                    <marker date="1523143229682" expanded="true" signature="497:596" ph="..." />
+                    <marker date="1523143229682" expanded="true" signature="497:597" ph="..." />
+                    <marker date="1523143229682" expanded="true" signature="694:783" ph="..." />
+                    <marker date="1523143229682" expanded="true" signature="761:783" ph="..." />
+                    <marker date="1523143229682" expanded="true" signature="785:807" ph="SELECT * FRO... book_cat" />
+                    <marker date="1523143229682" expanded="true" signature="1132:1338" ph="..." />
+                    <marker date="1523143229682" expanded="true" signature="1133:1318" ph="..." />
+                    <marker date="1523143229682" expanded="true" signature="1192:1317" ph="..." />
                   </folding>
                 </state>
               </provider>
@@ -106,6 +106,26 @@
               </provider>
             </entry>
           </file>
+          <file leaf-file-name="index.php" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/index.php">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="-863">
+                  <caret line="12" column="7" lean-forward="false" selection-start-line="12" selection-start-column="7" selection-end-line="12" selection-end-column="7" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="game.php" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/games/game.php">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="-27">
+                  <caret line="17" column="6" lean-forward="true" selection-start-line="17" selection-start-column="6" selection-end-line="17" selection-end-column="6" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
           <file leaf-file-name="search.php" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/books/search.php">
               <provider selected="true" editor-type-id="text-editor">
@@ -118,11 +138,11 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="index.php" pinned="false" current-in-tab="false">
+          <file leaf-file-name="index.php" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/books/index.php">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="667">
-                  <caret line="51" column="41" lean-forward="false" selection-start-line="51" selection-start-column="41" selection-end-line="51" selection-end-column="41" />
+                <state relative-caret-position="701">
+                  <caret line="58" column="24" lean-forward="false" selection-start-line="58" selection-start-column="24" selection-end-line="58" selection-end-column="24" />
                   <folding />
                 </state>
               </provider>
@@ -243,8 +263,6 @@
         <option value="$PROJECT_DIR$/css/login.css" />
         <option value="$PROJECT_DIR$/admin/index.php" />
         <option value="$PROJECT_DIR$/header.php" />
-        <option value="$PROJECT_DIR$/games/game.php" />
-        <option value="$PROJECT_DIR$/books/index.php" />
         <option value="$PROJECT_DIR$/games/select_categories.php" />
         <option value="$PROJECT_DIR$/books/search.php" />
         <option value="$PROJECT_DIR$/books/search_select_libraries.php" />
@@ -252,6 +270,8 @@
         <option value="$PROJECT_DIR$/books/library.php" />
         <option value="$PROJECT_DIR$/games/select_all_games.php" />
         <option value="$PROJECT_DIR$/books/select_categories.php" />
+        <option value="$PROJECT_DIR$/games/game.php" />
+        <option value="$PROJECT_DIR$/books/index.php" />
       </list>
     </option>
   </component>
@@ -382,12 +402,12 @@
       <workItem from="1521561205653" duration="155000" />
       <workItem from="1521561641441" duration="12766000" />
       <workItem from="1523101158301" duration="7825000" />
-      <workItem from="1523110684136" duration="17688000" />
+      <workItem from="1523110684136" duration="18191000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="279942000" />
+    <option name="totallyTimeSpent" value="280445000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1066" extended-state="6" />
@@ -725,22 +745,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/games/game.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="208">
-          <caret line="25" column="48" lean-forward="false" selection-start-line="25" selection-start-column="48" selection-end-line="25" selection-end-column="48" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="588">
-          <caret line="84" column="73" lean-forward="false" selection-start-line="84" selection-start-column="73" selection-end-line="84" selection-end-column="73" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/css/search.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="391">
@@ -769,21 +773,24 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/books/index.php">
+    <entry file="file://$PROJECT_DIR$/books/select_categories.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="667">
-          <caret line="51" column="41" lean-forward="false" selection-start-line="51" selection-start-column="41" selection-end-line="51" selection-end-column="41" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/books/library.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="429">
-          <caret line="110" column="52" lean-forward="true" selection-start-line="110" selection-start-column="52" selection-end-line="110" selection-end-column="52" />
+        <state relative-caret-position="697">
+          <caret line="41" column="85" lean-forward="false" selection-start-line="41" selection-start-column="85" selection-end-line="41" selection-end-column="85" />
           <folding>
-            <element signature="n#get_subfield_value#0;n#!!top" expanded="false" />
-            <marker date="1523142958878" expanded="true" signature="2407:2432" ph="..." />
+            <marker date="1523143229682" expanded="true" signature="127:159" ph="SELECT * FRO... game" />
+            <marker date="1523143229682" expanded="true" signature="412:497" ph="..." />
+            <marker date="1523143229682" expanded="true" signature="412:597" ph="..." />
+            <marker date="1523143229682" expanded="true" signature="497:501" ph="..." />
+            <marker date="1523143229682" expanded="true" signature="497:590" ph="..." />
+            <marker date="1523143229682" expanded="true" signature="497:596" ph="..." />
+            <marker date="1523143229682" expanded="true" signature="497:597" ph="..." />
+            <marker date="1523143229682" expanded="true" signature="694:783" ph="..." />
+            <marker date="1523143229682" expanded="true" signature="761:783" ph="..." />
+            <marker date="1523143229682" expanded="true" signature="785:807" ph="SELECT * FRO... book_cat" />
+            <marker date="1523143229682" expanded="true" signature="1132:1338" ph="..." />
+            <marker date="1523143229682" expanded="true" signature="1133:1318" ph="..." />
+            <marker date="1523143229682" expanded="true" signature="1192:1317" ph="..." />
           </folding>
         </state>
       </provider>
@@ -807,25 +814,38 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/books/select_categories.php">
+    <entry file="file://$PROJECT_DIR$/books/library.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="663">
-          <caret line="39" column="35" lean-forward="false" selection-start-line="39" selection-start-column="35" selection-end-line="39" selection-end-column="35" />
+        <state relative-caret-position="429">
+          <caret line="110" column="52" lean-forward="true" selection-start-line="110" selection-start-column="52" selection-end-line="110" selection-end-column="52" />
           <folding>
-            <marker date="1523143018714" expanded="true" signature="127:159" ph="SELECT * FRO... game" />
-            <marker date="1523143018714" expanded="true" signature="412:497" ph="..." />
-            <marker date="1523143018714" expanded="true" signature="412:597" ph="..." />
-            <marker date="1523143018714" expanded="true" signature="497:501" ph="..." />
-            <marker date="1523143018714" expanded="true" signature="497:590" ph="..." />
-            <marker date="1523143018714" expanded="true" signature="497:596" ph="..." />
-            <marker date="1523143018714" expanded="true" signature="497:597" ph="..." />
-            <marker date="1523143018714" expanded="true" signature="694:783" ph="..." />
-            <marker date="1523143018714" expanded="true" signature="761:783" ph="..." />
-            <marker date="1523143018714" expanded="true" signature="785:807" ph="SELECT * FRO... book_cat" />
-            <marker date="1523143018714" expanded="true" signature="1132:1355" ph="..." />
-            <marker date="1523143018714" expanded="true" signature="1133:1335" ph="..." />
-            <marker date="1523143018714" expanded="true" signature="1192:1334" ph="..." />
+            <element signature="n#get_subfield_value#0;n#!!top" expanded="false" />
+            <marker date="1523142958878" expanded="true" signature="2407:2432" ph="..." />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-863">
+          <caret line="12" column="7" lean-forward="false" selection-start-line="12" selection-start-column="7" selection-end-line="12" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/games/game.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-27">
+          <caret line="17" column="6" lean-forward="true" selection-start-line="17" selection-start-column="6" selection-end-line="17" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/books/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="701">
+          <caret line="58" column="24" lean-forward="false" selection-start-line="58" selection-start-column="24" selection-end-line="58" selection-end-column="24" />
+          <folding />
         </state>
       </provider>
     </entry>
