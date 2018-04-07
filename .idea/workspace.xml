@@ -2,16 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bed92ccc-07d5-42de-983b-42e211c34a3d" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/books/select_categories.php" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/footer.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jDndsmNd.php" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/books/index.php" afterPath="$PROJECT_DIR$/books/index.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/books/library.php" afterPath="$PROJECT_DIR$/books/library.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/books/search.php" afterPath="$PROJECT_DIR$/books/search.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/db/connect.php" afterPath="$PROJECT_DIR$/db/connect.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/games/game.php" afterPath="$PROJECT_DIR$/games/game.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/header.php" afterPath="$PROJECT_DIR$/header.php" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -44,27 +36,6 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="select_all_games.php" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/games/select_all_games.php">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="816">
-                  <caret line="48" column="70" lean-forward="true" selection-start-line="48" selection-start-column="45" selection-end-line="48" selection-end-column="70" />
-                  <folding>
-                    <marker date="1520718761470" expanded="true" signature="112:145" ph="SELECT * FRO... game" />
-                    <marker date="1520718761470" expanded="true" signature="112:146" ph="SELECT * FRO... game" />
-                    <marker date="1520718761470" expanded="true" signature="529:796" ph="..." />
-                    <marker date="1520718761470" expanded="true" signature="577:773" ph="..." />
-                    <marker date="1520718761470" expanded="true" signature="623:742" ph="..." />
-                    <marker date="1520718761470" expanded="false" signature="680:694" ph="..." />
-                    <marker date="1520718761470" expanded="true" signature="981:999" ph="SELECT * FRO... game" />
-                    <marker date="1520718761470" expanded="true" signature="1440:1864" ph="..." />
-                    <marker date="1520718761470" expanded="true" signature="1496:1829" ph="..." />
-                    <marker date="1520718761470" expanded="true" signature="1569:1794" ph="..." />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
           <file leaf-file-name="select_categories.php" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/books/select_categories.php">
               <provider selected="true" editor-type-id="text-editor">
@@ -92,8 +63,8 @@
           <file leaf-file-name="library.php" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/books/library.php">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="466">
-                  <caret line="88" column="46" lean-forward="true" selection-start-line="88" selection-start-column="46" selection-end-line="88" selection-end-column="46" />
+                <state relative-caret-position="772">
+                  <caret line="130" column="0" lean-forward="true" selection-start-line="130" selection-start-column="0" selection-end-line="130" selection-end-column="0" />
                   <folding>
                     <element signature="n#get_subfield_value#0;n#!!top" expanded="false" />
                     <element signature="n#custom_trim#0;n#!!top" expanded="false" />
@@ -410,12 +381,12 @@
       <workItem from="1521561205653" duration="155000" />
       <workItem from="1521561641441" duration="12766000" />
       <workItem from="1523101158301" duration="7825000" />
-      <workItem from="1523110684136" duration="8651000" />
+      <workItem from="1523110684136" duration="9936000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="270905000" />
+    <option name="totallyTimeSpent" value="272190000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1066" extended-state="6" />
@@ -803,22 +774,22 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/books/search.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="17" column="0" lean-forward="true" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
-          <folding>
-            <marker date="1523131796647" expanded="true" signature="54:75" ph="SELECT * FRO... library" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/books/search_select_libraries.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1309">
           <caret line="155" column="0" lean-forward="true" selection-start-line="155" selection-start-column="0" selection-end-line="155" selection-end-column="0" />
           <folding>
             <marker date="1523131868040" expanded="true" signature="2687:2718" ph="SELECT * FRO... library" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/books/search.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="17" column="0" lean-forward="true" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+          <folding>
+            <marker date="1523131796647" expanded="true" signature="54:75" ph="SELECT * FRO... library" />
           </folding>
         </state>
       </provider>
@@ -847,8 +818,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/books/library.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="466">
-          <caret line="88" column="46" lean-forward="true" selection-start-line="88" selection-start-column="46" selection-end-line="88" selection-end-column="46" />
+        <state relative-caret-position="772">
+          <caret line="130" column="0" lean-forward="true" selection-start-line="130" selection-start-column="0" selection-end-line="130" selection-end-column="0" />
           <folding>
             <element signature="n#get_subfield_value#0;n#!!top" expanded="false" />
             <element signature="n#custom_trim#0;n#!!top" expanded="false" />

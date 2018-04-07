@@ -83,7 +83,7 @@ function search($conn, $keywords){
                         echo "Error: {$error}\n";
                     } else {
                         $hits = yaz_hits($z);
-                        //echo "Pocet najdenych knih: {$hits}\n";
+                        echo "Pocet najdenych knih: {$hits}\n";
                         for ($p = 1; $p <= 20; $p++) {
                             $rec = yaz_record($z, $p, "string");
                             if (empty($rec)) {
@@ -106,7 +106,7 @@ function search($conn, $keywords){
                                 $subtitle = " : " . $parsedRec['subtitle'];
                             }
 
-                            //echo "<br/>----- {$p} -----<br/><br/>";
+                            echo "<br/>----- {$p} -----<br/><br/>";
                             echo "<strong>" . $title . $subtitle . "</strong><br/>";
                             echo $author . "<br/>";
                             echo $isbn . "<br/>";
@@ -129,4 +129,3 @@ function search($conn, $keywords){
 
 ?>
 
-<a href="./search.php">Nove hladanie</a>
