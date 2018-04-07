@@ -29,7 +29,7 @@ if(isset($_GET['game_id'])){
     ?>
     <div class='panel-heading'>Hry</div>
         <div class='panel-body'>
-            <div class='col-md-12'>
+            <div class='col-md-12' align="center">
                 <?php
                 $game = "SELECT * FROM game";
                 $result = mysqli_query($conn, $game);
@@ -44,7 +44,7 @@ if(isset($_GET['game_id'])){
                     $embed = $row['embed'];
 
                     echo "
-                        <div class='col-xs-3'>
+                        <div class='col-sm-3 col-md-3'>
                                <div class='game-hover'>
                                     <a href='game.php?game_id=$game_id'>
                                         <img src='".$big_icon."' class='img-responsive icon border-icon' alt=''/>

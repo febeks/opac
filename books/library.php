@@ -107,7 +107,7 @@ function search($keywords)
                     $trim_title = (strlen($title) > 25) ? substr($title,0,25).'...' : $title;
                     $trim_author = substr($author,0,25).'...';
                     //echo "<br/>----- {$p} -----<br/><br/>";
-                    echo "<div class='col-xs-3 kniha'>";
+                    echo "<div class='col-xs-12 col-sm-6 col-md-3 kniha' align='center'>";
                     echo "<strong>" . $trim_title ."</strong><br/>";
                     //echo $trim_author . "<br/>";
                     //echo $isbn . "<br/>";
@@ -116,9 +116,9 @@ function search($keywords)
 
                     list($width, $height) = getimagesize($url);
                     if ($width == 1 && $height == 1) {
-                        echo "<img src='../images/book_cover.png' alt='' class='obalka' />";
+                        echo "<img src='../images/book_cover.png' alt='' class='obalka img-responsive' />";
                     } else {
-                        echo "<img src=$url alt='' class='obalka'/>";
+                        echo "<img src=$url alt='' class='obalka img-responsive'/>";
                     }
                     echo "</div>";
                 }

@@ -15,21 +15,15 @@ if(isset($_GET['cat_id'])){
     echo"
     <div class='panel-heading'>Kategoria : $name</div>
                 <div class='panel-body'>
-                        <div class='container'>
-                            <div class='row'>
-                                <div id='embed'>";
+                        <div class='col-xs-12 col-sm-12 col-md-12' align=\"center\">";
                                         search($keywords);
-                            echo"</div>
-                            </div>
-                        </div>
-                </div>
-        ";
+                    echo"</div></div>";
 }else{
 
     ?>
     <div class='panel-heading'>Kategorie knih</div>
     <div class='panel-body'>
-        <div class='col-md-12'>
+        <div class='col-xs-12 col-sm-12 col-md-12' align="center">
     <?php
     $cat = "SELECT * FROM book_cat";
     $result = mysqli_query($conn, $cat);
@@ -43,11 +37,12 @@ if(isset($_GET['cat_id'])){
         $keywords = $row['keywords'];
         $image_path = $row['image_path'];
 
-        echo "<div class='col-xs-3'>
+        echo "<div class='col-xs-12 col-sm-6 col-md-3'>
                         <a href='index.php?cat_id=$cat_id'>
                             <img src='../admin/".$image_path."' class='img-responsive icon border-icon' alt=''/>
                         </a>
               </div>";
     }
+    echo "</div></div>";
 }
 ?>
