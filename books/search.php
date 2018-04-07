@@ -7,7 +7,7 @@ $result = mysqli_query($conn, $library_list);
 
 ?>
 
-<form class="form-horizontal" action="library.php" method="post">
+<form class="form-horizontal" action="search_select_libraries.php" method="post">
 
     <div class="form-group">
         <label class="control-label col-sm-3" for="search_term">Zadaj hladany vyraz:</label>

@@ -12,7 +12,7 @@ $webOS   = stripos($_SERVER['HTTP_USER_AGENT'],"webOS");
                 <a href="./index.php" ><img src="./images/menu.png" alt="" class="img-responsive"/></a>
 
                     <a href="./games/game.php"><img id="joystick" src="./images/joystick.png" alt="" class="img-responsive shaky"/></a>
-                    <a href="#"><img id="sova" src="./images/sova.png" alt="" class="img-responsive shaky"/></a>
+                    <a href="./books/index.php"><img id="sova" src="./images/sova.png" alt="" class="img-responsive shaky"/></a>
                    <a href="#"><img id="youtube" src="./images/youtube.png" alt="" class="img-responsive shaky"/></a>
             </div>
 
@@ -23,20 +23,20 @@ $webOS   = stripos($_SERVER['HTTP_USER_AGENT'],"webOS");
                 <div class="col-xs-3">
                     <?php
                         if( $iPod || $iPhone || $iPad){
-                        //browser reported as an iPhone/iPod touch -- do something here
+                        //browser reported as an iPhone/iPod touch
                         $url = "https://itunes.apple.com/us/genre/ios-games-family/id7009?mt=8";
                         }else if($Android){
-                        //browser reported as an Android device -- do something here
+                        //browser reported as an Android device
                         $url = "https://play.google.com/store/apps/category/FAMILY";
                         }else{
-                        //browser reported as PC -- do something here
+                        //browser reported as other device
                         $url = "https://play.google.com/store/apps/category/FAMILY";
                         }
                     ?>
                     <a href="<?php echo $url; ?>"><img id="joystick-mob" src="./images/joystick.png" alt="" class="img-responsive shaky"/></a>
                 </div>
                 <div class="col-xs-3">
-                    <a href="#"><img id="sova-mob" src="./images/sova.png" alt="" class="img-responsive shaky"/></a>
+                    <a href="./books/index.php"><img id="sova-mob" src="./images/sova.png" alt="" class="img-responsive shaky"/></a>
                 </div>
                 <div class="col-xs-3">
                     <a href="#"><img id="youtube-mob" src="./images/youtube.png" alt="" class="img-responsive shaky"/></a>

@@ -22,8 +22,8 @@
                     <a href="../index.php" ><img src="../images/menu.png" alt="" class="img-responsive"/></a>
 
                     <a href="game.php"><img id="joystick" src="../images/joystick.png" alt="" class="img-responsive shaky"/></a>
-                    <a href="#"><img id="sova" src="../images/sova.png" alt="" class="img-responsive shaky"/></a>
-                    <a href="#"><img id="youtube" src="../images/youtube.png" alt="" class="img-responsive shaky"/></a>
+                    <a href="../books/index.php"><img id="sova" src="../images/sova.png" alt="" class="img-responsive shaky"/></a>
+                    <a href="../videos/index.php"><img id="youtube" src="../images/youtube.png" alt="" class="img-responsive shaky"/></a>
                 </div>
 
                 <div class="mob-menu hidden-md hidden-lg">

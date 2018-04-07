@@ -52,101 +52,80 @@ function custom_trim($value, $key){
     $value = trim($value);
 }
 
-$search_term = isset($_POST['search_term'])
-    ? $_POST['search_term']
-    : '';
 
-//list of selected libraries from checkbox at search
+function search($conn, $keywords){
+    $keyword = explode(",",$keywords);
+    $size = count($keyword);
+        for($i=0; $i<$size; $i++){
 
-if(empty($selected_libraries = $_POST['selected_libs'])){
-    echo "Nevybral si ziadnu kniznicu na vyhladavanie :(";
-}else{
-    $num_of_libs = count($selected_libraries);
-    //echo $num_of_libs;
+            $z = yaz_connect("arl4.library.sk:8886/mal_un_cat");
+            yaz_syntax($z, "UNIMARC");
 
-    for($i=0; $i < $num_of_libs; $i++){
-        //echo $selected_libraries[$i];
-        $library = "SELECT * FROM library WHERE id=$selected_libraries[$i]";
-        $result = mysqli_query($conn, $library);
+            $fields = array("tit" => "1=4",
+                "isbn" => "1=7",
+                "year" => "1=31",
+                "kw" => "1=21",//keywords
+                "auth" => "1=1004"
+            );
+            yaz_ccl_conf($z, $fields);
+            //$keys = array('abeceda', 'pismena', 'citanie', 'kniha', 'deti', 'skola');
+            //$size = count($keys);
 
-        echo "Hladany vyraz: " . $search_term . "<br/><br/>";
-        $row = mysqli_fetch_assoc($result);
-        $id = $row['id'];
-        $lib_name = $row['lib_name'];
-        $ip = $row['ip'];
-        $format = $row['format'];
-        $db_name = $row['db_name'];
-        $port = $row['port'];
+                if (!yaz_ccl_parse($z, $keyword[$i], $ccl_result)) {
+                    die("The query could not be parsed.");
+                } else {
+                    // fetch RPN result from the parser
+                    $rpn = $ccl_result["rpn"];
+                    yaz_search($z, 'rpn', $rpn);
+                    yaz_wait();
+                    $error = yaz_error($z);
+                    if (!empty($error)) {
+                        echo "Error: {$error}\n";
+                    } else {
+                        $hits = yaz_hits($z);
+                        //echo "Pocet najdenych knih: {$hits}\n";
+                        for ($p = 1; $p <= 20; $p++) {
+                            $rec = yaz_record($z, $p, "string");
+                            if (empty($rec)) {
+                                break;
+                            }
 
-        $z = yaz_connect($ip . ":" . $port . "/" . $db_name);
-        yaz_syntax($z, $format);
+                            $parsedRec = parse_usmarc_string($rec);
 
-        $fields = array("tit" => "1=4",
-            "isbn" => "1=7",
-            "year" => "1=31",
-            "kw" => "1=21",//keywords
-            "auth" => "1=1004"
-        );
-        yaz_ccl_conf($z, $fields);
-        $ccl_query =  $search_term;
+                            if (empty($parsedRec['isbn'])) {
+                                continue;
+                            }
 
-        if (!yaz_ccl_parse($z, $ccl_query, $ccl_result)) {
-            die("The query could not be parsed.");
-        } else {
-        // fetch RPN result from the parser
-            $rpn = $ccl_result["rpn"];
-            yaz_search($z, 'rpn', $rpn);
-            yaz_wait();
-            $error = yaz_error($z);
-            if (!empty($error)) {
-                echo "Error: {$error}\n";
-            } else {
-                $hits = yaz_hits($z);
-                echo "<strong>$lib_name $db_name</strong><br/>" . " Result count {$hits}\n";
-                for ($p = 1; $p <= 20; $p++) {
-                    $rec = yaz_record($z, $p, "string");
-                    if (empty($rec)) {
-                        break;
+                            $isbn = trim($parsedRec['isbn']);
+                            $title = $parsedRec['title'];
+                            $author = $parsedRec['author'];
+
+                            if (empty($subtitle)) {
+                                $subtitle = "";
+                            } else {
+                                $subtitle = " : " . $parsedRec['subtitle'];
+                            }
+
+                            //echo "<br/>----- {$p} -----<br/><br/>";
+                            echo "<strong>" . $title . $subtitle . "</strong><br/>";
+                            echo $author . "<br/>";
+                            echo $isbn . "<br/>";
+
+                            $url = 'http://cache.obalkyknih.cz/api/cover?multi={"isbn":"' . $isbn . '"}&type=medium&keywords=' . str_replace(' ', '%20', $keyword[$i]);
+
+                            list($width, $height) = getimagesize($url);
+                            if ($width == 1 && $height == 1) {
+                                echo "<img src='../images/book_cover.png' alt='' class='obalka'/>";
+                            } else {
+                                echo "<img src=$url alt='' class='obalka'/>";
+                            }
+                            //print_r($parsedRec);
+                        }
                     }
-
-                    $parsedRec = parse_usmarc_string($rec);
-
-                    if(empty($parsedRec['isbn'])){
-                        continue;
-                    }
-
-                    $isbn = trim($parsedRec['isbn']);
-                    $title = $parsedRec['title'];
-                    $author = $parsedRec['author'];
-
-                    if(empty($subtitle)){
-                        $subtitle="";
-                    }else{
-                        $subtitle = " : ".$parsedRec['subtitle'];
-                    }
-
-                    echo "<br/>----- {$p} -----<br/><br/>";
-                    echo "<strong>".$title.$subtitle."</strong><br/>";
-                    echo $author."<br/>";
-                    echo $isbn."<br/>";
-
-                    $url ='http://cache.obalkyknih.cz/api/cover?multi={"isbn":"'.$isbn.'"}&type=medium&keywords='.str_replace(' ', '%20', $search_term);
-
-                    list($width, $height) = getimagesize($url);
-                    if($width==1 && $height==1){
-                        echo "<img src='../images/book_cover.png' alt='' class='obalka'/>";
-                    }else{
-                        echo "<img src=$url alt='' class='obalka'/>";
-                    }
-                    //print_r($parsedRec);
-                }
+                    echo "<br/><br/>";
+                }//koniec else
             }
-            echo "<br/><br/>";
-        }
-
-    }//koniec for cyklu
-    //yaz_close($z);
-}//koniec if else
+}
 
 ?>
 
