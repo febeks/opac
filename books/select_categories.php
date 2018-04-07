@@ -11,8 +11,6 @@ if(isset($_GET['cat_id'])){
 
     $name = $row['name'];
     $keywords = $row['keywords'];
-    $keyword = explode(",",$keywords);
-    $size = count($keyword);
 
     echo"
     <div class='panel-heading'>Kategoria : $name</div>
@@ -20,7 +18,7 @@ if(isset($_GET['cat_id'])){
                         <div class='container'>
                             <div class='row'>
                                 <div id='embed'>";
-                                        search($conn, $keywords);
+                                        search($keywords);
                             echo"</div>
                             </div>
                         </div>
@@ -45,15 +43,11 @@ if(isset($_GET['cat_id'])){
         $keywords = $row['keywords'];
         $image_path = $row['image_path'];
 
-        echo "
-                        <div class='col-xs-3'>
-                            
-                                    <a href='index.php?cat_id=$cat_id'>
-                                        <img src='../admin/".$image_path."' class='img-responsive icon border-icon' alt=''/>
-                                    </a>
-                          
-                        </div>
-                    ";
+        echo "<div class='col-xs-3'>
+                        <a href='index.php?cat_id=$cat_id'>
+                            <img src='../admin/".$image_path."' class='img-responsive icon border-icon' alt=''/>
+                        </a>
+              </div>";
     }
 }
 ?>
