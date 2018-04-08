@@ -14,7 +14,7 @@ include '../db/connect.php';
             </ul>
         </div>
 
-        <div class="tab-content noborder col-sm-8">
+        <div class="tab-content noborder col-sm-8 col-md-8">
 
             <!-- INDEX TAB -->
             <div id="kniznice" class="tab-pane fade in active">
