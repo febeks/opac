@@ -13,9 +13,9 @@ if(isset($_GET['cat_id'])){
     $keywords = $row['keywords'];
 
     echo"
-    <div class='panel-heading'>Kategoria : $name</div>
-                <div class='panel-body'>
-                        <div class='col-xs-12 col-sm-12 col-md-12' align=\"center\">";
+    <div class='panel-heading'>Kategoria : $name</div>";?>
+                <div class="panel-body">
+                     <?php   echo"<div class='col-xs-12 col-sm-12 col-md-12' align=\"center\">";
                                         search($keywords);
                     echo"</div></div>";
 }else{

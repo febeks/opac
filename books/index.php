@@ -9,6 +9,12 @@
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
     <!-- Insert this code before your </body> tag -->
     <script src="//static.miniclipcdn.com/js/game-embed.js"></script>
+    <script
+            src="https://code.jquery.com/jquery-1.3.2.js"
+            integrity="sha256-IzpdFr7lpkvzvBmr48yBKh4GGUNfAcFj9ih3Okaf9xk="
+            crossorigin="anonymous"></script>
+    <link href="../css/jquery_scroller.css" type="text/css" rel="stylesheet" />
+    <script src="../js/jquery_scroller.js" type="text/javascript"></script>
 
     <link rel="stylesheet" href="../css/carousel.css">
     <link rel="stylesheet" href="../css/homepage.css">
@@ -59,6 +65,8 @@
 <footer class="container text-center">
     <p><a href="../admin/" target="_blank"> Administrácia </a></p>
 </footer>
-
+<script>
+    $('#knihy').scroller({ direction: 'vertical' });
+</script>
 </body>
 </html>

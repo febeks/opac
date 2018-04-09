@@ -23,12 +23,13 @@ if(isset($_GET['game_id'])){
                             </div>
                         </div>
                 </div>
+    </div>
         ";
 }else{
 
     ?>
     <div class='panel-heading'>Hry</div>
-        <div class='panel-body'>
+        <div id="hry" class='panel-body'>
             <div class='col-md-12' align="center">
                 <?php
                 $game = "SELECT * FROM game";
@@ -54,5 +55,9 @@ if(isset($_GET['game_id'])){
                         </div>
                     ";
                 }
+    echo "</div></div>";
 }
+
+
 ?>
+

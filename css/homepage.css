@@ -132,3 +132,14 @@ footer {
 #embed{
     text-align: center;
 }
+
+#hry{
+    position: relative;
+    overflow: hidden;
+    height: 600px;
+}
+#knihy{
+    position: relative;
+    overflow: hidden;
+    height: 600px;
+}
