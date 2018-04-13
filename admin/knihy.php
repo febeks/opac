@@ -7,10 +7,10 @@ include '../db/connect.php';
         <div class="col-sm-3">
             <ul class="nav nav-pills nav-stacked">
                 <li class="active"><a data-toggle="pill" href="#kniznice">Kniznice a Z39.50</a></li>
-                <li><a data-toggle="pill" href="#cats">Zoznam kategorii vyhladavania knih</a></li>
                 <li><a data-toggle="pill" href="#new_library">Pridat novu kniznicu</a></li>
+                <li><a data-toggle="pill" href="#cats">Zoznam kategorii vyhladavania knih</a></li>
                 <li><a data-toggle="pill" href="#new_search_cat">Pridat novu kategoriu vyhladavania</a></li>
-                <li><a  href="../books/search.php" target="_blank">Hladat knihy</a></li>
+                <li><a data-toggle="pill" href="#new_filter">Pridat novy filter</a></li>
             </ul>
         </div>
 
@@ -321,6 +321,126 @@ include '../db/connect.php';
                 </script>
 
             </div>
+
+            <!-- PRIDAT NOVY FILTER-->
+            <div id="new_filter" class="tab-pane fade">
+                <p>Tento filter sluzi na vseobecne vyhladavanie klucovych slov, ktore su definovane v jednotlivych kategoriach tak, ze kazde klucove slovo musi
+                    patrit aspon pod jeden filter.</p>
+                <p>To znamena, ze ak chcem hladat napr. "abeceda", tak to klucove slovo musi byt najdene zaroven s jednym z uvedenych
+                    filtrov, napr. "deti". Tymto docielime to, aby boli zobrazene len tie knihy, ktore su pre deti.</p>
+                <p class="filter_statusMsg"></p>
+                <form id="add_filter" class="form-horizontal" enctype="multipart/form-data">
+
+                    <div class="form-group">
+                        <label class="control-label col-sm-4" for="name">Nazov kategorie:</label>
+                        <div class="col-sm-3">
+                            <input type="text" class="form-control" id="filter_name" name="filter_name" placeholder="napr.: deti" required />
+                        </div>
+                    </div>
+
+                    <div class="form-group">
+                        <div class="col-sm-offset-4 col-sm-10">
+                            <input type="submit" name="submit" class="btn btn-success filter_submitBtn"  value="Pridat filter" />
+                        </div>
+                    </div>
+                </form>
+
+                <script>
+                    $(document).ready(function(e){
+                        $("#add_filter").on('submit', function(e){
+                            e.preventDefault();
+                            $.ajax({
+                                type: 'POST',
+                                url: 'add_filter.php',
+                                data: new FormData(this),
+                                contentType: false,
+                                cache: false,
+                                processData:false,
+                                beforeSend: function(){
+                                    $('.filter_submitBtn').attr("disabled","disabled");
+                                    $('#add_filter').css("opacity",".5");
+                                },
+                                success: function(msg){
+                                    $('.filter_statusMsg').html('');
+                                    if(msg == 'ok'){
+                                        $('#knihy').click(function() {
+                                            location.reload();
+                                        });
+                                        $('#add_filter')[0].reset();//reset all textfields...
+                                        $('.filter_statusMsg').html('<span style="font-size:18px;color:#34A853">Filter pridany.</span>');
+                                    }else{
+                                        $('.filter_statusMsg').html('<span style="font-size:18px;color:#EA4335">Nastala nejaka chyba, skus znovu.</span>');
+                                    }
+                                    $('#add_filter').css("opacity","");
+                                    $(".filter_submitBtn").removeAttr("disabled");
+                                }
+                            });
+                        });
+                    });
+                </script>
+
+
+                <h4>Zoznam existujucich filtrov pre kategorie vyhladavania</h4>
+
+                <table id="filterlist" class="table table-hover">
+                    <thead>
+                    <tr>
+                        <th>ID</th>
+                        <th>Nazov filtra (klucove slovo)</th>
+                    </tr>
+                    </thead>
+                    <tbody>
+                    <?php
+                    $filter_list = "SELECT * FROM book_filter";
+                    $result = mysqli_query($conn, $filter_list);
+                    while($row = mysqli_fetch_assoc($result)) {
+                        $id = $row['id'];
+                        $filter_name = $row['filter_name'];
+                        ?>
+                        <tr>
+                            <td><?php echo $id; ?></td>
+                            <td><?php echo $filter_name; ?></td>
+                            <td>
+                                <span class='delete_filter' id='del_<?php echo $id; ?>'><img src="../images/remove.png" alt="" title="Zmazat" class="icon"/></span>
+                            </td>
+                        </tr>
+                        <?php
+                    }
+                    ?>
+                    </tbody>
+                </table>
+                <script>
+                    $(document).ready(function(){
+                        // Delete
+                        $('.delete_filter').click(function(){
+                            var el = this;
+                            var id = this.id;
+                            var splitid = id.split("_");
+
+                            // Delete id
+                            var deleteid = splitid[1];
+
+                            // AJAX Request
+                            $.ajax({
+                                url: 'delete_filter.php',
+                                type: 'POST',
+                                data: { id:deleteid },
+                                success: function(response){
+
+                                    // Removing row from HTML Table
+                                    $(el).closest('tr').css('background','tomato');
+                                    $(el).closest('tr').fadeOut(600, function(){
+                                        $(this).remove();
+                                    });
+                                }
+                            });
+                        });
+                    });
+                </script>
+
+            </div>
+
+
         </div>
     </div>
 </div>

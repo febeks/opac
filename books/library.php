@@ -55,22 +55,21 @@ function custom_trim($value, $key){
 
 function search($keywords)
 {
+    $z = yaz_connect("arl1.library.sk:8887/pim_un_cat");
+    if (yaz_error($z) != ""){
+        die("Error: " . yaz_error($z));
+    }
+    yaz_syntax($z, "UNIMARC");
     $keyword = explode(",", $keywords);
     $size = count($keyword);
     for ($i = 0; $i < $size; $i++) {
-
-        $z = yaz_connect("arl1.library.sk:8887/pim_un_cat");
-        yaz_syntax($z, "UNIMARC");
-
-        $fields = array("tit" => "1=4",
-            "isbn" => "1=7",
-            "year" => "1=31",
-            "kw" => "1=21",//keywords
-            "auth" => "1=1004"
+        $fields = array("ayw" => "1=1035",//anywhere
+                        "any" => "1=1016"
         );
         yaz_ccl_conf($z, $fields);
+        $ccl_query = "(ayw = ".$keyword[$i].") and ((ayw = deti) or (ayw = mladez) or (ayw = riekanky) or (ayw = basnicky) or (ayw = basnicky pre najmensich) or (ayw = leporela))";
 
-        if (!yaz_ccl_parse($z, $keyword[$i], $ccl_result)) {
+        if (!yaz_ccl_parse($z, $ccl_query, $ccl_result)) {
             die("The query could not be parsed.");
         } else {
             // fetch RPN result from the parser
@@ -105,27 +104,27 @@ function search($keywords)
                         $subtitle = " : " . $parsedRec['subtitle'];
                     }
                     $trim_title = (strlen($title) > 25) ? substr($title,0,25).'...' : $title;
-                    $trim_author = substr($author,0,25).'...';
-                    //echo "<br/>----- {$p} -----<br/><br/>";
-                    echo "<div class='col-xs-12 col-sm-6 col-md-3 kniha' align='center'>";
-                    echo "<strong>" . $trim_title ."</strong><br/>";
-                    //echo $trim_author . "<br/>";
-                    //echo $isbn . "<br/>";
-
+                    //$trim_author = substr($author,0,25).'...';
+                    $isbn = preg_replace('/[^\\d-]+/', '', $isbn);
                     $url = 'http://cache.obalkyknih.cz/api/cover?multi={"isbn":"' . $isbn . '"}&type=medium&keywords=' . str_replace(' ', '%20', $keyword[$i]);
-
+                    //var_dump($url);
                     list($width, $height) = getimagesize($url);
                     if ($width == 1 && $height == 1) {
-                        echo "<img src='../images/book_cover.png' alt='' class='obalka img-responsive' />";
+                        continue;
+                        //echo "<img src='../images/book_cover.png' alt='' class='obalka img-responsive' />";
                     } else {
+                        echo "<div class='col-xs-12 col-sm-6 col-md-3 kniha' align='center'>";
+                        echo "<strong>" . $trim_title ."</strong><br/>";
                         echo "<img src=$url alt='' class='obalka img-responsive'/>";
                     }
+
                     echo "</div>";
                 }
             }
             echo "<br/><br/>";
         }//koniec else
     }
+    yaz_close($z);
 }
 
 ?>
