@@ -57,7 +57,13 @@ $table6 =  "CREATE TABLE book_cat (
             image_path VARCHAR(300) NOT NULL
             )";
 
-$table7 = "CREATE TABLE library (
+$table7 = "CREATE TABLE book_filter (
+            id INT(5) UNSIGNED AUTO_INCREMENT PRIMARY KEY,
+            filter_name VARCHAR(50) NOT NULL
+            
+            )";
+
+$table8 = "CREATE TABLE library (
             id INT(3) UNSIGNED AUTO_INCREMENT PRIMARY KEY,
             lib_name VARCHAR(200) NOT NULL,
             ip VARCHAR(100) NOT NULL,
@@ -67,7 +73,7 @@ $table7 = "CREATE TABLE library (
             )";
 
 //$tables = [$drop, $table1, $table2, $table3, $table4, $table5, $table6];
-$tables = [$table6];
+$tables = [$table7];
 foreach ($tables as $k => $sql){
     $query = @$conn->query($sql);
     if(!$query)

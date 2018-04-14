@@ -53,13 +53,25 @@ function custom_trim($value, $key){
 }
 
 
-function search($keywords)
+function search($conn, $selected_library, $keywords)
 {
-    $z = yaz_connect("arl1.library.sk:8887/pim_un_cat");
+    $library = "SELECT * FROM library WHERE id=$selected_library";
+    $result = mysqli_query($conn, $library);
+
+    while($row = mysqli_fetch_assoc($result)) {
+        $id = $row['id'];
+        $lib_name = $row['lib_name'];
+        $ip = $row['ip'];
+        $format = $row['format'];
+        $db_name = $row['db_name'];
+        $port = $row['port'];
+    }
+    //var_dump($lib_name);
+    $z = yaz_connect($ip.":".$port."/".$db_name);
     if (yaz_error($z) != ""){
         die("Error: " . yaz_error($z));
     }
-    yaz_syntax($z, "UNIMARC");
+    yaz_syntax($z, $format);
     $keyword = explode(",", $keywords);
     $size = count($keyword);
     for ($i = 0; $i < $size; $i++) {
@@ -70,7 +82,7 @@ function search($keywords)
         $ccl_query = "(ayw = ".$keyword[$i].") and ((ayw = deti) or (ayw = mladez) or (ayw = riekanky) or (ayw = basnicky) or (ayw = basnicky pre najmensich) or (ayw = leporela))";
 
         if (!yaz_ccl_parse($z, $ccl_query, $ccl_result)) {
-            die("The query could not be parsed.");
+            die("Chyba. Neboli najdene ziadne vysledky.");
         } else {
             // fetch RPN result from the parser
             $rpn = $ccl_result["rpn"];
@@ -81,8 +93,8 @@ function search($keywords)
                 echo "Error: {$error}\n";
             } else {
                 $hits = yaz_hits($z);
-                echo "<div class='row'></div>Pocet najdenych knih pre keyword <strong>".$keyword[$i]."</strong>: {$hits}<br/><br/>";
-                for ($p = 1; $p <= 30; $p++) {
+                //echo "<div class='row'></div>Pocet najdenych knih pre keyword <strong>".$keyword[$i]."</strong>: {$hits}<br/><br/>";
+                for ($p = 1; $p <= 20; $p++) {
                     $rec = yaz_record($z, $p, "string");
                     if (empty($rec)) {
                         break;
@@ -103,7 +115,7 @@ function search($keywords)
                     } else {
                         $subtitle = " : " . $parsedRec['subtitle'];
                     }
-                    $trim_title = (strlen($title) > 25) ? substr($title,0,25).'...' : $title;
+                    $trim_title = (strlen($title) > 20) ? substr($title,0,20).'...' : $title;
                     //$trim_author = substr($author,0,25).'...';
                     $isbn = preg_replace('/[^\\d-]+/', '', $isbn);
                     $url = 'http://cache.obalkyknih.cz/api/cover?multi={"isbn":"' . $isbn . '"}&type=medium&keywords=' . str_replace(' ', '%20', $keyword[$i]);
@@ -114,14 +126,14 @@ function search($keywords)
                         //echo "<img src='../images/book_cover.png' alt='' class='obalka img-responsive' />";
                     } else {
                         echo "<div class='col-xs-12 col-sm-6 col-md-3 kniha' align='center'>";
-                        echo "<strong>" . $trim_title ."</strong><br/>";
+                        echo "<img src='../images/mini_sova.png' alt=''/> <strong>" . $trim_title ."</strong><br/>";
                         echo "<img src=$url alt='' class='obalka img-responsive'/>";
                     }
 
                     echo "</div>";
                 }
             }
-            echo "<br/><br/>";
+           // echo "<br/><br/>";
         }//koniec else
     }
     yaz_close($z);

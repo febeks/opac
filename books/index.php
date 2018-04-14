@@ -28,7 +28,15 @@
                 <a href="../index.php" ><img src="../images/menu.png" alt="" class="img-responsive"/></a>
 
                 <a href="../games/game.php"><img id="joystick" src="../images/joystick.png" alt="" class="img-responsive shaky"/></a>
-                <a href="index.php"><img id="sova" src="../images/sova.png" alt="" class="img-responsive shaky"/></a>
+                <?php
+                if(isset($_GET['sel_lib'])){
+                    $selected_library = $_GET['sel_lib'];
+                    echo "<a href='index.php?sel_lib=$selected_library'><img id='sova' src='../images/sova.png' alt='' class='img-responsive shaky'/></a>";
+                }else{
+                    echo "<a href='index.php'><img id='sova' src='../images/sova.png' alt='' class='img-responsive shaky'/></a>";
+                }
+                ?>
+
                 <a href="../videos/index.php"><img id="youtube" src="../images/youtube.png" alt="" class="img-responsive shaky"/></a>
             </div>
 
@@ -40,7 +48,14 @@
                     <a href="https://play.google.com/store/apps/category/FAMILY"><img id="joystick-mob" src="../images/joystick.png" alt="" class="img-responsive shaky"/></a>
                 </div>
                 <div class="col-xs-3">
-                    <a href="index.php"><img id="sova-mob" src="../images/sova.png" alt="" class="img-responsive shaky"/></a>
+                    <?php
+                    if(isset($_GET['sel_lib'])){
+                        $selected_library = $_GET['sel_lib'];
+                        echo "<a href='index.php?sel_lib=$selected_library'><img id='sova-mob' src='../images/sova.png' alt='' class='img-responsive shaky'/></a>";
+                    }else{
+                        echo "<a href='index.php'><img id='sova-mob' src='../images/sova.png' alt='' class='img-responsive shaky'/></a>";
+                    }
+                    ?>
                 </div>
                 <div class="col-xs-3">
                     <a href="../videos/index.php"><img id="youtube-mob" src="../images/youtube.png" alt="" class="img-responsive shaky"/></a>
@@ -53,8 +68,8 @@
 
 <div class="tab-content">
     <div id="homepage" class="tab-pane active container">
-        <!--HRY-->
-        <div class="panel panel-primary">
+        <!--KNIHY-->
+        <div class="panel ">
             <?php include "select_categories.php"; ?>
         </div>
 
@@ -65,8 +80,6 @@
 <footer class="container text-center">
     <p><a href="../admin/" target="_blank"> Administrácia </a></p>
 </footer>
-<script>
-    $('#knihy').scroller({ direction: 'vertical' });
-</script>
+
 </body>
 </html>
