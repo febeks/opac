@@ -16,7 +16,7 @@ echo "Connected successfully<br>";
 
 $errors = [];
 
-$drop = "DROP TABLE IF EXISTS users, video, game, book, video_category, games_category";
+$drop = "DROP TABLE IF EXISTS users, videos, game, book, video_category, games_category";
 
 $table1 =  "CREATE TABLE users (
             id INT(3) UNSIGNED AUTO_INCREMENT PRIMARY KEY,
@@ -34,7 +34,7 @@ $table3 =  "CREATE TABLE games_category (
             name VARCHAR(50) NOT NULL
             )";
 
-$table4 =  "CREATE TABLE video (
+$table4 =  "CREATE TABLE videos (
             id INT(3) UNSIGNED AUTO_INCREMENT PRIMARY KEY,
             title VARCHAR(50) NOT NULL,
             author VARCHAR(50) NOT NULL,

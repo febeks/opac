@@ -23,18 +23,18 @@
             <ul class="nav nav-tabs">
                 <li ><a href="../index.php">Hlavna stranka</a></li>
                 <li ><a data-toggle="tab" href="#hry">Hry</a></li>
-                <li class="active"><a data-toggle="tab" href="#knihy">Knihy</a></li>
-                <li><a data-toggle="tab" href="#videa">Videa</a></li>
+                <li ><a data-toggle="tab" href="#knihy">Knihy</a></li>
+                <li class="active"><a data-toggle="tab" href="#videa">Videa</a></li>
             </ul>
 
             <div class="tab-content">
                 <div id="hry" class="tab-pane fade " >
                     <?php include 'hry.php' ?>
                 </div>
-                <div id="knihy" class="tab-pane fade in active">
+                <div id="knihy" class="tab-pane fade ">
                     <?php include 'knihy.php' ?>
                 </div>
-                <div id="videa" class="tab-pane fade">
+                <div id="videa" class="tab-pane fade in active">
                     <?php include 'videa.php' ?>
                 </div>
             </div>

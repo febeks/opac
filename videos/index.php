@@ -1,12 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <title>Knihy</title>
+    <title>Videa</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
     <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.0/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
 
     <link rel="stylesheet" href="../css/carousel.css">
     <link rel="stylesheet" href="../css/homepage.css">
@@ -25,7 +26,7 @@
                     $selected_library = $_GET['sel_lib'];
                     echo "<a href='index.php?sel_lib=$selected_library'><img id='sova' src='../images/sova.png' alt='' class='img-responsive shaky'/></a>";
                 }else{
-                    echo "<a href='index.php'><img id='sova' src='../images/sova.png' alt='' class='img-responsive shaky'/></a>";
+                    echo "<a href='../books/index.php'><img id='sova' src='../images/sova.png' alt='' class='img-responsive shaky'/></a>";
                 }
                 ?>
 
@@ -59,10 +60,20 @@
 
 
 <div class="tab-content">
-    <div id="homepage" class="tab-pane active container">
-        <!--KNIHY-->
+    <div id="videa" class="tab-pane active container">
+        <!--VIDEA-->
         <div class="panel ">
-            <?php include "select_categories.php"; ?>
+            <?php
+            if(isset($_GET['category'])){
+                include 'getCategoryVideos.php';
+            }else if(isset($_GET['channel'])) {
+                include 'getChannelVideos.php';
+            }else{
+                include 'showCategories.php';
+                include 'showChannels.php';
+            }
+            ?>
+
         </div>
 
     </div>

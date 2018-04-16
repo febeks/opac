@@ -12,7 +12,7 @@ echo "Connected successfully<br>";
 
 $errors = [];
 
-$drop = "DROP TABLE IF EXISTS users, video, game, book, video_category, games_category";
+$drop = "DROP TABLE IF EXISTS users, videos, game, book, video_category, games_category";
 
 $table1 =  "CREATE TABLE users (
             id INT(3) UNSIGNED AUTO_INCREMENT PRIMARY KEY,
@@ -22,7 +22,8 @@ $table1 =  "CREATE TABLE users (
 
 $table2 =  "CREATE TABLE video_category (
             id INT(3) UNSIGNED AUTO_INCREMENT PRIMARY KEY,
-            name VARCHAR(50) NOT NULL
+            name VARCHAR(50) NOT NULL,
+            image_path VARCHAR (300) NOT NULL
             )";
 
 $table3 =  "CREATE TABLE games_category (
@@ -30,14 +31,10 @@ $table3 =  "CREATE TABLE games_category (
             name VARCHAR(50) NOT NULL
             )";
 
-$table4 =  "CREATE TABLE video (
+$table4 =  "CREATE TABLE videos (
             id INT(3) UNSIGNED AUTO_INCREMENT PRIMARY KEY,
-            title VARCHAR(50) NOT NULL,
-            author VARCHAR(50) NOT NULL,
-            published DATE NOT NULL,
-            link VARCHAR(200) NOT NULL,
-            category_id INT(3) UNSIGNED,
-            FOREIGN KEY (category_id) REFERENCES video_category(id)
+            ytb_id VARCHAR(100) NOT NULL,
+            category INT(3) NOT NULL
             )";
 
 $table5 =  "CREATE TABLE game (
@@ -72,8 +69,16 @@ $table8 = "CREATE TABLE library (
             port INT(4) NOT NULL 
             )";
 
+$table9 =  "CREATE TABLE video_channels (
+            id INT(3) UNSIGNED AUTO_INCREMENT PRIMARY KEY,
+            name VARCHAR(50) NOT NULL,
+            ytb_id VARCHAR(200) ,
+            video_title VARCHAR(200),
+            banner_path VARCHAR(300) NOT NULL
+            )";
+
 //$tables = [$drop, $table1, $table2, $table3, $table4, $table5, $table6];
-$tables = [$table7];
+$tables = [$table4];
 foreach ($tables as $k => $sql){
     $query = @$conn->query($sql);
     if(!$query)

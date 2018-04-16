@@ -40,10 +40,10 @@
                         <a href="https://play.google.com/store/apps/category/FAMILY"><img id="joystick-mob" src="../images/joystick.png" alt="" class="img-responsive shaky"/></a>
                     </div>
                     <div class="col-xs-3">
-                        <a href="#"><img id="sova-mob" src="../images/sova.png" alt="" class="img-responsive shaky"/></a>
+                        <a href="../books/index.php"><img id="sova-mob" src="../images/sova.png" alt="" class="img-responsive shaky"/></a>
                     </div>
                     <div class="col-xs-3">
-                        <a href="#"><img id="youtube-mob" src="../images/youtube.png" alt="" class="img-responsive shaky"/></a>
+                        <a href="../videos/index.php"><img id="youtube-mob" src="../images/youtube.png" alt="" class="img-responsive shaky"/></a>
                     </div>
                 </div>
             </div>
