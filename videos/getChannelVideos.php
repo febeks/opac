@@ -18,7 +18,17 @@ while ($row = mysqli_fetch_assoc($result)) {
     $banner_path = $row['banner_path'];
 }
 
-$videoList = json_decode(file_get_contents('https://www.googleapis.com/youtube/v3/search?order=date&part=snippet&channelId='.$channelID.'&maxResults='.$maxResults.'&key='.$API_key.''));
+$curl = curl_init();
+curl_setopt($curl, CURLOPT_SSL_VERIFYPEER, FALSE);
+curl_setopt($curl, CURLOPT_TIMEOUT, 10);
+curl_setopt($curl, CURLOPT_URL, 'https://www.googleapis.com/youtube/v3/search?order=date&part=snippet&channelId='.$channelID.'&maxResults='.$maxResults.'&key='.$API_key);
+curl_setopt($curl, CURLOPT_RETURNTRANSFER, 1);
+curl_setopt($curl, CURLOPT_SSLVERSION, CURL_SSLVERSION_TLSv1);
+$curl_res = curl_exec($curl);
+
+$videoList = json_decode($curl_res);
+
+//$videoList = json_decode(file_get_contents('https://www.googleapis.com/youtube/v3/search?order=date&part=snippet&channelId='.$channelID.'&maxResults='.$maxResults.'&key='.$API_key));
 
 echo "
     <div class='panel panel-danger'>
