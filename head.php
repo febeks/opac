@@ -7,3 +7,4 @@
 <link rel="stylesheet" href="css/carousel.css">
 <link rel="stylesheet" href="css/homepage.css">
 <link rel="stylesheet" href="css/mobile.css">
+<link rel="shortcut icon" type="image/png" href="images/favicon.png"/>

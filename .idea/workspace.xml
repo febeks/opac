@@ -2,7 +2,97 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bed92ccc-07d5-42de-983b-42e211c34a3d" name="Default" comment="">
+      <change type="DELETED" beforePath="$PROJECT_DIR$/admin/test.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/admin/z.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/animals.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/backupfile.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cat-123.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cat-abc.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cat-colors.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cat-nutrition.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cat-princess.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cat-seasons.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cat-truck.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/db/backup.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/fairytale.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/homepage.rp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/homepage_recovered.rp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/homepage_recovered_recovered.rp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/navrh_1.rp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/pictures/Bell-icon.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/pictures/Cherry-icon.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/pictures/Chip-icon.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/pictures/Coin-icon.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/pictures/Dice-icon.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/pictures/Gem-icon.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/pictures/Lemon-icon.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/pictures/Lucky-7-icon.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/pictures/Melon-icon.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/pictures/Orange-icon.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/pictures/frozen.jpeg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/pictures/hry/angrybirds.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/pictures/hry/funny_food.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/pictures/hry/kittens.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/pictures/hry/mario.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/pictures/hry/pou.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/pictures/hry/skysaga.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/pictures/hry/tank.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/pictures/hry/words.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/pictures/hry/zoo.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/pictures/knihy/frozen.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/pictures/knihy/hravekarticky.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/pictures/knihy/kolokolo.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/pictures/knihy/kominar.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/pictures/knihy/krtek.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/pictures/knihy/macik.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/pictures/knihy/mackyVoVreci.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/pictures/knihy/mravce.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/pictures/knihy/opice.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/pictures/knihy/pismenkoveriekanky.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/pictures/knihy/striga.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/pictures/knihy/zvieratka_zlesa.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/pictures/krtko.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/pictures/ladove_kralovstvo.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/pictures/lampa.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/pictures/masa.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/pictures/rozpravky/auta.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/pictures/rozpravky/jogi.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/pictures/rozpravky/maja.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/pictures/rozpravky/masa_medved.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/pictures/rozpravky/matkokubko.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/pictures/rozpravky/mimoni.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/pictures/rozpravky/poziarniksam.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/pictures/rozpravky/zajac.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/pictures/tomas_akamarati.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/pictures/videa/farby.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/pictures/videa/fiha_abeceda.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/pictures/videa/fiha_poziarnik.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/pictures/videa/fiha_vlacik.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/pictures/videa/fiha_zvieratka.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/pictures/videa/homepage_recovered_recovered_recovered.rp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/pictures/videa/homepage_recovered_recovered_recovered_recovered.rp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/pictures/videa/kralovstvo.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/pictures/videa/minidisko.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/pictures/videa/taptaptapusky.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/pictures/videa/tarajko.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/language-learning.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/okczimg.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/okcztest.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/opac (1).sql" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/zabavne.png" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/admin/secure.php" afterPath="$PROJECT_DIR$/admin/secure.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/books/index.php" afterPath="$PROJECT_DIR$/books/index.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/books/library.php" afterPath="$PROJECT_DIR$/books/library.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/homepage.css" afterPath="$PROJECT_DIR$/css/homepage.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/db/connect.php" afterPath="$PROJECT_DIR$/db/connect.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/db/create_db.php" afterPath="$PROJECT_DIR$/db/create_db.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/games/game.php" afterPath="$PROJECT_DIR$/games/game.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/games/select_all_games.php" afterPath="$PROJECT_DIR$/games/select_all_games.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/head.php" afterPath="$PROJECT_DIR$/head.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/header.php" afterPath="$PROJECT_DIR$/header.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.php" afterPath="$PROJECT_DIR$/index.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/videos/index.php" afterPath="$PROJECT_DIR$/videos/index.php" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -12,191 +102,78 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.7817859">
-      <split-first>
-        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file leaf-file-name="add_channel.php" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/admin/add_channel.php">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="340">
-                  <caret line="20" column="143" lean-forward="false" selection-start-line="20" selection-start-column="48" selection-end-line="20" selection-end-column="143" />
-                  <folding>
-                    <marker date="1523834664033" expanded="true" signature="876:960" ph="INSERT INTO video_channels... " />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="videa.php" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/admin/videa.php">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="680">
-                  <caret line="321" column="38" lean-forward="false" selection-start-line="321" selection-start-column="38" selection-end-line="321" selection-end-column="38" />
-                  <folding>
-                    <element signature="n#div#0;n#div#1;n#div#0;n#div#0;n#!!top" expanded="false" />
-                    <element signature="n#div#1;n#div#1;n#div#0;n#div#0;n#!!top" expanded="false" />
-                    <element signature="n#div#2;n#div#1;n#div#0;n#div#0;n#!!top" expanded="false" />
-                    <element signature="n#script#0;n#div#2;n#div#1;n#div#0;n#div#0;n#!!top" expanded="false" />
-                    <element signature="n#table#0;n#div#2;n#div#1;n#div#0;n#div#0;n#!!top" expanded="false" />
-                    <element signature="n#script#1;n#div#2;n#div#1;n#div#0;n#div#0;n#!!top" expanded="false" />
-                    <marker date="1523842926522" expanded="true" signature="1220:1234" ph="SELECT * FRO... library" />
-                    <marker date="1523842926522" expanded="true" signature="1220:1239" ph="SELECT * FRO... video" />
-                    <marker date="1523842926522" expanded="true" signature="1220:1248" ph="SELECT * FRO... video_category" />
-                    <marker date="1523842926522" expanded="true" signature="6064:6092" ph="..." />
-                    <marker date="1523842926522" expanded="true" signature="6261:6289" ph="..." />
-                    <marker date="1523842926522" expanded="true" signature="10006:10034" ph="..." />
-                    <marker date="1523842926522" expanded="true" signature="10187:10215" ph="..." />
-                    <marker date="1523842926522" expanded="true" signature="10949:11012" ph="..." />
-                    <marker date="1523842926522" expanded="true" signature="11014:11028" ph="SELECT * FRO... book_filter" />
-                    <marker date="1523842926522" expanded="true" signature="11014:11042" ph="SELECT * FRO... video_channels" />
-                    <marker date="1523842926522" expanded="true" signature="11536:11634" ph="..." />
-                    <marker date="1523842926522" expanded="true" signature="11968:12206" ph="{...}" />
-                    <marker date="1523842926522" expanded="true" signature="12064:12206" ph="{...}" />
-                    <marker date="1523842926522" expanded="true" signature="14097:14125" ph="SELECT * FRO... video_category" />
-                    <marker date="1523842926522" expanded="true" signature="15024:15052" ph="{...}" />
-                    <marker date="1523842926522" expanded="true" signature="16264:16292" ph="..." />
-                    <marker date="1523842926522" expanded="true" signature="16443:16471" ph="..." />
-                    <marker date="1523842926522" expanded="false" signature="16988:18165" ph="..." />
-                    <marker date="1523842926522" expanded="true" signature="17286:17314" ph="SELECT * FRO... video_channels" />
-                    <marker date="1523842926522" expanded="false" signature="18190:19357" ph="..." />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="add_video.php" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/admin/add_video.php">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="255">
-                  <caret line="15" column="46" lean-forward="false" selection-start-line="15" selection-start-column="46" selection-end-line="15" selection-end-column="46" />
-                  <folding>
-                    <marker date="1523842787207" expanded="true" signature="385:435" ph="INSERT INTO videos... " />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="select_categories.php" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/books/select_categories.php">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="663">
-                  <caret line="78" column="90" lean-forward="true" selection-start-line="78" selection-start-column="40" selection-end-line="78" selection-end-column="90" />
-                  <folding>
-                    <marker date="1523716335549" expanded="true" signature="76:97" ph="SELECT * FRO... library" />
-                    <marker date="1523716335549" expanded="true" signature="257:289" ph="SELECT * FRO... game" />
-                    <marker date="1523716335549" expanded="true" signature="484:543" ph="..." />
-                    <marker date="1523716335549" expanded="true" signature="484:563" ph="..." />
-                    <marker date="1523716335549" expanded="true" signature="576:647" ph="..." />
-                    <marker date="1523716335549" expanded="true" signature="576:756" ph="..." />
-                    <marker date="1523716335549" expanded="true" signature="648:662" ph="..." />
-                    <marker date="1523716335549" expanded="true" signature="648:666" ph="..." />
-                    <marker date="1523716335549" expanded="true" signature="648:749" ph="..." />
-                    <marker date="1523716335549" expanded="true" signature="648:755" ph="..." />
-                    <marker date="1523716335549" expanded="true" signature="648:756" ph="..." />
-                    <marker date="1523716335549" expanded="true" signature="924:960" ph="..." />
-                    <marker date="1523716335549" expanded="true" signature="1263:1285" ph="SELECT * FRO... book_cat" />
-                    <marker date="1523716335549" expanded="true" signature="1865:2116" ph="..." />
-                    <marker date="1523716335549" expanded="true" signature="1865:2117" ph="..." />
-                    <marker date="1523716335549" expanded="true" signature="1865:2122" ph="..." />
-                    <marker date="1523716335549" expanded="true" signature="1963:2116" ph="..." />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="index.php" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/videos/index.php">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="391">
-                  <caret line="62" column="18" lean-forward="false" selection-start-line="62" selection-start-column="18" selection-end-line="62" selection-end-column="18" />
-                  <folding>
-                    <marker date="1523842682224" expanded="true" signature="3603:3680" ph="..." />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="getCategoryVideos.php" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/videos/getCategoryVideos.php">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="612">
-                  <caret line="36" column="2" lean-forward="true" selection-start-line="36" selection-start-column="2" selection-end-line="36" selection-end-column="2" />
-                  <folding>
-                    <marker date="1523844216157" expanded="true" signature="241:279" ph="SELECT * FRO... video_cat" />
-                    <marker date="1523844216157" expanded="true" signature="427:463" ph="SELECT * FRO... videos" />
-                    <marker date="1523844216157" expanded="true" signature="565:672" ph="..." />
-                    <marker date="1523844216157" expanded="true" signature="816:875" ph="..." />
-                    <marker date="1523844216157" expanded="true" signature="816:944" ph="..." />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="opac (1).sql" pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/opac (1).sql">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="1132">
-                  <caret line="532" column="25" lean-forward="true" selection-start-line="532" selection-start-column="25" selection-end-line="532" selection-end-column="25" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="getChannelVideos.php" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/videos/getChannelVideos.php">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="612">
-                  <caret line="36" column="20" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="38" selection-end-column="2" />
-                  <folding>
-                    <marker date="1523838847574" expanded="true" signature="242:280" ph="SELECT * FRO... video_channels" />
-                    <marker date="1523838847574" expanded="true" signature="242:281" ph="SELECT * FRO... video_channels" />
-                    <marker date="1523838847574" expanded="true" signature="724:786" ph="..." />
-                    <marker date="1523838847574" expanded="true" signature="724:836" ph="..." />
-                    <marker date="1523838847574" expanded="true" signature="1044:1085" ph="..." />
-                    <marker date="1523838847574" expanded="true" signature="1044:1086" ph="..." />
-                    <marker date="1523838847574" expanded="true" signature="1044:1109" ph="..." />
-                    <marker date="1523838847574" expanded="true" signature="1044:1160" ph="..." />
-                    <marker date="1523838847574" expanded="true" signature="1044:1163" ph="..." />
-                    <marker date="1523838847574" expanded="true" signature="1044:1195" ph="..." />
-                    <marker date="1523838847574" expanded="true" signature="1044:1216" ph="..." />
-                    <marker date="1523838847574" expanded="true" signature="1044:1230" ph="..." />
-                    <marker date="1523838847574" expanded="true" signature="1044:1232" ph="..." />
-                    <marker date="1523838847574" expanded="true" signature="1044:1290" ph="..." />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-        </leaf>
-      </split-first>
-      <split-second>
-        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file leaf-file-name="create_db.php" pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/db/create_db.php">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="612">
-                  <caret line="48" column="0" lean-forward="true" selection-start-line="48" selection-start-column="0" selection-end-line="48" selection-end-column="0" />
-                  <folding>
-                    <marker date="1523841851088" expanded="true" signature="281:309" ph="DROP TABLE I... " />
-                    <marker date="1523841851088" expanded="true" signature="281:359" ph="DROP TABLE I... " />
-                    <marker date="1523841851088" expanded="true" signature="375:553" ph="CREATE TABLE... users" />
-                    <marker date="1523841851088" expanded="true" signature="569:756" ph="CREATE TABLE... video_category" />
-                    <marker date="1523841851088" expanded="true" signature="772:912" ph="CREATE TABLE... games_category" />
-                    <marker date="1523841851088" expanded="true" signature="928:1101" ph="CREATE TABLE... video" />
-                    <marker date="1523841851088" expanded="true" signature="1117:1394" ph="CREATE TABLE... game" />
-                    <marker date="1523841851088" expanded="true" signature="1118:1394" ph="CREATE TABLE... game" />
-                    <marker date="1523841851088" expanded="true" signature="1410:1634" ph="CREATE TABLE... book" />
-                    <marker date="1523841851088" expanded="true" signature="1649:1806" ph="CREATE TABLE... book_filter" />
-                    <marker date="1523841851088" expanded="true" signature="1821:2116" ph="CREATE TABLE... library" />
-                    <marker date="1523841851088" expanded="true" signature="2132:2391" ph="CREATE TABLE... video_channels" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-        </leaf>
-      </split-second>
-    </splitter>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="select_categories.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/books/select_categories.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1360">
+              <caret line="80" column="38" lean-forward="false" selection-start-line="80" selection-start-column="38" selection-end-line="80" selection-end-column="38" />
+              <folding>
+                <marker date="1523716335549" expanded="true" signature="76:97" ph="SELECT * FRO... library" />
+                <marker date="1523716335549" expanded="true" signature="257:289" ph="SELECT * FRO... game" />
+                <marker date="1523716335549" expanded="true" signature="484:543" ph="..." />
+                <marker date="1523716335549" expanded="true" signature="484:563" ph="..." />
+                <marker date="1523716335549" expanded="true" signature="576:647" ph="..." />
+                <marker date="1523716335549" expanded="true" signature="576:756" ph="..." />
+                <marker date="1523716335549" expanded="true" signature="648:662" ph="..." />
+                <marker date="1523716335549" expanded="true" signature="648:666" ph="..." />
+                <marker date="1523716335549" expanded="true" signature="648:749" ph="..." />
+                <marker date="1523716335549" expanded="true" signature="648:755" ph="..." />
+                <marker date="1523716335549" expanded="true" signature="648:756" ph="..." />
+                <marker date="1523716335549" expanded="true" signature="924:960" ph="..." />
+                <marker date="1523716335549" expanded="true" signature="1263:1285" ph="SELECT * FRO... book_cat" />
+                <marker date="1523716335549" expanded="true" signature="1865:2116" ph="..." />
+                <marker date="1523716335549" expanded="true" signature="1865:2117" ph="..." />
+                <marker date="1523716335549" expanded="true" signature="1865:2122" ph="..." />
+                <marker date="1523716335549" expanded="true" signature="1963:2116" ph="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="game.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/games/game.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="667">
+              <caret line="67" column="46" lean-forward="false" selection-start-line="67" selection-start-column="46" selection-end-line="67" selection-end-column="46" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/index.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="673">
+              <caret line="116" column="46" lean-forward="false" selection-start-line="116" selection-start-column="19" selection-end-line="116" selection-end-column="46" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="search_select_libraries.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/books/search_select_libraries.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="435">
+              <caret line="93" column="35" lean-forward="true" selection-start-line="93" selection-start-column="35" selection-end-line="93" selection-end-column="35" />
+              <folding>
+                <marker date="1523131868040" expanded="true" signature="2687:2718" ph="SELECT * FRO... library" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="homepage.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/css/homepage.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="650">
+              <caret line="175" column="33" lean-forward="false" selection-start-line="175" selection-start-column="33" selection-end-line="175" selection-end-column="33" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -218,7 +195,6 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/css/carousel.css" />
-        <option value="$PROJECT_DIR$/head.php" />
         <option value="$PROJECT_DIR$/games/index.php" />
         <option value="$PROJECT_DIR$/admin/hry.php" />
         <option value="$PROJECT_DIR$/admin/delete_game.php" />
@@ -226,7 +202,6 @@
         <option value="$PROJECT_DIR$/admin/delete_library.php" />
         <option value="$PROJECT_DIR$/games/json.php" />
         <option value="$PROJECT_DIR$/db/connect.php" />
-        <option value="$PROJECT_DIR$/index.php" />
         <option value="$PROJECT_DIR$/admin/library.php" />
         <option value="$PROJECT_DIR$/js/loading_spinner.js" />
         <option value="$PROJECT_DIR$/footer.html" />
@@ -241,33 +216,35 @@
         <option value="$PROJECT_DIR$/admin/styles/admin.css" />
         <option value="$PROJECT_DIR$/css/jqyery_scroller.css" />
         <option value="$PROJECT_DIR$/js/jquery_scroller.js" />
-        <option value="$PROJECT_DIR$/games/select_all_games.php" />
-        <option value="$PROJECT_DIR$/admin/secure.php" />
         <option value="$PROJECT_DIR$/admin/add_filter.php" />
         <option value="$PROJECT_DIR$/admin/delete_filter.php" />
         <option value="$PROJECT_DIR$/admin/knihy.php" />
         <option value="$PROJECT_DIR$/books/select_categories.php" />
         <option value="$PROJECT_DIR$/books/select_library.php" />
-        <option value="$PROJECT_DIR$/books/library.php" />
         <option value="$PROJECT_DIR$/css/search.css" />
-        <option value="$PROJECT_DIR$/books/index.php" />
         <option value="$PROJECT_DIR$/admin/delete_video_cat.php" />
         <option value="$PROJECT_DIR$/admin/add_vcat.php" />
         <option value="$PROJECT_DIR$/video/index.php" />
-        <option value="$PROJECT_DIR$/games/game.php" />
-        <option value="$PROJECT_DIR$/header.php" />
         <option value="$PROJECT_DIR$/admin/header.php" />
         <option value="$PROJECT_DIR$/backupfile.php" />
         <option value="$PROJECT_DIR$/admin/add_channel.php" />
-        <option value="$PROJECT_DIR$/css/homepage.css" />
         <option value="$PROJECT_DIR$/videos/showCategories.php" />
-        <option value="$PROJECT_DIR$/videos/getChannelVideos.php" />
         <option value="$PROJECT_DIR$/videos/showChannels.php" />
-        <option value="$PROJECT_DIR$/db/create_db.php" />
-        <option value="$PROJECT_DIR$/videos/index.php" />
         <option value="$PROJECT_DIR$/videos/add_video.php" />
         <option value="$PROJECT_DIR$/admin/videa.php" />
         <option value="$PROJECT_DIR$/videos/getCategoryVideos.php" />
+        <option value="$PROJECT_DIR$/videos/getChannelVideos.php" />
+        <option value="$PROJECT_DIR$/db/create_db.php" />
+        <option value="$PROJECT_DIR$/admin/secure.php" />
+        <option value="$PROJECT_DIR$/head.php" />
+        <option value="$PROJECT_DIR$/header.php" />
+        <option value="$PROJECT_DIR$/index.php" />
+        <option value="$PROJECT_DIR$/games/select_all_games.php" />
+        <option value="$PROJECT_DIR$/books/index.php" />
+        <option value="$PROJECT_DIR$/books/library.php" />
+        <option value="$PROJECT_DIR$/css/homepage.css" />
+        <option value="$PROJECT_DIR$/videos/index.php" />
+        <option value="$PROJECT_DIR$/games/game.php" />
       </list>
     </option>
   </component>
@@ -278,9 +255,10 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" interpreter_name="PHP on XAMPP" />
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="953" />
-    <option name="width" value="974" />
+  <component name="ProjectFrameBounds" extendedState="7">
+    <option name="x" value="-116" />
+    <option name="y" value="98" />
+    <option name="width" value="1934" />
     <option name="height" value="1057" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -299,7 +277,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -310,12 +287,23 @@
             <path>
               <item name="opac" type="b2602c69:ProjectViewProjectNode" />
               <item name="opac" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="games" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="opac" type="b2602c69:ProjectViewProjectNode" />
+              <item name="opac" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="js" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="opac" type="b2602c69:ProjectViewProjectNode" />
+              <item name="opac" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="videos" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
       <pane id="Scratches" />
     </panes>
   </component>
@@ -328,9 +316,10 @@
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\xampp\htdocs\opac\admin" />
+      <recent name="C:\xampp\htdocs\opac\admin\delete" />
+      <recent name="C:\xampp\htdocs\opac\admin\add" />
       <recent name="C:\xampp\htdocs\opac\books" />
       <recent name="C:\xampp\htdocs\opac\games" />
-      <recent name="C:\xampp\htdocs\opac\admin\styles" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -390,35 +379,39 @@
       <workItem from="1523101158301" duration="7825000" />
       <workItem from="1523110684136" duration="27802000" />
       <workItem from="1523574790116" duration="7000" />
-      <workItem from="1523578913594" duration="72445000" />
+      <workItem from="1523578913594" duration="73504000" />
+      <workItem from="1524096098224" duration="1982000" />
+      <workItem from="1524871087334" duration="7719000" />
+      <workItem from="1525558859793" duration="11012000" />
+      <workItem from="1525705912191" duration="14098000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="362508000" />
+    <option name="totallyTimeSpent" value="398378000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1066" extended-state="6" />
+    <frame x="-8" y="-8" width="1936" height="1066" extended-state="7" />
     <editor active="true" />
     <layout>
+      <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.13385417" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="PHP-CGI Server" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3294979" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.11927083" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3294979" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.20188284" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="PHP-CGI Server" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3294979" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -435,61 +428,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://$APPLICATION_HOME_DIR$/lib/phpstorm.jar!/resources/html5-schema/html5/core-scripting.rnc">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="309">
-          <caret line="238" column="18" lean-forward="false" selection-start-line="238" selection-start-column="18" selection-end-line="238" selection-end-column="18" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/admin/delete_game_cat.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="15" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="12" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/css/login.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="22" lean-forward="false" selection-start-line="3" selection-start-column="22" selection-end-line="3" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/admin/add_library.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="493">
-          <caret line="29" column="24" lean-forward="false" selection-start-line="29" selection-start-column="24" selection-end-line="29" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/Desktop/skola/4Grade/LS/WPUB/cviko5.html" />
-    <entry file="file://$PROJECT_DIR$/jDndsmNd.php" />
-    <entry file="file://$PROJECT_DIR$/okczimg.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/okcztest.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/footer.html" />
-    <entry file="file://$PROJECT_DIR$/admin/styles/admin.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="544">
-          <caret line="32" column="20" lean-forward="false" selection-start-line="32" selection-start-column="20" selection-end-line="32" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/js/jquery_scroller.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -501,7 +439,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -509,36 +446,299 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="204">
           <caret line="12" column="2" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="12" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/books/select_library.php" />
+    <entry file="file://$PROJECT_DIR$/css/search.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" column="17" lean-forward="true" selection-start-line="15" selection-start-column="17" selection-end-line="15" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="18" column="44" lean-forward="false" selection-start-line="18" selection-start-column="44" selection-end-line="18" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin/delete_video_cat.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="36" lean-forward="false" selection-start-line="5" selection-start-column="36" selection-end-line="5" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin/add_search_cat.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="20" column="41" lean-forward="true" selection-start-line="20" selection-start-column="41" selection-end-line="20" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin/knihy.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="611">
+          <caret line="114" column="86" lean-forward="true" selection-start-line="114" selection-start-column="28" selection-end-line="114" selection-end-column="86" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin/img/vcat/fairytale.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin/add_vcat.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="5" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="29" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin/add_filter.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="20" column="2" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="20" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin/add_category.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin/delete_filter.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="2" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="12" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin/header.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="442">
+          <caret line="26" column="34" lean-forward="false" selection-start-line="26" selection-start-column="34" selection-end-line="26" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin/videa.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="5457">
+          <caret line="321" column="38" lean-forward="false" selection-start-line="321" selection-start-column="38" selection-end-line="321" selection-end-column="38" />
           <folding>
-            <marker date="1521560912142" expanded="true" signature="67:98" ph="DELETE FROM " />
+            <marker date="1523842926522" expanded="true" signature="1220:1234" ph="SELECT * FRO... library" />
+            <marker date="1523842926522" expanded="true" signature="1220:1239" ph="SELECT * FRO... video" />
+            <marker date="1523842926522" expanded="true" signature="1220:1248" ph="SELECT * FRO... video_category" />
+            <marker date="1523842926522" expanded="true" signature="6064:6092" ph="..." />
+            <marker date="1523842926522" expanded="true" signature="6261:6289" ph="..." />
+            <marker date="1523842926522" expanded="true" signature="10006:10034" ph="..." />
+            <marker date="1523842926522" expanded="true" signature="10187:10215" ph="..." />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin/add_video.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" column="46" lean-forward="false" selection-start-line="15" selection-start-column="46" selection-end-line="15" selection-end-column="46" />
+          <folding>
+            <marker date="1523842787207" expanded="true" signature="385:435" ph="INSERT INTO videos... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/opac (1).sql" />
+    <entry file="file://$USER_HOME$/Desktop/skola/4Grade/LS/WPUB/moje_web_pub_3/presentation.css" />
+    <entry file="file://$PROJECT_DIR$/js/carousel.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/carousel.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/mobile.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/login.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin/hry.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="476">
+          <caret line="28" column="24" lean-forward="false" selection-start-line="28" selection-start-column="24" selection-end-line="28" selection-end-column="24" />
+          <folding>
+            <marker date="1525707265219" expanded="true" signature="997:1015" ph="SELECT * FRO... game" />
+            <marker date="1525707265219" expanded="true" signature="5542:5570" ph="SELECT * FRO... games_category" />
+            <marker date="1525707265219" expanded="true" signature="8903:8931" ph="SELECT * FRO... games_category" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/games/json.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="59" lean-forward="false" selection-start-line="9" selection-start-column="59" selection-end-line="9" selection-end-column="59" />
+          <folding>
+            <marker date="1521165061973" expanded="true" signature="212:522" ph="INSERT INTO game... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/videos/showChannels.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="23" column="26" lean-forward="false" selection-start-line="23" selection-start-column="26" selection-end-line="23" selection-end-column="26" />
+          <folding>
+            <marker date="1523839127105" expanded="true" signature="264:292" ph="SELECT * FRO... video_channels" />
+            <marker date="1523839127105" expanded="true" signature="534:711" ph="..." />
+            <marker date="1523839127105" expanded="true" signature="586:617" ph="..." />
+            <marker date="1523839127105" expanded="true" signature="586:628" ph="..." />
+            <marker date="1523839127105" expanded="true" signature="586:694" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin/z.php" />
+    <entry file="file://$PROJECT_DIR$/admin/test.php" />
+    <entry file="file://$PROJECT_DIR$/admin/add_channel.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="527">
+          <caret line="31" column="19" lean-forward="true" selection-start-line="31" selection-start-column="19" selection-end-line="31" selection-end-column="19" />
+          <folding>
+            <marker date="1523834664033" expanded="true" signature="876:960" ph="INSERT INTO video_channels... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/videos/getCategoryVideos.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="612">
+          <caret line="36" column="2" lean-forward="false" selection-start-line="36" selection-start-column="2" selection-end-line="36" selection-end-column="2" />
+          <folding>
+            <marker date="1523844216157" expanded="true" signature="241:279" ph="SELECT * FRO... video_cat" />
+            <marker date="1523844216157" expanded="true" signature="427:463" ph="SELECT * FRO... videos" />
+            <marker date="1523844216157" expanded="true" signature="565:672" ph="..." />
+            <marker date="1523844216157" expanded="true" signature="816:875" ph="..." />
+            <marker date="1523844216157" expanded="true" signature="816:944" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/backupfile.php" />
+    <entry file="file://$PROJECT_DIR$/okczimg.php" />
+    <entry file="file://$PROJECT_DIR$/videos/getChannelVideos.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="19" column="0" lean-forward="true" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
+          <folding>
+            <marker date="1523982252549" expanded="true" signature="242:280" ph="SELECT * FRO... video_channels" />
+            <marker date="1523982252549" expanded="true" signature="242:281" ph="SELECT * FRO... video_channels" />
+            <marker date="1523982252549" expanded="true" signature="1186:1248" ph="..." />
+            <marker date="1523982252549" expanded="true" signature="1186:1298" ph="..." />
+            <marker date="1523982252549" expanded="true" signature="1506:1547" ph="..." />
+            <marker date="1523982252549" expanded="true" signature="1506:1548" ph="..." />
+            <marker date="1523982252549" expanded="true" signature="1506:1571" ph="..." />
+            <marker date="1523982252549" expanded="true" signature="1506:1622" ph="..." />
+            <marker date="1523982252549" expanded="true" signature="1506:1625" ph="..." />
+            <marker date="1523982252549" expanded="true" signature="1506:1657" ph="..." />
+            <marker date="1523982252549" expanded="true" signature="1506:1678" ph="..." />
+            <marker date="1523982252549" expanded="true" signature="1506:1692" ph="..." />
+            <marker date="1523982252549" expanded="true" signature="1506:1694" ph="..." />
+            <marker date="1523982252549" expanded="true" signature="1506:1752" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/db/create_db.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="548">
+          <caret line="80" column="2" lean-forward="false" selection-start-line="80" selection-start-column="2" selection-end-line="80" selection-end-column="2" />
+          <folding>
+            <marker date="1525712768870" expanded="true" signature="281:309" ph="DROP TABLE I... " />
+            <marker date="1525712768870" expanded="true" signature="281:353" ph="DROP TABLE I... " />
+            <marker date="1525712768870" expanded="true" signature="281:401" ph="DROP TABLE I... " />
+            <marker date="1525712768870" expanded="true" signature="417:595" ph="CREATE TABLE... users" />
+            <marker date="1525712768870" expanded="true" signature="611:798" ph="CREATE TABLE... video_category" />
+            <marker date="1525712768870" expanded="true" signature="814:954" ph="CREATE TABLE... games_category" />
+            <marker date="1525712768870" expanded="true" signature="970:1143" ph="CREATE TABLE... video" />
+            <marker date="1525712768870" expanded="true" signature="1159:1436" ph="CREATE TABLE... game" />
+            <marker date="1525712768870" expanded="true" signature="1160:1436" ph="CREATE TABLE... game" />
+            <marker date="1525712768870" expanded="true" signature="1452:1676" ph="CREATE TABLE... book" />
+            <marker date="1525712768870" expanded="true" signature="1691:1848" ph="CREATE TABLE... book_filter" />
+            <marker date="1525712768870" expanded="true" signature="1863:2158" ph="CREATE TABLE... library" />
+            <marker date="1525712768870" expanded="true" signature="2174:2433" ph="CREATE TABLE... video_channels" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/db/backup.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin/secure.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="41" lean-forward="false" selection-start-line="5" selection-start-column="41" selection-end-line="5" selection-end-column="41" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/head.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="0" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="70" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/header.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="73" lean-forward="false" selection-start-line="11" selection-start-column="49" selection-end-line="11" selection-end-column="73" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/games/select_all_games.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" column="29" lean-forward="true" selection-start-line="8" selection-start-column="4" selection-end-line="14" selection-end-column="29" />
+        <state relative-caret-position="357">
+          <caret line="21" column="34" lean-forward="false" selection-start-line="21" selection-start-column="34" selection-end-line="21" selection-end-column="34" />
           <folding>
-            <marker date="1523231823709" expanded="true" signature="112:145" ph="SELECT * FRO... game" />
-            <marker date="1523231823709" expanded="true" signature="112:146" ph="SELECT * FRO... game" />
-            <marker date="1523231823709" expanded="true" signature="529:796" ph="..." />
-            <marker date="1523231823709" expanded="true" signature="577:773" ph="..." />
-            <marker date="1523231823709" expanded="true" signature="623:742" ph="..." />
-            <marker date="1523231823709" expanded="false" signature="680:694" ph="..." />
-            <marker date="1523231823709" expanded="true" signature="1016:1034" ph="SELECT * FRO... game" />
-            <marker date="1523231823709" expanded="true" signature="1484:1908" ph="..." />
-            <marker date="1523231823709" expanded="true" signature="1540:1873" ph="..." />
-            <marker date="1523231823709" expanded="true" signature="1613:1838" ph="..." />
+            <marker date="1525826916739" expanded="true" signature="112:145" ph="SELECT * FRO... game" />
+            <marker date="1525826916739" expanded="true" signature="549:747" ph="..." />
+            <marker date="1525826916739" expanded="true" signature="605:724" ph="..." />
+            <marker date="1525826916739" expanded="true" signature="662:676" ph="..." />
+            <marker date="1525826916739" expanded="true" signature="967:985" ph="SELECT * FRO... game" />
+            <marker date="1525826916739" expanded="true" signature="1435:1859" ph="..." />
+            <marker date="1525826916739" expanded="true" signature="1491:1824" ph="..." />
+            <marker date="1525826916739" expanded="true" signature="1564:1789" ph="..." />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/books/select_library.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -550,129 +750,35 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/admin/hry.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" column="13" lean-forward="false" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
-          <folding>
-            <marker date="1520866264121" expanded="true" signature="997:1015" ph="SELECT * FRO... game" />
-            <marker date="1520866264121" expanded="true" signature="1298:1434" ph="..." />
-            <marker date="1520866264121" expanded="true" signature="5542:5570" ph="SELECT * FRO... games_category" />
-            <marker date="1520866264121" expanded="true" signature="8903:8931" ph="SELECT * FRO... games_category" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/css/search.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" column="17" lean-forward="true" selection-start-line="15" selection-start-column="17" selection-end-line="15" selection-end-column="17" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/admin/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="18" column="44" lean-forward="false" selection-start-line="18" selection-start-column="44" selection-end-line="18" selection-end-column="44" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/admin/secure.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="39" lean-forward="false" selection-start-line="5" selection-start-column="39" selection-end-line="5" selection-end-column="39" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/admin/delete_video_cat.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="36" lean-forward="false" selection-start-line="5" selection-start-column="36" selection-end-line="5" selection-end-column="36" />
-          <folding>
-            <marker date="1523754535337" expanded="true" signature="67:104" ph="DELETE FROM " />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/admin/add_search_cat.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="20" column="41" lean-forward="true" selection-start-line="20" selection-start-column="41" selection-end-line="20" selection-end-column="41" />
-          <folding>
-            <marker date="1521559784178" expanded="true" signature="496:562" ph="INSERT INTO book_cat... " />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/admin/knihy.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="611">
-          <caret line="114" column="86" lean-forward="true" selection-start-line="114" selection-start-column="28" selection-end-line="114" selection-end-column="86" />
-          <folding>
-            <element signature="n#div#2;n#div#1;n#div#0;n#div#0;n#!!top" expanded="false" />
-            <element signature="n#div#4;n#div#1;n#div#0;n#div#0;n#!!top" expanded="false" />
-            <marker date="1523636018557" expanded="true" signature="1445:1459" ph="SELECT * FRO... game" />
-            <marker date="1523636018557" expanded="true" signature="1445:1466" ph="SELECT * FRO... library" />
-            <marker date="1523636018557" expanded="true" signature="4434:4448" ph="SELECT * FRO... library" />
-            <marker date="1523636018557" expanded="true" signature="4434:4456" ph="SELECT * FRO... book_cat" />
-            <marker date="1523636018557" expanded="true" signature="5079:5181" ph="..." />
-            <marker date="1523636018557" expanded="true" signature="10393:10421" ph="..." />
-            <marker date="1523636018557" expanded="true" signature="10593:10621" ph="..." />
-            <marker date="1523636018557" expanded="true" signature="14443:14471" ph="..." />
-            <marker date="1523636018557" expanded="true" signature="14635:14663" ph="..." />
-            <marker date="1523636018557" expanded="true" signature="18470:18498" ph="..." />
-            <marker date="1523636018557" expanded="true" signature="18651:18679" ph="..." />
-            <marker date="1523636018557" expanded="true" signature="19507:19526" ph="SELECT * FRO... book_cat" />
-            <marker date="1523636018557" expanded="true" signature="19507:19532" ph="SELECT * FRO... book_filter" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/admin/img/vcat/fairytale.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/games/index.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="272">
           <caret line="16" column="12" lean-forward="true" selection-start-line="16" selection-start-column="12" selection-end-line="16" selection-end-column="12" />
-          <folding />
+          <folding>
+            <marker date="1520716377904" expanded="true" signature="45:63" ph="SELECT * FRO... game" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/games/game.php">
+    <entry file="file://$PROJECT_DIR$/books/search_select_libraries.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="446">
-          <caret line="45" column="52" lean-forward="false" selection-start-line="45" selection-start-column="52" selection-end-line="45" selection-end-column="52" />
-          <folding />
+        <state relative-caret-position="435">
+          <caret line="93" column="35" lean-forward="true" selection-start-line="93" selection-start-column="35" selection-end-line="93" selection-end-column="35" />
+          <folding>
+            <marker date="1523131868040" expanded="true" signature="2687:2718" ph="SELECT * FRO... library" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.php">
+    <entry file="file://$PROJECT_DIR$/books/library.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" column="7" lean-forward="false" selection-start-line="12" selection-start-column="7" selection-end-line="12" selection-end-column="7" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/head.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="0" lean-forward="true" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/header.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" column="46" lean-forward="false" selection-start-line="15" selection-start-column="46" selection-end-line="15" selection-end-column="46" />
-          <folding />
+        <state relative-caret-position="374">
+          <caret line="22" column="42" lean-forward="true" selection-start-line="22" selection-start-column="42" selection-end-line="22" selection-end-column="42" />
+          <folding>
+            <element signature="n#get_subfield_value#0;n#!!top" expanded="false" />
+            <marker date="1525827858612" expanded="true" signature="2343:2374" ph="SELECT * FRO... library" />
+            <marker date="1525827858612" expanded="true" signature="2343:2375" ph="SELECT * FRO... library" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -686,116 +792,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/admin/add_vcat.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="5" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="29" selection-end-column="2" />
-          <folding>
-            <marker date="1523757191177" expanded="true" signature="471:530" ph="INSERT INTO video_category... " />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/admin/add_filter.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="20" column="2" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="20" selection-end-column="2" />
-          <folding>
-            <marker date="1523632951610" expanded="true" signature="102:150" ph="INSERT INTO book_filter... " />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/admin/add_category.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <marker date="1520015137411" expanded="true" signature="61:105" ph="INSERT INTO games_category... " />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/admin/delete_filter.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" column="2" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="12" selection-end-column="2" />
-          <folding>
-            <marker date="1523633624181" expanded="true" signature="67:101" ph="DELETE FROM " />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/backupfile.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="17" column="0" lean-forward="false" selection-start-line="17" selection-start-column="0" selection-end-line="20" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/books/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-408">
-          <caret line="3" column="16" lean-forward="false" selection-start-line="3" selection-start-column="16" selection-end-line="3" selection-end-column="16" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/books/search_select_libraries.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="476">
-          <caret line="97" column="58" lean-forward="false" selection-start-line="97" selection-start-column="47" selection-end-line="97" selection-end-column="58" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/books/library.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="140">
-          <caret line="104" column="52" lean-forward="true" selection-start-line="104" selection-start-column="52" selection-end-line="104" selection-end-column="52" />
-          <folding>
-            <element signature="n#get_subfield_value#0;n#!!top" expanded="false" />
-            <marker date="1523717352909" expanded="true" signature="2343:2374" ph="SELECT * FRO... library" />
-            <marker date="1523717352909" expanded="true" signature="2343:2375" ph="SELECT * FRO... library" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/admin/header.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="442">
-          <caret line="26" column="34" lean-forward="false" selection-start-line="26" selection-start-column="34" selection-end-line="26" selection-end-column="34" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/videos/showChannels.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="23" column="26" lean-forward="true" selection-start-line="23" selection-start-column="26" selection-end-line="23" selection-end-column="26" />
-          <folding>
-            <marker date="1523839127105" expanded="true" signature="264:292" ph="SELECT * FRO... video_channels" />
-            <marker date="1523839127105" expanded="true" signature="534:711" ph="..." />
-            <marker date="1523839127105" expanded="true" signature="586:617" ph="..." />
-            <marker date="1523839127105" expanded="true" signature="586:628" ph="..." />
-            <marker date="1523839127105" expanded="true" signature="586:694" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/css/homepage.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="769">
-          <caret line="156" column="14" lean-forward="false" selection-start-line="156" selection-start-column="13" selection-end-line="156" selection-end-column="14" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/books/select_categories.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="663">
-          <caret line="78" column="90" lean-forward="true" selection-start-line="78" selection-start-column="40" selection-end-line="78" selection-end-column="90" />
+        <state relative-caret-position="1360">
+          <caret line="80" column="38" lean-forward="false" selection-start-line="80" selection-start-column="38" selection-end-line="80" selection-end-column="38" />
           <folding>
             <marker date="1523716335549" expanded="true" signature="76:97" ph="SELECT * FRO... library" />
             <marker date="1523716335549" expanded="true" signature="257:289" ph="SELECT * FRO... game" />
@@ -818,72 +818,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/db/create_db.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="612">
-          <caret line="48" column="0" lean-forward="true" selection-start-line="48" selection-start-column="0" selection-end-line="48" selection-end-column="0" />
-          <folding>
-            <marker date="1523841851088" expanded="true" signature="281:309" ph="DROP TABLE I... " />
-            <marker date="1523841851088" expanded="true" signature="281:359" ph="DROP TABLE I... " />
-            <marker date="1523841851088" expanded="true" signature="375:553" ph="CREATE TABLE... users" />
-            <marker date="1523841851088" expanded="true" signature="569:756" ph="CREATE TABLE... video_category" />
-            <marker date="1523841851088" expanded="true" signature="772:912" ph="CREATE TABLE... games_category" />
-            <marker date="1523841851088" expanded="true" signature="928:1101" ph="CREATE TABLE... video" />
-            <marker date="1523841851088" expanded="true" signature="1117:1394" ph="CREATE TABLE... game" />
-            <marker date="1523841851088" expanded="true" signature="1118:1394" ph="CREATE TABLE... game" />
-            <marker date="1523841851088" expanded="true" signature="1410:1634" ph="CREATE TABLE... book" />
-            <marker date="1523841851088" expanded="true" signature="1649:1806" ph="CREATE TABLE... book_filter" />
-            <marker date="1523841851088" expanded="true" signature="1821:2116" ph="CREATE TABLE... library" />
-            <marker date="1523841851088" expanded="true" signature="2132:2391" ph="CREATE TABLE... video_channels" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/admin/videa.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="680">
-          <caret line="321" column="38" lean-forward="false" selection-start-line="321" selection-start-column="38" selection-end-line="321" selection-end-column="38" />
-          <folding>
-            <element signature="n#div#0;n#div#1;n#div#0;n#div#0;n#!!top" expanded="false" />
-            <element signature="n#div#1;n#div#1;n#div#0;n#div#0;n#!!top" expanded="false" />
-            <element signature="n#div#2;n#div#1;n#div#0;n#div#0;n#!!top" expanded="false" />
-            <element signature="n#script#0;n#div#2;n#div#1;n#div#0;n#div#0;n#!!top" expanded="false" />
-            <element signature="n#table#0;n#div#2;n#div#1;n#div#0;n#div#0;n#!!top" expanded="false" />
-            <element signature="n#script#1;n#div#2;n#div#1;n#div#0;n#div#0;n#!!top" expanded="false" />
-            <marker date="1523842926522" expanded="true" signature="1220:1234" ph="SELECT * FRO... library" />
-            <marker date="1523842926522" expanded="true" signature="1220:1239" ph="SELECT * FRO... video" />
-            <marker date="1523842926522" expanded="true" signature="1220:1248" ph="SELECT * FRO... video_category" />
-            <marker date="1523842926522" expanded="true" signature="6064:6092" ph="..." />
-            <marker date="1523842926522" expanded="true" signature="6261:6289" ph="..." />
-            <marker date="1523842926522" expanded="true" signature="10006:10034" ph="..." />
-            <marker date="1523842926522" expanded="true" signature="10187:10215" ph="..." />
-            <marker date="1523842926522" expanded="true" signature="10949:11012" ph="..." />
-            <marker date="1523842926522" expanded="true" signature="11014:11028" ph="SELECT * FRO... book_filter" />
-            <marker date="1523842926522" expanded="true" signature="11014:11042" ph="SELECT * FRO... video_channels" />
-            <marker date="1523842926522" expanded="true" signature="11536:11634" ph="..." />
-            <marker date="1523842926522" expanded="true" signature="11968:12206" ph="{...}" />
-            <marker date="1523842926522" expanded="true" signature="12064:12206" ph="{...}" />
-            <marker date="1523842926522" expanded="true" signature="14097:14125" ph="SELECT * FRO... video_category" />
-            <marker date="1523842926522" expanded="true" signature="15024:15052" ph="{...}" />
-            <marker date="1523842926522" expanded="true" signature="16264:16292" ph="..." />
-            <marker date="1523842926522" expanded="true" signature="16443:16471" ph="..." />
-            <marker date="1523842926522" expanded="false" signature="16988:18165" ph="..." />
-            <marker date="1523842926522" expanded="true" signature="17286:17314" ph="SELECT * FRO... video_channels" />
-            <marker date="1523842926522" expanded="false" signature="18190:19357" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/admin/add_video.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" column="46" lean-forward="false" selection-start-line="15" selection-start-column="46" selection-end-line="15" selection-end-column="46" />
-          <folding>
-            <marker date="1523842787207" expanded="true" signature="385:435" ph="INSERT INTO videos... " />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/videos/showCategories.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="221">
@@ -891,8 +825,6 @@
           <folding>
             <marker date="1523837359025" expanded="true" signature="263:291" ph="SELECT * FRO... video_category" />
             <marker date="1523837359025" expanded="true" signature="651:873" ph="..." />
-            <marker date="1523837359025" expanded="true" signature="652:873" ph="..." />
-            <marker date="1523837359025" expanded="true" signature="706:735" ph="..." />
             <marker date="1523837359025" expanded="true" signature="706:867" ph="..." />
           </folding>
         </state>
@@ -900,65 +832,40 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/videos/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="62" column="18" lean-forward="false" selection-start-line="62" selection-start-column="18" selection-end-line="62" selection-end-column="18" />
-          <folding>
-            <marker date="1523842682224" expanded="true" signature="3603:3680" ph="..." />
-          </folding>
+        <state relative-caret-position="701">
+          <caret line="82" column="42" lean-forward="false" selection-start-line="82" selection-start-column="42" selection-end-line="82" selection-end-column="42" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/videos/getChannelVideos.php">
+    <entry file="file://$PROJECT_DIR$/books/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="612">
-          <caret line="36" column="20" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="38" selection-end-column="2" />
-          <folding>
-            <marker date="1523838847574" expanded="true" signature="242:280" ph="SELECT * FRO... video_channels" />
-            <marker date="1523838847574" expanded="true" signature="242:281" ph="SELECT * FRO... video_channels" />
-            <marker date="1523838847574" expanded="true" signature="724:786" ph="..." />
-            <marker date="1523838847574" expanded="true" signature="724:836" ph="..." />
-            <marker date="1523838847574" expanded="true" signature="1044:1085" ph="..." />
-            <marker date="1523838847574" expanded="true" signature="1044:1086" ph="..." />
-            <marker date="1523838847574" expanded="true" signature="1044:1109" ph="..." />
-            <marker date="1523838847574" expanded="true" signature="1044:1160" ph="..." />
-            <marker date="1523838847574" expanded="true" signature="1044:1163" ph="..." />
-            <marker date="1523838847574" expanded="true" signature="1044:1195" ph="..." />
-            <marker date="1523838847574" expanded="true" signature="1044:1216" ph="..." />
-            <marker date="1523838847574" expanded="true" signature="1044:1230" ph="..." />
-            <marker date="1523838847574" expanded="true" signature="1044:1232" ph="..." />
-            <marker date="1523838847574" expanded="true" signature="1044:1290" ph="..." />
-          </folding>
+        <state relative-caret-position="701">
+          <caret line="72" column="42" lean-forward="false" selection-start-line="72" selection-start-column="42" selection-end-line="72" selection-end-column="42" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/admin/add_channel.php">
+    <entry file="file://$PROJECT_DIR$/css/homepage.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="20" column="143" lean-forward="false" selection-start-line="20" selection-start-column="48" selection-end-line="20" selection-end-column="143" />
-          <folding>
-            <marker date="1523834664033" expanded="true" signature="876:960" ph="INSERT INTO video_channels... " />
-          </folding>
+        <state relative-caret-position="650">
+          <caret line="175" column="33" lean-forward="false" selection-start-line="175" selection-start-column="33" selection-end-line="175" selection-end-column="33" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/videos/getCategoryVideos.php">
+    <entry file="file://$PROJECT_DIR$/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="612">
-          <caret line="36" column="2" lean-forward="true" selection-start-line="36" selection-start-column="2" selection-end-line="36" selection-end-column="2" />
-          <folding>
-            <marker date="1523844216157" expanded="true" signature="241:279" ph="SELECT * FRO... video_cat" />
-            <marker date="1523844216157" expanded="true" signature="427:463" ph="SELECT * FRO... videos" />
-            <marker date="1523844216157" expanded="true" signature="565:672" ph="..." />
-            <marker date="1523844216157" expanded="true" signature="816:875" ph="..." />
-            <marker date="1523844216157" expanded="true" signature="816:944" ph="..." />
-          </folding>
+        <state relative-caret-position="673">
+          <caret line="116" column="46" lean-forward="false" selection-start-line="116" selection-start-column="19" selection-end-line="116" selection-end-column="46" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/opac (1).sql">
+    <entry file="file://$PROJECT_DIR$/games/game.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1132">
-          <caret line="532" column="25" lean-forward="true" selection-start-line="532" selection-start-column="25" selection-end-line="532" selection-end-column="25" />
+        <state relative-caret-position="667">
+          <caret line="67" column="46" lean-forward="false" selection-start-line="67" selection-start-column="46" selection-end-line="67" selection-end-column="46" />
           <folding />
         </state>
       </provider>

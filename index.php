@@ -40,60 +40,75 @@
                     </div>
                 </div>
             </div>
-            <!-- KNIHY HOME -->
-            <div class="panel panel-success">
-                <div class="panel-heading">Knihy</div>
+
+            <!--KALENDAR HOME -->
+            <div class="col-xs-12 col-sm-12 col-md-6 panel panel-warning">
+                <div class="panel-heading">Kalendár podujatí v knižniciach</div>
                 <div class="panel-body">
-
-                    <div class="col-md-12">
-                        <div id="carousel" class="carousel slide" data-ride="carousel" data-type="multi" data-interval="2500">
-                            <div class="carousel-inner">
-                                <!-- INCLUDE -->
-                            </div>
-                            <!-- Controls -->
-                            <div class="left carousel-control">
-                                <a href="#carousel" role="button" data-slide="prev">
-                                    <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
-                                    <span class="sr-only">Previous</span>
-                                </a>
-                            </div>
-                            <div class="right carousel-control">
-                                <a href="#carousel" role="button" data-slide="next">
-                                    <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
-                                    <span class="sr-only">Next</span>
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-
+                    <table>
+                        <thead>
+                            <th class="col-xs-4 col-sm-4 col-md-5">Názov podujatia</th>
+                            <th class="col-xs-4 col-sm-4 col-md-4">Knižnica</th>
+                            <th class="col-xs-4 col-sm-4 col-md-3">Dátum a čas</th>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td class="col-xs-4 col-sm-4 col-md-5">Učíme sa angličtinu</td>
+                                <td class="col-xs-4 col-sm-4 col-md-4">Ružinov</td>
+                                <td class="col-xs-4 col-sm-4 col-md-3">15:00</td>
+                            </tr>
+                            <tr>
+                                <td class="col-xs-4 col-sm-4 col-md-5">Príheby z lesa</td>
+                                <td class="col-xs-4 col-sm-4 col-md-4">Pieštany</td>
+                                <td class="col-xs-4 col-sm-4 col-md-3">17:30</td>
+                            </tr>
+                            <tr>
+                                <td class="col-xs-4 col-sm-4 col-md-5">Púšťame si šarkana</td>
+                                <td class="col-xs-4 col-sm-4 col-md-4">Banská Bystrica</td>
+                                <td class="col-xs-4 col-sm-4 col-md-3">16:00</td>
+                            </tr>
+                            <tr>
+                                <td class="col-xs-4 col-sm-4 col-md-5">Posedenie s poľovníkom</td>
+                                <td class="col-xs-4 col-sm-4 col-md-4">Malacky</td>
+                                <td class="col-xs-4 col-sm-4 col-md-3">15:00</td>
+                            </tr>
+                        </tbody>
+                    </table>
                 </div>
             </div>
-            <!--VIDEA HOME -->
-            <div class="panel panel-danger">
-                <div class="panel-heading">Videa</div>
+
+            <div class="col-xs-10 col-sm-12 col-md-6 panel panel-warning">
+                <div class="panel-heading">Harmonogram virtuálnej reality</div>
                 <div class="panel-body">
-
-                    <div class="col-md-12">
-                        <div id="carousel" class="carousel slide" data-ride="carousel" data-type="multi" data-interval="2500">
-                            <div class="carousel-inner">
-                                <!-- INCLUDE -->
-                            </div>
-                            <!-- Controls -->
-                            <div class="left carousel-control">
-                                <a href="#carousel" role="button" data-slide="prev">
-                                    <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
-                                    <span class="sr-only">Previous</span>
-                                </a>
-                            </div>
-                            <div class="right carousel-control">
-                                <a href="#carousel" role="button" data-slide="next">
-                                    <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
-                                    <span class="sr-only">Next</span>
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-
+                    <table>
+                        <thead>
+                        <th class="col-xs-4 col-sm-4 col-md-5">Knižnica</th>
+                        <th class="col-xs-4 col-sm-4 col-md-3">Miestnosť</th>
+                        <th class="col-xs-4 col-sm-4 col-md-5">Dátum a čas</th>
+                        </thead>
+                        <tbody>
+                        <tr>
+                            <td class="col-xs-6 col-sm-6 col-md-4">Malacky</td>
+                            <td class="col-xs-6 col-sm-6 col-md-3">3C</td>
+                            <td class="col-xs-6 col-sm-6 col-md-5">10:00 - 16:00</td>
+                        </tr>
+                        <tr>
+                            <td class="col-xs-6 col-sm-6 col-md-4">Pieštany</td>
+                            <td class="col-xs-6 col-sm-6 col-md-3">3.05</td>
+                            <td class="col-xs-6 col-sm-6 col-md-5">10:00 - 16:00</td>
+                        </tr>
+                        <tr>
+                            <td class="col-xs-6 col-sm-6 col-md-4">Banská Bystrica</td>
+                            <td class="col-xs-6 col-sm-6 col-md-3">5.02</td>
+                            <td class="col-xs-6 col-sm-6 col-md-5">9:00 - 13:00</td>
+                        </tr>
+                        <tr>
+                            <td class="col-xs-6 col-sm-6 col-md-4">SNK v Martine</td>
+                            <td class="col-xs-6 col-sm-6 col-md-3">2A, 2B</td>
+                            <td class="col-xs-6 col-sm-6 col-md-5">10:00 - 15:00</td>
+                        </tr>
+                        </tbody>
+                    </table>
                 </div>
             </div>
         </div>

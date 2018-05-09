@@ -109,6 +109,8 @@ function search($conn, $selected_library, $keywords)
                     $isbn = trim($parsedRec['isbn']);
                     $title = $parsedRec['title'];
                     $author = $parsedRec['author'];
+                    //date_default_timezone_set('Slovakia/Bratislava');
+                    //$datestamp = date('d/m/Y h:i:s a', time());
 
                     if (empty($subtitle)) {
                         $subtitle = "";

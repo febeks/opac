@@ -1,10 +1,27 @@
+body{
+    background-color: #e1f6fa;
+}
 .container{
     position: relative;
+    background-color: #e1f6fa;
+
 }
 
 .panel{
     margin-top: 10px;
+    border: 0px;
+    background-color: #e1f6fa;
+    border-color: #e1f6fa;
 }
+
+.panel-body{
+    background-color: white;
+    border-radius: 15px;
+    border-top-right-radius: 0px;
+    border-top-left-radius: 0px;
+    border-color: #e1f6fa;
+}
+
 
 #joystick, #sova, #youtube{
     display: block;
@@ -30,6 +47,9 @@
     top: 42%;
     max-width: 22%;
     max-height: 22%;
+}
+.panel div.row{
+    background-color: white;
 }
 
 .shaky{
@@ -64,7 +84,7 @@ footer {
     width: 120px;
     height: 58px;
     top: 28%;
-    left: 23%;
+    left: 30%;
     z-index: 100;
     background: transparent url('../images/joystick.png') no-repeat center;
     background-size: 120px 58px;
@@ -79,7 +99,7 @@ footer {
     width: 95px;
     height: 46px;
     top: 30%;
-    left: 22%;
+    left: 30%;
     z-index: 100;
     background: transparent url('../images/joystick.png') no-repeat center;
     background-size: 95px 46px;
@@ -126,8 +146,11 @@ footer {
     border-radius: 5px;
 }
 
+#embedovana-hra .row{
+    max-width: 99%;
+}
 #miniclip-game-embed{
-    width: 94%;
+    max-width: 94%;
 }
 #embed{
     text-align: center;
@@ -150,11 +173,11 @@ footer {
 }
 
 .bunka{
-    background-color: #d7fbe5;
+    background-color:transparent;
     border-style: solid;
     border-radius: 10px;
-    border-width: 1px;
-    margin: 15px;
+    border-width: 0px;
+
     padding: 10px;
 }
 .bunka a{

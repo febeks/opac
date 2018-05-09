@@ -12,7 +12,7 @@ echo "Connected successfully<br>";
 
 $errors = [];
 
-$drop = "DROP TABLE IF EXISTS users, videos, game, book, video_category, games_category";
+$drop = "DROP TABLE IF EXISTS users, videos, video_category, game, games_category, book_cat, book_filter, library, video_channels";
 
 $table1 =  "CREATE TABLE users (
             id INT(3) UNSIGNED AUTO_INCREMENT PRIMARY KEY,
@@ -77,8 +77,8 @@ $table9 =  "CREATE TABLE video_channels (
             banner_path VARCHAR(300) NOT NULL
             )";
 
-//$tables = [$drop, $table1, $table2, $table3, $table4, $table5, $table6];
-$tables = [$table4];
+$tables = [$drop, $table1, $table2, $table3, $table4, $table5, $table6, $table7, $table8, $table9];
+//$tables = [$table4];
 foreach ($tables as $k => $sql){
     $query = @$conn->query($sql);
     if(!$query)

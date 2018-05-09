@@ -9,7 +9,7 @@ $webOS   = stripos($_SERVER['HTTP_USER_AGENT'],"webOS");
     <div class="row">
         <div class="col-xs-12">
             <div class="menu hidden-xs hidden-sm">
-                <a href="./index.php" ><img src="./images/menu.png" alt="" class="img-responsive"/></a>
+                <a href="./index.php" ><img src="./images/header_novy.png" alt="" class="img-responsive"/></a>
 
                     <a href="./games/game.php"><img id="joystick" src="./images/joystick.png" alt="" class="img-responsive shaky"/></a>
                     <a href="./books/index.php"><img id="sova" src="./images/sova.png" alt="" class="img-responsive shaky"/></a>

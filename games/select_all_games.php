@@ -16,12 +16,10 @@ if(isset($_GET['game_id'])){
 
     echo"
     <div class='panel-heading'>Hry : $name</div>
-                <div class='panel-body'>
-                        <div class='container'>
-                            <div class='row'>
+                <div class='panel-body' id='embedovana-hra'>
+                            <div class='col-md-12 row'>
                                 <div id='embed' style='width: $width;'>$embed</div>
                             </div>
-                        </div>
                 </div>
     </div>
         ";

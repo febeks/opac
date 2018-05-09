@@ -5,9 +5,10 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+    <link rel="shortcut icon" type="image/png" href="../images/favicon.png"/>
     <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.0/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
-    <!-- Insert this code before your </body> tag -->
+
     <script src="//static.miniclipcdn.com/js/game-embed.js"></script>
     <script
             src="https://code.jquery.com/jquery-1.3.2.js"
@@ -25,7 +26,7 @@
         <div class="row">
             <div class="col-xs-12">
                 <div class="menu hidden-xs hidden-sm">
-                    <a href="../index.php" ><img src="../images/menu.png" alt="" class="img-responsive"/></a>
+                    <a href="../index.php" ><img src="../images/header_novy.png" alt="" class="img-responsive"/></a>
 
                     <a href="game.php"><img id="joystick" src="../images/joystick.png" alt="" class="img-responsive shaky"/></a>
                     <a href="../books/index.php"><img id="sova" src="../images/sova.png" alt="" class="img-responsive shaky"/></a>
@@ -64,7 +65,7 @@
     </div>
 
     <!-- FOOTER -->
-    <footer class="container text-center">
+    <footer class="container-fluid text-center">
         <p><a href="../admin/" target="_blank"> Administrácia </a></p>
     </footer>
     <script>
