@@ -23,6 +23,7 @@ foreach ($json as $row){
     $json2 = json_decode($data2,true);
 
     foreach ($json2 as $row2){
+
         $big_icon_path      = $row2['big_icon'];
         $name               = $row2['name'];
         $width              = $row2['width'];
@@ -37,9 +38,11 @@ foreach ($json as $row){
         );
         $stmt->execute();
     }
+
 }
 
 //script done, close all connections
 $stmt->close();
 $conn->close();
+header('Location: index.php');
 ?>

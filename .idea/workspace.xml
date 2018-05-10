@@ -2,97 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bed92ccc-07d5-42de-983b-42e211c34a3d" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/admin/test.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/admin/z.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/animals.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/backupfile.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cat-123.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cat-abc.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cat-colors.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cat-nutrition.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cat-princess.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cat-seasons.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cat-truck.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/db/backup.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/fairytale.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/homepage.rp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/homepage_recovered.rp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/homepage_recovered_recovered.rp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/navrh_1.rp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/pictures/Bell-icon.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/pictures/Cherry-icon.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/pictures/Chip-icon.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/pictures/Coin-icon.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/pictures/Dice-icon.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/pictures/Gem-icon.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/pictures/Lemon-icon.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/pictures/Lucky-7-icon.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/pictures/Melon-icon.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/pictures/Orange-icon.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/pictures/frozen.jpeg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/pictures/hry/angrybirds.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/pictures/hry/funny_food.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/pictures/hry/kittens.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/pictures/hry/mario.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/pictures/hry/pou.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/pictures/hry/skysaga.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/pictures/hry/tank.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/pictures/hry/words.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/pictures/hry/zoo.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/pictures/knihy/frozen.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/pictures/knihy/hravekarticky.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/pictures/knihy/kolokolo.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/pictures/knihy/kominar.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/pictures/knihy/krtek.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/pictures/knihy/macik.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/pictures/knihy/mackyVoVreci.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/pictures/knihy/mravce.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/pictures/knihy/opice.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/pictures/knihy/pismenkoveriekanky.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/pictures/knihy/striga.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/pictures/knihy/zvieratka_zlesa.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/pictures/krtko.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/pictures/ladove_kralovstvo.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/pictures/lampa.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/pictures/masa.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/pictures/rozpravky/auta.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/pictures/rozpravky/jogi.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/pictures/rozpravky/maja.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/pictures/rozpravky/masa_medved.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/pictures/rozpravky/matkokubko.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/pictures/rozpravky/mimoni.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/pictures/rozpravky/poziarniksam.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/pictures/rozpravky/zajac.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/pictures/tomas_akamarati.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/pictures/videa/farby.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/pictures/videa/fiha_abeceda.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/pictures/videa/fiha_poziarnik.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/pictures/videa/fiha_vlacik.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/pictures/videa/fiha_zvieratka.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/pictures/videa/homepage_recovered_recovered_recovered.rp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/pictures/videa/homepage_recovered_recovered_recovered_recovered.rp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/pictures/videa/kralovstvo.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/pictures/videa/minidisko.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/pictures/videa/taptaptapusky.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/pictures/videa/tarajko.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/language-learning.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/okczimg.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/okcztest.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/opac (1).sql" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/zabavne.png" afterPath="" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/games/json.php" afterPath="$PROJECT_DIR$/admin/json.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/admin/secure.php" afterPath="$PROJECT_DIR$/admin/secure.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/books/index.php" afterPath="$PROJECT_DIR$/books/index.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/books/library.php" afterPath="$PROJECT_DIR$/books/library.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/homepage.css" afterPath="$PROJECT_DIR$/css/homepage.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/admin/header.php" afterPath="$PROJECT_DIR$/admin/header.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/admin/hry.php" afterPath="$PROJECT_DIR$/admin/hry.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/db/connect.php" afterPath="$PROJECT_DIR$/db/connect.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/db/create_db.php" afterPath="$PROJECT_DIR$/db/create_db.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/games/game.php" afterPath="$PROJECT_DIR$/games/game.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/games/select_all_games.php" afterPath="$PROJECT_DIR$/games/select_all_games.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/head.php" afterPath="$PROJECT_DIR$/head.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/header.php" afterPath="$PROJECT_DIR$/header.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.php" afterPath="$PROJECT_DIR$/index.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/videos/index.php" afterPath="$PROJECT_DIR$/videos/index.php" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -103,6 +18,71 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="create_db.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/db/create_db.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="153">
+              <caret line="51" column="33" lean-forward="true" selection-start-line="51" selection-start-column="33" selection-end-line="51" selection-end-column="33" />
+              <folding>
+                <marker date="1525909204107" expanded="true" signature="281:301" ph="DROP TABLE I... " />
+                <marker date="1525909204107" expanded="true" signature="281:363" ph="DROP TABLE I... " />
+                <marker date="1525909204107" expanded="true" signature="281:411" ph="DROP TABLE I... " />
+                <marker date="1525909204107" expanded="true" signature="281:431" ph="DROP TABLE I... " />
+                <marker date="1525909204107" expanded="true" signature="448:748" ph="CREATE TABLE... users" />
+                <marker date="1525909204107" expanded="true" signature="763:970" ph="CREATE TABLE... visit" />
+                <marker date="1525909204107" expanded="true" signature="985:1644" ph="CREATE TABLE... type" />
+                <marker date="1525909204107" expanded="true" signature="1659:1807" ph="CREATE TABLE... location" />
+                <marker date="1525909204107" expanded="true" signature="1822:2073" ph="CREATE TABLE... books" />
+                <marker date="1525909204107" expanded="true" signature="2090:2277" ph="CREATE TABLE... video_category" />
+                <marker date="1525909204107" expanded="true" signature="2293:2430" ph="CREATE TABLE... games_category" />
+                <marker date="1525909204107" expanded="true" signature="2446:2616" ph="CREATE TABLE... video" />
+                <marker date="1525909204107" expanded="true" signature="2632:2869" ph="CREATE TABLE... game" />
+                <marker date="1525909204107" expanded="true" signature="2633:2869" ph="CREATE TABLE... game" />
+                <marker date="1525909204107" expanded="true" signature="2886:3107" ph="CREATE TABLE... book" />
+                <marker date="1525909204107" expanded="true" signature="3123:3277" ph="CREATE TABLE... book_filter" />
+                <marker date="1525909204107" expanded="true" signature="3293:3682" ph="CREATE TABLE... library" />
+                <marker date="1525909204107" expanded="true" signature="3699:3955" ph="CREATE TABLE... video_channels" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="hry.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/admin/hry.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="306">
+              <caret line="21" column="0" lean-forward="false" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
+              <folding>
+                <marker date="1525910503640" expanded="true" signature="1222:1240" ph="SELECT * FRO... game" />
+                <marker date="1525910503640" expanded="true" signature="5767:5795" ph="SELECT * FRO... games_category" />
+                <marker date="1525910503640" expanded="true" signature="9128:9156" ph="SELECT * FRO... games_category" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="json.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/admin/json.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="306">
+              <caret line="18" column="84" lean-forward="true" selection-start-line="18" selection-start-column="84" selection-end-line="18" selection-end-column="84" />
+              <folding>
+                <marker date="1525910675733" expanded="true" signature="212:522" ph="INSERT INTO game... " />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/admin/index.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="306">
+              <caret line="18" column="44" lean-forward="false" selection-start-line="18" selection-start-column="44" selection-end-line="18" selection-end-column="44" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="select_categories.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/books/select_categories.php">
           <provider selected="true" editor-type-id="text-editor">
@@ -131,11 +111,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="game.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="game.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/games/game.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="667">
-              <caret line="67" column="46" lean-forward="false" selection-start-line="67" selection-start-column="46" selection-end-line="67" selection-end-column="46" />
+            <state relative-caret-position="633">
+              <caret line="65" column="0" lean-forward="true" selection-start-line="65" selection-start-column="0" selection-end-line="65" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -194,9 +174,7 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/css/carousel.css" />
         <option value="$PROJECT_DIR$/games/index.php" />
-        <option value="$PROJECT_DIR$/admin/hry.php" />
         <option value="$PROJECT_DIR$/admin/delete_game.php" />
         <option value="$PROJECT_DIR$/admin/add_game.php" />
         <option value="$PROJECT_DIR$/admin/delete_library.php" />
@@ -225,7 +203,6 @@
         <option value="$PROJECT_DIR$/admin/delete_video_cat.php" />
         <option value="$PROJECT_DIR$/admin/add_vcat.php" />
         <option value="$PROJECT_DIR$/video/index.php" />
-        <option value="$PROJECT_DIR$/admin/header.php" />
         <option value="$PROJECT_DIR$/backupfile.php" />
         <option value="$PROJECT_DIR$/admin/add_channel.php" />
         <option value="$PROJECT_DIR$/videos/showCategories.php" />
@@ -234,7 +211,6 @@
         <option value="$PROJECT_DIR$/admin/videa.php" />
         <option value="$PROJECT_DIR$/videos/getCategoryVideos.php" />
         <option value="$PROJECT_DIR$/videos/getChannelVideos.php" />
-        <option value="$PROJECT_DIR$/db/create_db.php" />
         <option value="$PROJECT_DIR$/admin/secure.php" />
         <option value="$PROJECT_DIR$/head.php" />
         <option value="$PROJECT_DIR$/header.php" />
@@ -245,6 +221,10 @@
         <option value="$PROJECT_DIR$/css/homepage.css" />
         <option value="$PROJECT_DIR$/videos/index.php" />
         <option value="$PROJECT_DIR$/games/game.php" />
+        <option value="$PROJECT_DIR$/db/create_db.php" />
+        <option value="$PROJECT_DIR$/admin/header.php" />
+        <option value="$PROJECT_DIR$/admin/hry.php" />
+        <option value="$PROJECT_DIR$/admin/json.php" />
       </list>
     </option>
   </component>
@@ -255,7 +235,7 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" interpreter_name="PHP on XAMPP" />
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="-116" />
     <option name="y" value="98" />
     <option name="width" value="1934" />
@@ -283,6 +263,16 @@
             <path>
               <item name="opac" type="b2602c69:ProjectViewProjectNode" />
               <item name="opac" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="opac" type="b2602c69:ProjectViewProjectNode" />
+              <item name="opac" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="admin" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="opac" type="b2602c69:ProjectViewProjectNode" />
+              <item name="opac" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="db" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
             <path>
               <item name="opac" type="b2602c69:ProjectViewProjectNode" />
@@ -383,15 +373,15 @@
       <workItem from="1524096098224" duration="1982000" />
       <workItem from="1524871087334" duration="7719000" />
       <workItem from="1525558859793" duration="11012000" />
-      <workItem from="1525705912191" duration="14098000" />
+      <workItem from="1525705912191" duration="25031000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="398378000" />
+    <option name="totallyTimeSpent" value="409311000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1066" extended-state="7" />
+    <frame x="-8" y="-8" width="1936" height="1066" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -457,13 +447,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/admin/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="18" column="44" lean-forward="false" selection-start-line="18" selection-start-column="44" selection-end-line="18" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/admin/delete_video_cat.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
@@ -515,13 +498,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="204">
           <caret line="12" column="2" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="12" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/admin/header.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="442">
-          <caret line="26" column="34" lean-forward="false" selection-start-line="26" selection-start-column="34" selection-end-line="26" selection-end-column="34" />
         </state>
       </provider>
     </entry>
@@ -581,28 +557,6 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/admin/hry.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="476">
-          <caret line="28" column="24" lean-forward="false" selection-start-line="28" selection-start-column="24" selection-end-line="28" selection-end-column="24" />
-          <folding>
-            <marker date="1525707265219" expanded="true" signature="997:1015" ph="SELECT * FRO... game" />
-            <marker date="1525707265219" expanded="true" signature="5542:5570" ph="SELECT * FRO... games_category" />
-            <marker date="1525707265219" expanded="true" signature="8903:8931" ph="SELECT * FRO... games_category" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/games/json.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="59" lean-forward="false" selection-start-line="9" selection-start-column="59" selection-end-line="9" selection-end-column="59" />
-          <folding>
-            <marker date="1521165061973" expanded="true" signature="212:522" ph="INSERT INTO game... " />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -671,40 +625,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/db/create_db.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="548">
-          <caret line="80" column="2" lean-forward="false" selection-start-line="80" selection-start-column="2" selection-end-line="80" selection-end-column="2" />
-          <folding>
-            <marker date="1525712768870" expanded="true" signature="281:309" ph="DROP TABLE I... " />
-            <marker date="1525712768870" expanded="true" signature="281:353" ph="DROP TABLE I... " />
-            <marker date="1525712768870" expanded="true" signature="281:401" ph="DROP TABLE I... " />
-            <marker date="1525712768870" expanded="true" signature="417:595" ph="CREATE TABLE... users" />
-            <marker date="1525712768870" expanded="true" signature="611:798" ph="CREATE TABLE... video_category" />
-            <marker date="1525712768870" expanded="true" signature="814:954" ph="CREATE TABLE... games_category" />
-            <marker date="1525712768870" expanded="true" signature="970:1143" ph="CREATE TABLE... video" />
-            <marker date="1525712768870" expanded="true" signature="1159:1436" ph="CREATE TABLE... game" />
-            <marker date="1525712768870" expanded="true" signature="1160:1436" ph="CREATE TABLE... game" />
-            <marker date="1525712768870" expanded="true" signature="1452:1676" ph="CREATE TABLE... book" />
-            <marker date="1525712768870" expanded="true" signature="1691:1848" ph="CREATE TABLE... book_filter" />
-            <marker date="1525712768870" expanded="true" signature="1863:2158" ph="CREATE TABLE... library" />
-            <marker date="1525712768870" expanded="true" signature="2174:2433" ph="CREATE TABLE... video_channels" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/db/backup.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/admin/secure.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="41" lean-forward="false" selection-start-line="5" selection-start-column="41" selection-end-line="5" selection-end-column="41" />
           <folding />
         </state>
       </provider>
@@ -862,11 +786,84 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/db/create_db.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="51" column="33" lean-forward="true" selection-start-line="51" selection-start-column="33" selection-end-line="51" selection-end-column="33" />
+          <folding>
+            <marker date="1525909204107" expanded="true" signature="281:301" ph="DROP TABLE I... " />
+            <marker date="1525909204107" expanded="true" signature="281:363" ph="DROP TABLE I... " />
+            <marker date="1525909204107" expanded="true" signature="281:411" ph="DROP TABLE I... " />
+            <marker date="1525909204107" expanded="true" signature="281:431" ph="DROP TABLE I... " />
+            <marker date="1525909204107" expanded="true" signature="448:748" ph="CREATE TABLE... users" />
+            <marker date="1525909204107" expanded="true" signature="763:970" ph="CREATE TABLE... visit" />
+            <marker date="1525909204107" expanded="true" signature="985:1644" ph="CREATE TABLE... type" />
+            <marker date="1525909204107" expanded="true" signature="1659:1807" ph="CREATE TABLE... location" />
+            <marker date="1525909204107" expanded="true" signature="1822:2073" ph="CREATE TABLE... books" />
+            <marker date="1525909204107" expanded="true" signature="2090:2277" ph="CREATE TABLE... video_category" />
+            <marker date="1525909204107" expanded="true" signature="2293:2430" ph="CREATE TABLE... games_category" />
+            <marker date="1525909204107" expanded="true" signature="2446:2616" ph="CREATE TABLE... video" />
+            <marker date="1525909204107" expanded="true" signature="2632:2869" ph="CREATE TABLE... game" />
+            <marker date="1525909204107" expanded="true" signature="2633:2869" ph="CREATE TABLE... game" />
+            <marker date="1525909204107" expanded="true" signature="2886:3107" ph="CREATE TABLE... book" />
+            <marker date="1525909204107" expanded="true" signature="3123:3277" ph="CREATE TABLE... book_filter" />
+            <marker date="1525909204107" expanded="true" signature="3293:3682" ph="CREATE TABLE... library" />
+            <marker date="1525909204107" expanded="true" signature="3699:3955" ph="CREATE TABLE... video_channels" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin/secure.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="41" lean-forward="false" selection-start-line="5" selection-start-column="41" selection-end-line="5" selection-end-column="41" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin/header.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="561">
+          <caret line="33" column="47" lean-forward="true" selection-start-line="33" selection-start-column="47" selection-end-line="33" selection-end-column="47" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/games/game.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="667">
-          <caret line="67" column="46" lean-forward="false" selection-start-line="67" selection-start-column="46" selection-end-line="67" selection-end-column="46" />
+        <state relative-caret-position="633">
+          <caret line="65" column="0" lean-forward="true" selection-start-line="65" selection-start-column="0" selection-end-line="65" selection-end-column="0" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin/hry.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="21" column="0" lean-forward="false" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
+          <folding>
+            <marker date="1525910503640" expanded="true" signature="1222:1240" ph="SELECT * FRO... game" />
+            <marker date="1525910503640" expanded="true" signature="5767:5795" ph="SELECT * FRO... games_category" />
+            <marker date="1525910503640" expanded="true" signature="9128:9156" ph="SELECT * FRO... games_category" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="18" column="44" lean-forward="false" selection-start-line="18" selection-start-column="44" selection-end-line="18" selection-end-column="44" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin/json.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="18" column="84" lean-forward="true" selection-start-line="18" selection-start-column="84" selection-end-line="18" selection-end-column="84" />
+          <folding>
+            <marker date="1525910675733" expanded="true" signature="212:522" ph="INSERT INTO game... " />
+          </folding>
         </state>
       </provider>
     </entry>

@@ -17,6 +17,11 @@
            <!-- INDEX TAB -->
            <div id="index" class="tab-pane fade in active">
                <h4>Zoznam hier</h4>
+               <form action="json.php">
+                   <input class="btn btn-success" type="submit" value="Obnoviť zoznam hier">
+
+               </form>
+               <p>Obnova zoznamu hier trvá približne 10 sekúnd.</p>
                <table id="gamelist" class="table table-hover">
                    <thead>
                    <tr>
