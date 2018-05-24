@@ -20,7 +20,7 @@ if(isset($_GET['cat_id'])){
 
     echo"
     <div class='panel panel-success'>
-        <div class='panel-heading'>Kategoria : $name</div>
+        <div class='panel-heading'>Kategória : $name</div>
         <div class='panel-body'>
              <div class='col-xs-12 col-sm-12 col-md-12' align='center'>
              ";
@@ -29,10 +29,14 @@ if(isset($_GET['cat_id'])){
 
 }else if(isset($_GET['sel_lib'])){
         $selected_library = $_GET['sel_lib'];
+        $lib_name = "SELECT * FROM library WHERE id = $selected_library";
+        $res = mysqli_query($conn, $lib_name);
+        $oneRow = mysqli_fetch_assoc($res);
+        $lib_name = $oneRow['lib_name'];
                      ?>
 
                     <div class="panel panel-success">
-                        <div class='panel-heading'>Kategorie knih [<a href="index.php"> Hladat v inej kniznici </a>]</div>
+                        <div class='panel-heading'><?php echo $lib_name; ?> | Kategórie kníh [<a href="index.php?manual=1"> Hľadať v inej knižnici </a>]</div>
                         <div class='panel-body'>
                             <div class='col-xs-12 col-sm-12 col-md-12' align="center">
                                 <?php
@@ -98,10 +102,10 @@ if(isset($_GET['cat_id'])){
             $closestLibId = $row['id'];
         }
     }
-    echo $closestLibId;
-    echo "<br/>";
-    echo $distance;
-    if($closestLibId != NULL){
+    //echo $closestLibId;
+    //echo "<br/>";
+    //echo $distance;
+    if($closestLibId != NULL && !isset($_GET['manual'])){
         ?>
             <script>
                 var library = "<?php echo $closestLibId; ?>";
@@ -114,18 +118,18 @@ if(isset($_GET['cat_id'])){
     ?>
 
     <div class="panel panel-success">
-        <div class='panel-heading'>Vyber kniznice</div>
+        <div class='panel-heading'>Výber knižnice</div>
         <div class='panel-body'>
             <div class='col-xs-12 col-sm-12 col-md-12' align="center">
 
                 <form>
                 <div class='form-group'>
                     <div class="col-xs-6 col-sm-6 col-md-6">
-                        <label for='vyber_kniznice'>Vyber kniznicu, v ktorej chces vyhladavat:</label>
+                        <label for='vyber_kniznice'>Vyberte knižnicu, v ktorej chcete vyhľadávať:</label>
                     </div>
                     <div class="col-xs-6 col-sm-6 col-md-6">
                             <select class="form-control" id="selected_libraryy" onchange="setLibrary()">
-                                <option selected disabled>Vybrat jednu z moznosti</option>
+                                <option selected disabled>Vyberte jednu z mozností</option>
                                 <?php
 
                                     while($row = mysqli_fetch_assoc($result)) {
