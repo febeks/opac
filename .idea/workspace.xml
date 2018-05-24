@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bed92ccc-07d5-42de-983b-42e211c34a3d" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/books/select_categories.php" afterPath="$PROJECT_DIR$/books/select_categories.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/db/connect.php" afterPath="$PROJECT_DIR$/db/connect.php" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -74,8 +73,8 @@
       <file leaf-file-name="select_categories.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/books/select_categories.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="782">
-              <caret line="55" column="83" lean-forward="false" selection-start-line="55" selection-start-column="83" selection-end-line="55" selection-end-column="83" />
+            <state relative-caret-position="663">
+              <caret line="48" column="0" lean-forward="true" selection-start-line="48" selection-start-column="0" selection-end-line="48" selection-end-column="0" />
               <folding>
                 <marker date="1527189537242" expanded="true" signature="101:122" ph="SELECT * FRO... library" />
                 <marker date="1527189537242" expanded="true" signature="283:315" ph="SELECT * FRO... game" />
@@ -326,12 +325,12 @@
       <workItem from="1525558859793" duration="11012000" />
       <workItem from="1525705912191" duration="25031000" />
       <workItem from="1527006675341" duration="6003000" />
-      <workItem from="1527072326598" duration="35587000" />
+      <workItem from="1527072326598" duration="36778000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="450901000" />
+    <option name="totallyTimeSpent" value="452092000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1066" extended-state="6" />
@@ -830,8 +829,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/books/select_categories.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="782">
-          <caret line="55" column="83" lean-forward="false" selection-start-line="55" selection-start-column="83" selection-end-line="55" selection-end-column="83" />
+        <state relative-caret-position="663">
+          <caret line="48" column="0" lean-forward="true" selection-start-line="48" selection-start-column="0" selection-end-line="48" selection-end-column="0" />
           <folding>
             <marker date="1527189537242" expanded="true" signature="101:122" ph="SELECT * FRO... library" />
             <marker date="1527189537242" expanded="true" signature="283:315" ph="SELECT * FRO... game" />
