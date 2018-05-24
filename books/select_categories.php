@@ -1,9 +1,11 @@
 <?php
 include "../db/connect.php";
 include "library.php";
+require '../nusoap.php';
 
 $library_list = "SELECT * FROM library";
 $result = mysqli_query($conn, $library_list);
+
 
 if(isset($_GET['cat_id'])){
 
@@ -53,7 +55,62 @@ if(isset($_GET['cat_id'])){
                                 }
                                 echo "</div></div></div>";
 }else{
+    $latitude = $_COOKIE["latitude"];
+    $longitude = $_COOKIE["longitude"];
+    $distance = NULL;
+    $closestLibId = NULL;  //closest library to users location
+
+    while($row = mysqli_fetch_assoc($result)) {
+        $location_id = $row['location_id'];
+        if($location_id == NULL){
+            $latitudeTo = '48.377701';
+            $longitudeTo = '17.592521';
+        }else {
+            $location_list = "SELECT * FROM location WHERE id = $location_id";
+            $result2 = mysqli_query($conn, $location_list);
+            while ($row2 = mysqli_fetch_assoc($result2)) {
+                $latitudeTo = $row2['latitude'];
+                $longitudeTo = $row2['longitude'];
+            }
+        }
+        $client = new nusoap_client('http://labss2.fiit.stuba.sk/pis/ws/GeoServices/Locations?WSDL', 'wsdl');
+        $client->soap_defencoding = 'UTF-8';
+        $err    = $client->getError();
+
+        if ($err)
+        {
+            client_debug_error_message('Constructor error', $err, $client);
+            exit;
+        }
+        $response = $client->call(
+            'distanceByGPS',
+            array(
+                'latitudeFrom' => $latitude,
+                'longitudeFrom' => $longitude,
+                'latitudeTo' => $latitudeTo,
+                'longitudeTo' => $longitudeTo
+            )
+        );
+
+        $newDistance = round($response['distance'] / 1000, 2);
+        if($distance == NULL && $closestLibId == NULL || $newDistance < $distance){
+            $distance = $newDistance;
+            $closestLibId = $row['id'];
+        }
+        //echo $closestLibId;
+        //var_dump($response);
+    }
+    if($closestLibId != NULL){
+        ?>
+            <script>
+                var library = "<?php echo $closestLibId; ?>";
+                window.location.href = "index.php?sel_lib=" + library;
+            </script>
+        <?php
+    }
+
     ?>
+
     <div class="panel panel-success">
         <div class='panel-heading'>Vyber kniznice</div>
         <div class='panel-body'>

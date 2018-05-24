@@ -3,7 +3,30 @@
     <head>
         <title>Kniznica pre deti</title>
         <?php include 'head.php'; ?>
+        <script>
+            function getLocation() {
+                if (navigator.geolocation) {
+                    navigator.geolocation.getCurrentPosition(showPosition);
+                }
+            }
 
+            function setCookie(cname, cvalue, exdays) {
+                var d = new Date();
+                d.setTime(d.getTime() + (exdays*24*60*60*1000));
+                var expires = "expires="+ d.toUTCString();
+                document.cookie = cname + "=" + cvalue + ";" + expires + ";path=/";
+            }
+
+            function showPosition(position) {
+
+                setCookie("latitude", position.coords.latitude, 1);
+                setCookie("longitude", position.coords.longitude, 1);
+
+                console.log(position.coords.latitude);
+                console.log(position.coords.longitude);
+            }
+            getLocation();
+        </script>
     </head>
     <body>
     <!-- HEADER -->

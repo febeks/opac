@@ -27,6 +27,8 @@ include '../db/connect.php';
                         <th>Format zaznamov</th>
                         <th>Meno databazy</th>
                         <th>Port</th>
+                        <th>Sirka</th>
+                        <th>Dlzka</th>
                         <th>Upravy</th>
                     </tr>
                     </thead>
@@ -41,6 +43,20 @@ include '../db/connect.php';
                         $format = $row['format'];
                         $db_name = $row['db_name'];
                         $port = $row['port'];
+                        $location_id = $row['location_id'];
+                        if($location_id != NULL){
+                            $res = mysqli_query($conn, "SELECT * FROM location WHERE id = $location_id");
+                            //$longitude = mysqli_query($conn, "SELECT longitude FROM location WHERE id = $location_id");
+                            while ($row = mysqli_fetch_array($res)){
+                                $latitude = $row['latitude'];
+                                $longitude = $row['longitude'];
+                            }
+                        }else{
+                            $latitude = "-";
+                            $longitude = "-";
+                        }
+
+
                         ?>
                         <tr>
                             <td><?php echo $lib_name; ?></td>
@@ -48,6 +64,9 @@ include '../db/connect.php';
                             <td><?php echo $format; ?></td>
                             <td><?php echo $db_name; ?></td>
                             <td><?php echo $port; ?></td>
+                            <td><?php echo $latitude; ?></td>
+                            <td><?php echo $longitude; ?></td>
+
                             <td>
                                 <span class='delete_library' id='del_<?php echo $id; ?>'><img src="../images/remove.png" alt="" title="Zmazat" class="icon"/></span>
                             </td>
@@ -189,6 +208,20 @@ include '../db/connect.php';
                         <label class="control-label col-sm-3" for="port">Port:</label>
                         <div class="col-sm-3">
                             <input type="text" class="form-control" id="port" name="port" placeholder="Port" required>
+                        </div>
+                    </div>
+
+                    <div class="form-group">
+                        <label class="control-label col-sm-3" for="latitude">Latitude:</label>
+                        <div class="col-sm-3">
+                            <input type="text" class="form-control" id="latitude" name="latitude" placeholder="Zemepisna sirka" required>
+                        </div>
+                    </div>
+
+                    <div class="form-group">
+                        <label class="control-label col-sm-3" for="longitude">Longitude:</label>
+                        <div class="col-sm-3">
+                            <input type="text" class="form-control" id="longitude" name="longitude" placeholder="Zemepisna dlzka" required>
                         </div>
                     </div>
 
