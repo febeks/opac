@@ -97,9 +97,10 @@ if(isset($_GET['cat_id'])){
             $distance = $newDistance;
             $closestLibId = $row['id'];
         }
-        //echo $closestLibId;
-        //var_dump($response);
     }
+    echo $closestLibId;
+    echo "<br/>";
+    echo $distance;
     if($closestLibId != NULL){
         ?>
             <script>
@@ -108,7 +109,8 @@ if(isset($_GET['cat_id'])){
             </script>
         <?php
     }
-
+        $library_list = "SELECT * FROM library";
+        $result = mysqli_query($conn, $library_list);
     ?>
 
     <div class="panel panel-success">

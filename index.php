@@ -22,8 +22,8 @@
                 setCookie("latitude", position.coords.latitude, 1);
                 setCookie("longitude", position.coords.longitude, 1);
 
-                console.log(position.coords.latitude);
-                console.log(position.coords.longitude);
+                console.log(position.coords.latitude, position.coords.longitude);
+
             }
             getLocation();
         </script>
