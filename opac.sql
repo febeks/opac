@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Počítač: 127.0.0.1
--- Vytvořeno: Čtv 24. kvě 2018, 19:55
+-- Vytvořeno: Čtv 24. kvě 2018, 22:23
 -- Verze serveru: 10.1.31-MariaDB
 -- Verze PHP: 7.1.16
 
@@ -58,7 +58,12 @@ INSERT INTO `book_cat` (`id`, `name`, `keywords`, `image_path`) VALUES
 (3, 'Farby', 'farby,malovanie,malovanka,ceruzka,farbicka,kreslenie,kreslit', 'img/cat-colors.png'),
 (4, 'Princezne', 'princezna,kralovna,rozpravka,kralovstvo,princ', 'img/cat-princess.png'),
 (5, 'DopravnÃ© prostriedky', 'doprava,dopravnÃ© prostriedky,auto,kolobeÅ¾ka,bicykel,hasiÄi,hasiÄ,elektriÄka,autobus,polÃ­cia,vlak,vlÃ¡Äik,autÃ­Äko', 'img/cat-truck.png'),
-(6, 'ZvieratÃ¡', 'pes, psik, macka, macicka, maciatko, krava, kravicka, opica, vtak, vtacik, krokodil, srna, zver, dobytok, zebra, kobyla, sova', 'img/cat-pets.png');
+(6, 'ZvieratÃ¡', 'pes, psik, macka, macicka, maciatko, krava, kravicka, opica, vtak, vtacik, krokodil, srna, zver, dobytok, zebra, kobyla, sova', 'img/cat-pets.png'),
+(7, 'Hudba a hudobnÃ© nÃ¡stroje', 'hudba, muzika, pesniÄka, pieseÅˆ, spievanka, hudobnÃ½ nÃ¡stroj, gitara, harmonika, saxofÃ³n, mikrofÃ³n, tanec, klavÃ­r, bÃ¡sniÄka', 'img/hudba.png'),
+(9, 'MÃ¡gia a kÃºzla', 'mÃ¡gia, kÃºzla, kÃºzelnÃ­k, Äary, triky, ÄarovnÃ½ klobÃºk, zÃ¡zraky', 'img/kuzla.png'),
+(10, 'Ovocie a zelenina', 'ovocie, zelenina, jablko, hruÅ¡ka, banÃ¡n, kiwi, mandarinka, pomaranÄ, hrozno, ananÃ¡s, ÄuÄoriedka, melÃ³n, malina, zemiak, mrkva, mrkviÄka, kalerÃ¡b, petrÅ¾len, kapusta, kukurica, paradajka, paprika', 'img/ovocieZelenina.png'),
+(11, 'RozprÃ¡vky', 'rozprÃ¡vka, prÃ­beh, poviedka, rozprÃ¡vanie, prÃ­hoda', 'img/rozpravky.png'),
+(12, 'Å port', 'Å¡port, futbal, hokej, tenis, lopta, puk, volejbal, basketbal, pingpong, beh, trÃ©ning, pÃ­Å¡Å¥alka, trÃ©ner, tÃ­m, spoluhrÃ¡Ä, ', 'img/sport.png');
 
 -- --------------------------------------------------------
 
@@ -196,7 +201,6 @@ CREATE TABLE `library` (
 --
 
 INSERT INTO `library` (`id`, `lib_name`, `ip`, `format`, `db_name`, `port`, `location_id`) VALUES
-(1, 'Ruzinov', 'arl1.library.sk', 'UNIMARC', 'ruz_un_cat	', 8887, 1),
 (2, 'MestskÃ¡ kniÅ¾nica mesta PieÅ¡Å¥any', 'arl1.library.sk', 'UNIMARC', 'pim_un_cat', 8887, 3),
 (3, 'UniverzitnÃ¡ kniÅ¾nica Univerzity Mateja Bela v Banskej Bystrici', 'arl1.library.sk', 'UNIMARC', 'umb_un_cat', 8887, 4),
 (4, 'KniÅ¾nica MestskÃ©ho centra kultÃºry Malacky', 'arl4.library.sk', 'UNIMARC', 'mal_un_cat', 8886, 2);
@@ -221,7 +225,8 @@ INSERT INTO `location` (`id`, `latitude`, `longitude`) VALUES
 (1, '48.164408', '17.151330'),
 (2, '48.439781', '17.012979'),
 (3, '48.588207', '17.824810'),
-(4, '48.741130', '19.121453');
+(4, '48.741130', '19.121453'),
+(11, '49.123351', '18.318623');
 
 -- --------------------------------------------------------
 
@@ -452,7 +457,7 @@ ALTER TABLE `books`
 -- AUTO_INCREMENT pro tabulku `book_cat`
 --
 ALTER TABLE `book_cat`
-  MODIFY `id` int(10) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=7;
+  MODIFY `id` int(10) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=13;
 
 --
 -- AUTO_INCREMENT pro tabulku `book_filter`
@@ -470,13 +475,13 @@ ALTER TABLE `games_category`
 -- AUTO_INCREMENT pro tabulku `library`
 --
 ALTER TABLE `library`
-  MODIFY `id` int(10) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=11;
+  MODIFY `id` int(10) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=12;
 
 --
 -- AUTO_INCREMENT pro tabulku `location`
 --
 ALTER TABLE `location`
-  MODIFY `id` int(10) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=11;
+  MODIFY `id` int(10) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=12;
 
 --
 -- AUTO_INCREMENT pro tabulku `type`

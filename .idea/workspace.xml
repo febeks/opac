@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="bed92ccc-07d5-42de-983b-42e211c34a3d" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/db/connect.php" afterPath="$PROJECT_DIR$/db/connect.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/opac.sql" afterPath="$PROJECT_DIR$/opac.sql" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -70,7 +71,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="select_categories.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="select_categories.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/books/select_categories.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="663">
@@ -109,6 +110,16 @@
                 <marker date="1527189537242" expanded="true" signature="6050:6118" ph="{...}" />
                 <marker date="1527189537242" expanded="true" signature="6050:6200" ph="{...}" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="opac.sql" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/opac.sql">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -205,7 +216,7 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" interpreter_name="PHP on XAMPP" />
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="-116" />
     <option name="y" value="98" />
     <option name="width" value="1934" />
@@ -254,6 +265,9 @@
     <property name="list.type.of.created.stylesheet" value="CSS" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\xampp\htdocs\opac" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\xampp\htdocs\opac" />
       <recent name="C:\xampp\htdocs\opac\admin" />
@@ -325,15 +339,15 @@
       <workItem from="1525558859793" duration="11012000" />
       <workItem from="1525705912191" duration="25031000" />
       <workItem from="1527006675341" duration="6003000" />
-      <workItem from="1527072326598" duration="36778000" />
+      <workItem from="1527072326598" duration="37379000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="452092000" />
+    <option name="totallyTimeSpent" value="452693000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1066" extended-state="6" />
+    <frame x="-8" y="-8" width="1936" height="1066" extended-state="7" />
     <editor active="true" />
     <layout>
       <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -370,13 +384,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/admin/delete_search_cat.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" column="2" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="12" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/books/select_library.php" />
     <entry file="file://$PROJECT_DIR$/css/search.css">
       <provider selected="true" editor-type-id="text-editor">
@@ -865,6 +872,14 @@
             <marker date="1527189537242" expanded="true" signature="6050:6118" ph="{...}" />
             <marker date="1527189537242" expanded="true" signature="6050:6200" ph="{...}" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/opac.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
